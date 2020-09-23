@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Interaction : MonoBehaviour
 {
+
+    private const int LEFT_CLICK = 0;
+
     void Update()
     {
 
-        if (Input.GetMouseButtonUp(1))
+        if (Input.GetMouseButtonUp(LEFT_CLICK))
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
