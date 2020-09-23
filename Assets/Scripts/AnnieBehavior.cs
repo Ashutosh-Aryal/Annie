@@ -21,15 +21,18 @@ public class AnnieBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonUp(RIGHT_CLICK)) {
+        if (Input.GetMouseButtonUp(RIGHT_CLICK))
+        {
             DestroyArrow(true);
-        } else if(s_AttachedEnemyObject != null) { 
+        }
+        else if (s_AttachedEnemyObject != null)
+        {
             CreateArrow();
         }
     }
@@ -52,7 +55,7 @@ public class AnnieBehavior : MonoBehaviour
 
         float angle = Mathf.Atan2(arrowDirection.y, arrowDirection.x) * Mathf.Rad2Deg;
         lastCreatedArrow.transform.eulerAngles = new Vector3(0.0f, 0.0f, angle);
-        
+
         SpriteRenderer arrowSpriteRenderer = lastCreatedArrow.GetComponent<SpriteRenderer>();
         arrowSpriteRenderer.size = new Vector2(centerDistance * ARROW_SIZE_SCALAR, arrowSpriteRenderer.size.y);
     }
@@ -64,7 +67,7 @@ public class AnnieBehavior : MonoBehaviour
             Destroy(lastCreatedArrow);
             lastCreatedArrow = null;
 
-            if(bResetStartPos)
+            if (bResetStartPos)
             {
                 PlaceSound();
                 s_AttachedEnemyObject = null;
@@ -76,7 +79,7 @@ public class AnnieBehavior : MonoBehaviour
         if (Input.GetMouseButtonDown(RIGHT_CLICK))
         {
             Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            AnnieBehavior.SetRightClickStartPosition(gameObject.name);
+            SetRightClickStartPosition(gameObject.name);
         }
     }
     public static void SetRightClickStartPosition(string enemyName)
