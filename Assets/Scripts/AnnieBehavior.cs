@@ -74,14 +74,7 @@ public class AnnieBehavior : MonoBehaviour
             }
         }
     }
-    private void OnMouseOver()
-    {
-        if (Input.GetMouseButtonDown(RIGHT_CLICK))
-        {
-            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            SetRightClickStartPosition(gameObject.name);
-        }
-    }
+    
     public static void SetRightClickStartPosition(string enemyName)
     {
         s_AttachedEnemyObject = GameObject.Find(enemyName);

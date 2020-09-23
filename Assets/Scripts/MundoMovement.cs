@@ -65,7 +65,13 @@ public class MundoMovement : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        bool isCollisionEnemy = collision.gameObject.CompareTag(m_EnemyPrefab.tag);
+
+        bool isCollisionEnemy = false;
+        if (m_EnemyPrefab != null)
+        {
+            isCollisionEnemy = collision.gameObject.CompareTag(m_EnemyPrefab.tag);
+        }
+
         bool isCollisionAnnie = collision.gameObject.CompareTag(m_AnnieObject.tag);
 
         if(isCollisionEnemy)
@@ -87,7 +93,7 @@ public class MundoMovement : MonoBehaviour {
         {
             sL_AvailableEnemiesToAttack.Remove(collision.gameObject);
         }
-        else if (isCollisionAnnie)
+        else if (isCollisionAnnie && se_MundoState != MundoState.CanPutDownAnnie)
         {
             se_MundoState = MundoState.CannotInteractWithAnnie;
         }
@@ -107,8 +113,8 @@ public class MundoMovement : MonoBehaviour {
         bool didPressAttack = Input.GetKeyDown(ATTACK_KEY);
 
         bool shouldAttack = se_MundoState != MundoState.CanPutDownAnnie && didPressAttack;
-        
-        if(shouldAttack)
+
+        if (shouldAttack)
         {
             OnAttack();
             se_MovementDirection = MovementDirection.Idle;
@@ -118,14 +124,18 @@ public class MundoMovement : MonoBehaviour {
         bool didPressInteract = Input.GetKeyDown(INTERACT_WITH_ANNIE_KEY);
         bool shouldInteract = (se_MundoState != MundoState.CannotInteractWithAnnie) && didPressInteract;
 
-        if(shouldInteract)
+        if (didPressInteract)
         {
-            if(se_MundoState == MundoState.CanPutDownAnnie)
+            if (shouldInteract)
             {
-                PutDownAnnie();
-            } else
-            {
-                PickUpAnnie();
+                if (se_MundoState == MundoState.CanPutDownAnnie)
+                {
+                    PutDownAnnie();
+                }
+                else
+                {
+                    PickUpAnnie();
+                }
             }
         }
 

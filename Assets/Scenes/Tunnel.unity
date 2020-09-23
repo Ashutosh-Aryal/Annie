@@ -183,7 +183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 187301900}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -133.6, y: -10.347458, z: -10}
+  m_LocalPosition: {x: -133.6, y: -9.657459, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1609582806}
@@ -10764,7 +10764,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -133.6, y: -10.347458, z: -10}
+  m_LocalPosition: {x: -133.6, y: -9.657459, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -59652,6 +59652,7 @@ GameObject:
   - component: {fileID: 697341246}
   - component: {fileID: 697341245}
   - component: {fileID: 697341247}
+  - component: {fileID: 697341248}
   m_Layer: 0
   m_Name: Mundo
   m_TagString: Untagged
@@ -59718,7 +59719,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697341241}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -133.6, y: -4.7, z: 0}
+  m_LocalPosition: {x: -133.6, y: -4.01, z: 0}
   m_LocalScale: {x: 30.415367, y: 30.415367, z: 30.415367}
   m_Children: []
   m_Father: {fileID: 0}
@@ -59804,6 +59805,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.12709217, y: 0.30996704}
   m_EdgeRadius: 0
+--- !u!58 &697341248
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697341241}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.05157599, y: -0.094156414}
+  serializedVersion: 2
+  m_Radius: 0.22620638
 --- !u!1 &778173628
 GameObject:
   m_ObjectHideFlags: 0

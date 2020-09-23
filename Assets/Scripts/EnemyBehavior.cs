@@ -14,17 +14,18 @@ public class EnemyBehavior : MonoBehaviour
     private int m_RandValue;
 
     private Rigidbody2D myRigidbody2D;
+    private GameObject myPathfindingObject;
 
     private static HashSet<int> s_AssignedEnemyNumbers = new HashSet<int>();
 
-    //private void OnMouseOver()
-    //{
-    //    if (Input.GetMouseButtonDown(RIGHT_CLICK))
-    //    {
-    //        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-    //        AnnieBehavior.SetRightClickStartPosition(gameObject.name);
-    //    }
-    //}
+    private void OnMouseOver()
+    {
+        if (Input.GetMouseButtonDown(RIGHT_CLICK))
+        {
+            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            AnnieBehavior.SetRightClickStartPosition(gameObject.name);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -40,17 +41,18 @@ public class EnemyBehavior : MonoBehaviour
         gameObject.name += rand;
 
         myRigidbody2D = gameObject.GetComponent<Rigidbody2D>();
+        myPathfindingObject = gameObject.transform.parent.gameObject;
     }
 
     private void OnDestroy()
     {
+        Destroy(myPathfindingObject);
         s_AssignedEnemyNumbers.Remove(m_RandValue);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
         // TODO: Check if there is a sound location to go to
         // If not, check what the closest waypoint is from current location and go towards it
         // and update the current index to reflect being at that waypoint
