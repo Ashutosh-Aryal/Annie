@@ -59683,7 +59683,7 @@ GameObject:
   - component: {fileID: 697341245}
   - component: {fileID: 697341247}
   - component: {fileID: 697341248}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mundo
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -59995,7 +59995,7 @@ GameObject:
   - component: {fileID: 892995587}
   - component: {fileID: 892995586}
   - component: {fileID: 892995581}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy
   m_TagString: enemy
   m_Icon: {fileID: 0}

@@ -30,6 +30,7 @@ public class EnemyBehavior : MonoBehaviour
 
     private static HashSet<int> s_AssignedEnemyNumbers = new HashSet<int>();
     private static GameObject s_PlayerObject = null;
+    private static int s_PlayerLayerMask = 0;
 
     private void OnMouseOver()
     {
@@ -51,6 +52,7 @@ public class EnemyBehavior : MonoBehaviour
         if(s_PlayerObject == null)
         {
             s_PlayerObject = GameObject.FindGameObjectsWithTag(PLAYER_TAG)[0];
+            s_PlayerLayerMask = 1 << s_PlayerObject.layer;
         }
 
         int rand = 0;
@@ -121,12 +123,8 @@ public class EnemyBehavior : MonoBehaviour
             float rayAngleInRads = rayAngle * Mathf.Deg2Rad;
             Vector2 directionVector = new Vector3(Mathf.Cos(rayAngleInRads), Mathf.Sin(rayAngleInRads));
 
-            UnityEngine.Ray2D ray = new Ray2D(gameObject.transform.position, directionVector);
-
-            Vector2 current2DPosition = gameObject.transform.position;
-            current2DPosition += directionVector * 5.0f;
-
-            RaycastHit2D hitInformation = Physics2D.Raycast(current2DPosition, directionVector, MAX_SEE_DISTANCE);
+            RaycastHit2D hitInformation = Physics2D.Raycast(gameObject.transform.position, 
+                directionVector, MAX_SEE_DISTANCE, s_PlayerLayerMask);
 
             if(hitInformation.collider == null)
             {
