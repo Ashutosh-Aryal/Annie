@@ -217,7 +217,7 @@ public class MundoMovement : MonoBehaviour {
 
         MovementDirection md = MovementDirection.Idle;
         float closestDistance = 1000.0f;
-        GameObject bestKillOption = new GameObject();
+        GameObject bestKillOption = null;
 
         foreach(GameObject enemy in sL_AvailableEnemiesToAttack) {
             Vector3 enemyLocation = enemy.transform.position;
@@ -250,7 +250,10 @@ public class MundoMovement : MonoBehaviour {
             }
         }
 
-        Destroy(GameObject.Find(bestKillOption.name));
+        if (bestKillOption != null)
+        {
+            Destroy(GameObject.Find(bestKillOption.name));
+        }
     }
 
     private bool IsLeftArgCloser(MovementDirection newDirection, MovementDirection oldDirection)

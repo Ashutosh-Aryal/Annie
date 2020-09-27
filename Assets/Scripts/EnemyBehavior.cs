@@ -95,7 +95,7 @@ public class EnemyBehavior : MonoBehaviour
         }
 
         if (m_DoesSeePlayer) {
-            myDestinationSetter.target = s_PlayerObject.transform; m_SoundLocation = null;
+            myDestinationSetter.target = s_PlayerObject.transform; m_SoundLocation = null; m_ShouldResetWaypointIndex = true;
         } else if (m_LookingTimer > 0.0f) {
             return;
         } else if (null != m_SoundLocation) {
