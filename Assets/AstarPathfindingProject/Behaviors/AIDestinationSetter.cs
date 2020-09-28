@@ -20,12 +20,8 @@ namespace Pathfinding
 	{
 		/// <summary>The object that the AI should move to</summary>
 		public Transform target;
-		public GameObject CCTVCamera;
-		public float searchRadius;
 		
-		//private GameObject CCTV;
-
-		IAstarAI ai;
+		public IAstarAI ai;
 
 		void OnEnable()
 		{
@@ -36,10 +32,7 @@ namespace Pathfinding
 			// scripts as well. So it makes sense that it is up to date every frame.
 			if (ai != null) ai.onSearchPath += Update;
 		}
-		//     private void Start()
-		//     {
-		//targetObject = null;
-		//     }
+
 		void OnDisable()
 		{
 			if (ai != null) ai.onSearchPath -= Update;
@@ -49,30 +42,10 @@ namespace Pathfinding
 		void Update()
 		{
 
-			bool withinDistance = false;
-
-			//CCTVCamera = GameObject.Find("Interactant/camera_0");
-
-			//ts = CCTVCamera.GetComponent<SpriteRenderer>;
-			float distance;
-			distance = Vector3.Distance(transform.position, target.position);
-			//CCTV = GameObject.Find("Interactant/");
-			if (distance < searchRadius) withinDistance = true;
-			//if(CCTVCamera.activeSelf == false) withinDistance = true;
-			if (target != null && ai != null && withinDistance == true)
+			if (target != null && ai != null)
 			{
 				ai.destination = target.position;
-			}
-			else if (target != null && ai != null && CCTVCamera.activeSelf == false && withinDistance == true)
-			{
-				ai.destination = CCTVCamera.transform.position;
-
-			}
-			else if (target != null && ai != null && CCTVCamera.activeSelf == false)
-			{
-				ai.destination = CCTVCamera.transform.position;
-			}
-			else
+			} else
 			{
 				ai.destination = gameObject.transform.position;
 			}

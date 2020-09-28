@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.XR.WSA;
 
@@ -82,6 +83,12 @@ public class AnnieBehavior : MonoBehaviour
 
     private void PlaceSound()
     {
-        // TODO: Place a sound and have that become the new target for the enemy type
+        Vector3 currentMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        currentMousePos.z = 0.0f;
+
+        GameObject gameObject = new GameObject();
+        gameObject.transform.position = currentMousePos;
+
+        s_AttachedEnemyObject.GetComponent<EnemyBehavior>().SetSoundLocation(gameObject.transform);
     }
 }
