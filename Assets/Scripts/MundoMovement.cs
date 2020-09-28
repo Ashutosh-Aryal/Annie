@@ -102,6 +102,11 @@ public class MundoMovement : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        if(!TunnelDialogue.s_ShouldMove)
+        {
+            return;
+        } 
+
         CheckInput();
 
         UpdateMovement();
