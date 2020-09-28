@@ -116,15 +116,20 @@ public class MundoMovement : MonoBehaviour {
     private void CheckInput()
     {
         bool didPressAttack = Input.GetKeyDown(ATTACK_KEY);
-
+        //bool UpAttack = Input.GetKeyUp(ATTACK_KEY);
         bool shouldAttack = se_MundoState != MundoState.CanPutDownAnnie && didPressAttack;
-
+        //bool finishAttack = se_MundoState != MundoState.CanPutDownAnnie && UpAttack;
         if (shouldAttack)
         {
             OnAttack();
             se_MovementDirection = MovementDirection.Idle;
             return;
         }
+        //if(finishAttack && !shouldAttack)
+        //{
+        //    se_AnimationType = AnimationType.StopAttacking;
+        //}
+
 
         bool didPressInteract = Input.GetKeyDown(INTERACT_WITH_ANNIE_KEY);
         bool shouldInteract = (se_MundoState != MundoState.CannotInteractWithAnnie) && didPressInteract;
@@ -387,38 +392,45 @@ public class MundoMovement : MonoBehaviour {
             case AnimationType.Idle:
                 myAnimator.SetFloat("vertical", 0.0f);
                 myAnimator.SetFloat("horizontal", 0.0f);
+                myAnimator.SetBool("isRunning", false);
                 break;
 
             case AnimationType.StartAttacking:
                 myAnimator.SetFloat("vertical", 0.0f);
                 myAnimator.SetFloat("horizontal", 0.0f);
                 myAnimator.SetBool("isAttacking", true);
+                
                 break;
 
             case AnimationType.StopAttacking:
                 myAnimator.SetFloat("vertical", 0.0f);
                 myAnimator.SetFloat("horizontal", 0.0f);
                 myAnimator.SetBool("isAttacking", false);
+                
                 break;
 
             case AnimationType.MovingLeft:
                 myAnimator.SetFloat("vertical", 0.0f);
                 myAnimator.SetFloat("horizontal", -1.0f);
+                myAnimator.SetBool("isRunning", true);
                 break;
 
             case AnimationType.MovingRight:
                 myAnimator.SetFloat("vertical", 0.0f);
                 myAnimator.SetFloat("horizontal", 1.0f);
+                myAnimator.SetBool("isRunning", true);
                 break;
 
             case AnimationType.MovingUp:
                 myAnimator.SetFloat("vertical", 1.0f);
                 myAnimator.SetFloat("horizontal", 0.0f);
+                myAnimator.SetBool("isRunning", true);
                 break;
 
             case AnimationType.MovingDown:
                 myAnimator.SetFloat("vertical", -1.0f);
                 myAnimator.SetFloat("horizontal", 0.0f);
+                myAnimator.SetBool("isRunning", true);
                 break;
         }
     }
