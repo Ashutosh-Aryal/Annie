@@ -7,6 +7,7 @@ public class Restart : MonoBehaviour
     // Start is called before the first frame update
     public void RestartGame()
     {
+        TunnelDialogue.s_ShouldMove = false;
         SceneManager.LoadScene("Scenes/Tunnel");
     }
 

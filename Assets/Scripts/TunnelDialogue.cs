@@ -10,8 +10,6 @@ public class TunnelDialogue : MonoBehaviour
     private List<DialogData> allDialogScript = new List<DialogData>();
     private DialogManager dialogueManager;
 
-    private int numPressed = 0;
-
     public static bool s_ShouldMove = false;
 
     void Start()
@@ -37,10 +35,10 @@ public class TunnelDialogue : MonoBehaviour
         if(Input.GetKeyDown(SKIP_DIALOGUE_KEY))
         {
             dialogueManager.Click_Window();
-            numPressed++;
         }
 
-        if(numPressed >= allDialogScript.Count)
+        
+        if(dialogueManager.isFinished)
         {
             s_ShouldMove = true;
         }

@@ -4,7 +4,10 @@ using UnityEngine;
 public class MundoMovement : MonoBehaviour {    
     private enum AnimationType
     {
-        Idle,
+        IdleRight,
+        IdleLeft, 
+        IdleUp,
+        IdleDown,
         MovingRight, 
         MovingLeft, 
         MovingUp,
@@ -14,18 +17,18 @@ public class MundoMovement : MonoBehaviour {
     }
     private enum MovementDirection
     {
-        Idle,
-        North,
-        Northeast,
         East,
-        Southeast,
-        South,
-        Southwest,
         West,
-        Northwest
+        North,
+        South,
+        Northeast,
+        Southeast,
+        Southwest,
+        Northwest,
+        Idle
     }
 
-    private enum MundoState
+    public enum MundoState
     {
         CanPutDownAnnie,
         CanPickUpAnnie, 
@@ -40,11 +43,15 @@ public class MundoMovement : MonoBehaviour {
     private const KeyCode ATTACK_KEY = KeyCode.Space;
 
     private const float MOVEMENT_SPEED = 30.0f;
+    private const float IDLE_SPEED = 0.1f;
 
-    private static AnimationType se_AnimationType = AnimationType.Idle;
+    private const int NUM_MOVEMENT_DIRECTIONS = 4;
+
+    private static AnimationType se_AnimationType = AnimationType.IdleRight;
+    private static AnimationType? se_LastValidAnimationType = null;
     private static MovementDirection se_MovementDirection = MovementDirection.Idle;
     private static MovementDirection se_LastRealMovementDirection = MovementDirection.East;
-    private static MundoState se_MundoState = MundoState.CannotInteractWithAnnie;
+    public static MundoState se_MundoState = MundoState.CannotInteractWithAnnie;
     
     private static List<GameObject> sL_AvailableEnemiesToAttack = new List<GameObject>();
 
@@ -116,36 +123,37 @@ public class MundoMovement : MonoBehaviour {
     private void CheckInput()
     {
         bool didPressAttack = Input.GetKeyDown(ATTACK_KEY);
-        //bool UpAttack = Input.GetKeyUp(ATTACK_KEY);
-        bool shouldAttack = se_MundoState != MundoState.CanPutDownAnnie && didPressAttack;
-        //bool finishAttack = se_MundoState != MundoState.CanPutDownAnnie && UpAttack;
-        if (shouldAttack)
-        {
-            OnAttack();
-            se_MovementDirection = MovementDirection.Idle;
-            return;
-        }
-        //if(finishAttack && !shouldAttack)
-        //{
-        //    se_AnimationType = AnimationType.StopAttacking;
-        //}
+        bool UpAttack = Input.GetKeyUp(ATTACK_KEY);
+        bool holdingAttack = Input.GetKey(ATTACK_KEY);
 
+        bool isNotHoldingAnnie = se_MundoState != MundoState.CanPutDownAnnie;
+        bool finishAttack = isNotHoldingAnnie && UpAttack;
+
+        if (isNotHoldingAnnie && didPressAttack) {
+
+            se_LastValidAnimationType = se_AnimationType;
+            OnAttack(); 
+            se_MovementDirection = MovementDirection.Idle; 
+            return;
+        } else if(isNotHoldingAnnie && UpAttack) {
+
+            if(se_AnimationType != AnimationType.StartAttacking)
+            {
+                se_LastValidAnimationType = se_AnimationType;
+            }
+
+            se_AnimationType = AnimationType.StopAttacking; return;
+        } 
 
         bool didPressInteract = Input.GetKeyDown(INTERACT_WITH_ANNIE_KEY);
         bool shouldInteract = (se_MundoState != MundoState.CannotInteractWithAnnie) && didPressInteract;
 
-        if (didPressInteract)
-        {
-            if (shouldInteract)
-            {
-                if (se_MundoState == MundoState.CanPutDownAnnie)
-                {
-                    PutDownAnnie();
-                }
-                else
-                {
-                    PickUpAnnie();
-                }
+        if (shouldInteract) { 
+            if (se_MundoState == MundoState.CanPutDownAnnie) {
+                PutDownAnnie();
+            }
+            else {
+                PickUpAnnie();
             }
         }
 
@@ -167,7 +175,6 @@ public class MundoMovement : MonoBehaviour {
             se_MovementDirection = MovementDirection.Northeast;
             animationType = AnimationType.MovingUp;
             shouldSwapAnimationType = !isCurrentAnimationUp && !isCurrentAnimationRight;
-
         } else if(didPressUp && didPressLeft)
         {
             se_MovementDirection = MovementDirection.Northwest;
@@ -205,9 +212,19 @@ public class MundoMovement : MonoBehaviour {
             shouldSwapAnimationType = !isCurrentAnimationDown;
         } else
         {
+
+            if(se_AnimationType == AnimationType.StopAttacking && se_LastValidAnimationType.HasValue) {
+                animationType = se_LastValidAnimationType.Value;
+            } else if(se_MovementDirection != MovementDirection.Idle) {
+                animationType = (AnimationType)((int)se_LastRealMovementDirection % NUM_MOVEMENT_DIRECTIONS);
+            } else
+            {
+                animationType = se_AnimationType;
+            }
+
             se_MovementDirection = MovementDirection.Idle;
-            animationType = AnimationType.Idle;
-            shouldSwapAnimationType = se_AnimationType != AnimationType.Idle;
+
+            shouldSwapAnimationType = (int) se_AnimationType >= NUM_MOVEMENT_DIRECTIONS;
         }
 
         if(se_MovementDirection != MovementDirection.Idle)
@@ -262,6 +279,7 @@ public class MundoMovement : MonoBehaviour {
 
         if (bestKillOption != null)
         {
+            se_MovementDirection = md;
             Destroy(GameObject.Find(bestKillOption.name));
         }
     }
@@ -321,7 +339,6 @@ public class MundoMovement : MonoBehaviour {
     {
         se_MundoState = MundoState.CanPickUpAnnie;
         m_AnnieObject.transform.position = gameObject.transform.position;
-        //m_AnnieObject.GetComponent<SpriteRenderer>().enabled = true;
         m_AnnieObject.SetActive(true);
     } 
 
@@ -329,7 +346,6 @@ public class MundoMovement : MonoBehaviour {
     {
         se_MundoState = MundoState.CanPutDownAnnie;
         m_AnnieObject.SetActive(false);
-        //m_AnnieObject.GetComponent<SpriteRenderer>().enabled = false;
     }
 
     private void UpdateMovement()
@@ -357,17 +373,17 @@ public class MundoMovement : MonoBehaviour {
                 break;
 
             case MovementDirection.Northwest:
-                myRigidbody.velocity = new Vector2(-Vector2.one.x, Vector2.one.y).normalized;
+                myRigidbody.velocity = (Vector2.up + Vector2.left).normalized;
                 myRigidbody.velocity *= MOVEMENT_SPEED;
                 break;
 
             case MovementDirection.Southeast:
-                myRigidbody.velocity = new Vector2(Vector2.one.x, -Vector2.one.y).normalized;
+                myRigidbody.velocity = (Vector2.down + Vector2.right).normalized;
                 myRigidbody.velocity *= MOVEMENT_SPEED;
                 break;
 
             case MovementDirection.Southwest:
-                myRigidbody.velocity = new Vector2(-Vector2.one.x, -Vector2.one.y).normalized;
+                myRigidbody.velocity = (Vector2.down + Vector2.left).normalized;
                 myRigidbody.velocity *= MOVEMENT_SPEED;
                 break;
 
@@ -379,59 +395,59 @@ public class MundoMovement : MonoBehaviour {
 
     private void UpdateAnimation()
     {
-        /*
-         * 8 Idle Animations/Sprites
-         * 8 Movement Animations (one with Annie & one without)
-         * 4 Attacking Animations
-         */
+        //myAnimator.SetBool("isCarryingAnnie", se_MundoState == MundoState.CanPutDownAnnie);
 
-        myAnimator.SetBool("isCarryingAnnie", se_MundoState == MundoState.CanPutDownAnnie);
+        Vector2 movementDirection = Vector2.zero;
+        bool? isAttacking = null;
 
-        switch (se_AnimationType)
-        {
-            case AnimationType.Idle:
-                myAnimator.SetFloat("vertical", 0.0f);
-                myAnimator.SetFloat("horizontal", 0.0f);
-                myAnimator.SetBool("isRunning", false);
-                break;
-
-            case AnimationType.StartAttacking:
-                myAnimator.SetFloat("vertical", 0.0f);
-                myAnimator.SetFloat("horizontal", 0.0f);
-                myAnimator.SetBool("isAttacking", true);
-                
-                break;
-
-            case AnimationType.StopAttacking:
-                myAnimator.SetFloat("vertical", 0.0f);
-                myAnimator.SetFloat("horizontal", 0.0f);
-                myAnimator.SetBool("isAttacking", false);
-                
-                break;
-
-            case AnimationType.MovingLeft:
-                myAnimator.SetFloat("vertical", 0.0f);
-                myAnimator.SetFloat("horizontal", -1.0f);
-                myAnimator.SetBool("isRunning", true);
-                break;
-
-            case AnimationType.MovingRight:
-                myAnimator.SetFloat("vertical", 0.0f);
-                myAnimator.SetFloat("horizontal", 1.0f);
-                myAnimator.SetBool("isRunning", true);
-                break;
-
-            case AnimationType.MovingUp:
-                myAnimator.SetFloat("vertical", 1.0f);
-                myAnimator.SetFloat("horizontal", 0.0f);
-                myAnimator.SetBool("isRunning", true);
-                break;
-
-            case AnimationType.MovingDown:
-                myAnimator.SetFloat("vertical", -1.0f);
-                myAnimator.SetFloat("horizontal", 0.0f);
-                myAnimator.SetBool("isRunning", true);
-                break;
+        if (AnimationType.StartAttacking == se_AnimationType) {
+            isAttacking = true;
+        } else if (AnimationType.StopAttacking == se_AnimationType) {
+            isAttacking = false;
         }
+
+        int enumValue;
+        if (isAttacking.HasValue && isAttacking.Value)
+        {
+            enumValue = (int)se_LastValidAnimationType;
+        }
+        else
+        {
+            enumValue = (int)se_AnimationType;
+        }
+
+        bool isFacingRight = (enumValue % NUM_MOVEMENT_DIRECTIONS) == (int)MovementDirection.East;
+        bool isFacingLeft = (enumValue % NUM_MOVEMENT_DIRECTIONS) == (int)MovementDirection.West;
+        bool isFacingUp = (enumValue % NUM_MOVEMENT_DIRECTIONS) == (int)MovementDirection.North;
+        bool isFacingDown = (enumValue % NUM_MOVEMENT_DIRECTIONS) == (int)MovementDirection.South;
+
+        if (isFacingRight) {
+            movementDirection = Vector2.right;
+        } else if(isFacingUp) {
+            movementDirection = Vector2.up;
+        } else if(isFacingDown) {
+            movementDirection = Vector2.down;
+        } else if(isFacingLeft) {
+            movementDirection = Vector2.left;
+        }
+
+        if(enumValue < NUM_MOVEMENT_DIRECTIONS) {
+            movementDirection *= IDLE_SPEED;
+        }
+            
+        SetAnimatorValues(movementDirection, isAttacking);
+    }
+
+    private void SetAnimatorValues(Vector2 direction, bool? bIsAttacking)
+    {
+        myAnimator.SetFloat("vertical", direction.x);
+        myAnimator.SetFloat("horizontal", direction.y);
+
+        if(bIsAttacking.HasValue)
+        {
+            myAnimator.SetBool("isAttacking", bIsAttacking.Value);
+        }
+
+
     }
 }

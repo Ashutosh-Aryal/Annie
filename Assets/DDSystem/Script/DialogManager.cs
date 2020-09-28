@@ -38,6 +38,8 @@ namespace Doublsb.Dialog
         private float _lastDelay;
         private Coroutine _textingRoutine;
 
+        private List<DialogData> myDialogData;
+
         //================================================
         //Public Method
         //================================================
@@ -54,6 +56,7 @@ namespace Doublsb.Dialog
 
         public void Show(List<DialogData> Data)
         {
+            myDialogData = Data;
             StartCoroutine(Activate_List(Data));
         }
 
@@ -168,6 +171,8 @@ namespace Doublsb.Dialog
 
         #region Show Text
 
+        public bool isFinished = false;
+
         private IEnumerator Activate_List(List<DialogData> DataList)
         {
             state = State.Active;
@@ -178,6 +183,8 @@ namespace Doublsb.Dialog
 
                 while (state != State.Deactivate) { yield return null; }
             }
+
+            isFinished = true;
         }
 
         private IEnumerator Activate()

@@ -34,7 +34,7 @@ public class EnemyBehavior : MonoBehaviour
 
     private void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(RIGHT_CLICK))
+        if (Input.GetMouseButtonDown(RIGHT_CLICK) && MundoMovement.se_MundoState == MundoMovement.MundoState.CanPutDownAnnie)
         {
             Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             AnnieBehavior.SetRightClickStartPosition(gameObject.name);
@@ -52,7 +52,7 @@ public class EnemyBehavior : MonoBehaviour
         if(s_PlayerObject == null)
         {
             s_PlayerObject = GameObject.FindGameObjectsWithTag(PLAYER_TAG)[0];
-            s_PlayerLayerMask = 1 << s_PlayerObject.layer;
+            s_PlayerLayerMask = (1 << s_PlayerObject.layer) | (1 << 8);
         }
 
         int rand = 0;
