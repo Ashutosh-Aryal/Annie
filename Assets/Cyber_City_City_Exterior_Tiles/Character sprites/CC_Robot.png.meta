@@ -1,7 +1,295 @@
 fileFormatVersion: 2
 guid: 6508aa31fb96b4b579e30809625ada01
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2775823191470838712
+    second: CC_Robot_0
+  - first:
+      213: -7722790354638794511
+    second: CC_Robot_1
+  - first:
+      213: 6061845691557220143
+    second: CC_Robot_2
+  - first:
+      213: -5379347763356950791
+    second: CC_Robot_3
+  - first:
+      213: -2865515564149109240
+    second: CC_Robot_4
+  - first:
+      213: 7361507485401896716
+    second: CC_Robot_5
+  - first:
+      213: -9092142631897423491
+    second: CC_Robot_6
+  - first:
+      213: 7886857286223045309
+    second: CC_Robot_7
+  - first:
+      213: -2272688090790143090
+    second: CC_Robot_8
+  - first:
+      213: 1275314671415731542
+    second: CC_Robot_9
+  - first:
+      213: 384614491549709323
+    second: CC_Robot_10
+  - first:
+      213: -4279023715585323651
+    second: CC_Robot_11
+  - first:
+      213: -6126413377465813746
+    second: CC_Robot_12
+  - first:
+      213: -4621362290359334018
+    second: CC_Robot_13
+  - first:
+      213: -7885204097682283662
+    second: CC_Robot_14
+  - first:
+      213: -3095112440030798719
+    second: CC_Robot_15
+  - first:
+      213: -187652187711358584
+    second: CC_Robot_16
+  - first:
+      213: -217964939064781424
+    second: CC_Robot_17
+  - first:
+      213: -703267569155752560
+    second: CC_Robot_18
+  - first:
+      213: 4015010930843645272
+    second: CC_Robot_19
+  - first:
+      213: -6467991385249270956
+    second: CC_Robot_20
+  - first:
+      213: 3054867194193741985
+    second: CC_Robot_21
+  - first:
+      213: 7251217673187245343
+    second: CC_Robot_22
+  - first:
+      213: -4886546973326019776
+    second: CC_Robot_23
+  - first:
+      213: -2009748150173148389
+    second: CC_Robot_24
+  - first:
+      213: 8114444222367799897
+    second: CC_Robot_25
+  - first:
+      213: 7280111108003809302
+    second: CC_Robot_26
+  - first:
+      213: 2038367730127544423
+    second: CC_Robot_27
+  - first:
+      213: 6871144511949499448
+    second: CC_Robot_28
+  - first:
+      213: -9207993661717855684
+    second: CC_Robot_29
+  - first:
+      213: -8202871195561757106
+    second: CC_Robot_30
+  - first:
+      213: -5252132286204905873
+    second: CC_Robot_31
+  - first:
+      213: -9121808321346432091
+    second: CC_Robot_32
+  - first:
+      213: 7872282808371855152
+    second: CC_Robot_33
+  - first:
+      213: 6976160996086237891
+    second: CC_Robot_34
+  - first:
+      213: -6200826010966007116
+    second: CC_Robot_35
+  - first:
+      213: 8614290278608006949
+    second: CC_Robot_36
+  - first:
+      213: -2674809532786910128
+    second: CC_Robot_37
+  - first:
+      213: -4174708352070001338
+    second: CC_Robot_38
+  - first:
+      213: 8073513447452787629
+    second: CC_Robot_39
+  - first:
+      213: -1363316182088788245
+    second: CC_Robot_40
+  - first:
+      213: -8196238636803923301
+    second: CC_Robot_41
+  - first:
+      213: -7414781604153573823
+    second: CC_Robot_42
+  - first:
+      213: -6792554198774325004
+    second: CC_Robot_43
+  - first:
+      213: 3237701258441170671
+    second: CC_Robot_44
+  - first:
+      213: 8630219398066481501
+    second: CC_Robot_45
+  - first:
+      213: -1435899853888508266
+    second: CC_Robot_46
+  - first:
+      213: -3077389148380891131
+    second: CC_Robot_47
+  - first:
+      213: 2914303752182321111
+    second: CC_Robot_48
+  - first:
+      213: -5647860452256271704
+    second: CC_Robot_49
+  - first:
+      213: 8541707004972451405
+    second: CC_Robot_50
+  - first:
+      213: 4782389238303303924
+    second: CC_Robot_51
+  - first:
+      213: 2346334691437936743
+    second: CC_Robot_52
+  - first:
+      213: 2119741906317874153
+    second: CC_Robot_53
+  - first:
+      213: -7423902732219138273
+    second: CC_Robot_54
+  - first:
+      213: -3490485774902188925
+    second: CC_Robot_55
+  - first:
+      213: 884617036402612369
+    second: CC_Robot_56
+  - first:
+      213: -7266637664745607710
+    second: CC_Robot_57
+  - first:
+      213: -3166645257918027455
+    second: CC_Robot_58
+  - first:
+      213: -7759719245365140269
+    second: CC_Robot_59
+  - first:
+      213: -5608182609327899900
+    second: CC_Robot_60
+  - first:
+      213: -5679291884565589871
+    second: CC_Robot_61
+  - first:
+      213: -9013139894287742995
+    second: CC_Robot_62
+  - first:
+      213: -6011383039056674926
+    second: CC_Robot_63
+  - first:
+      213: -4997089149619779423
+    second: CC_Robot_64
+  - first:
+      213: 5788175656280175179
+    second: CC_Robot_65
+  - first:
+      213: 2160772580357879991
+    second: CC_Robot_66
+  - first:
+      213: 602092188813906477
+    second: CC_Robot_67
+  - first:
+      213: -5574673758721236505
+    second: CC_Robot_68
+  - first:
+      213: 4636179697219465193
+    second: CC_Robot_69
+  - first:
+      213: -2775758974352421373
+    second: CC_Robot_70
+  - first:
+      213: 3241189961253973340
+    second: CC_Robot_71
+  - first:
+      213: 8541367800079614183
+    second: CC_Robot_72
+  - first:
+      213: 1846256143340121000
+    second: CC_Robot_73
+  - first:
+      213: 3629591958762293527
+    second: CC_Robot_74
+  - first:
+      213: -1412694858023786135
+    second: CC_Robot_75
+  - first:
+      213: -5744845516297319193
+    second: CC_Robot_76
+  - first:
+      213: -2586368985287280606
+    second: CC_Robot_77
+  - first:
+      213: -7016294091748496502
+    second: CC_Robot_78
+  - first:
+      213: -382602562380574678
+    second: CC_Robot_79
+  - first:
+      213: 3175329871449934103
+    second: CC_Robot_80
+  - first:
+      213: 5148715451722503436
+    second: CC_Robot_81
+  - first:
+      213: -517743598346848125
+    second: CC_Robot_82
+  - first:
+      213: -51844174904182830
+    second: CC_Robot_83
+  - first:
+      213: -8303345077060277697
+    second: CC_Robot_84
+  - first:
+      213: -1464126414294770131
+    second: CC_Robot_85
+  - first:
+      213: -6874058015128557162
+    second: CC_Robot_86
+  - first:
+      213: 1204155244442363740
+    second: CC_Robot_87
+  - first:
+      213: 1058123009592406080
+    second: CC_Robot_88
+  - first:
+      213: 3941440986708716677
+    second: CC_Robot_89
+  - first:
+      213: 581496192089072008
+    second: CC_Robot_90
+  - first:
+      213: 1185387579876960754
+    second: CC_Robot_91
+  - first:
+      213: -1034120613838675037
+    second: CC_Robot_92
+  - first:
+      213: 3284701120429055951
+    second: CC_Robot_93
+  - first:
+      213: -4425575225265715427
+    second: CC_Robot_94
+  - first:
+      213: 2368108849771659921
+    second: CC_Robot_95
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,9 +329,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -73,9 +361,2037 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CC_Robot_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ce619a38b4a79d0800000000000000
+      internalID: -2775823191470838712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 428
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f011fce61323d490800000000000000
+      internalID: -7722790354638794511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f00881a80002450800000000000000
+      internalID: 6061845691557220143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe11d1d5b7b855b0800000000000000
+      internalID: -5379347763356950791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 428
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e0a8cc6c4ab38d0800000000000000
+      internalID: -2865515564149109240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_5
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0752c61e04592660800000000000000
+      internalID: 7361507485401896716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71a192d27832d180800000000000000
+      internalID: -9092142631897423491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_7
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 428
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2a68b5aeeb37d60800000000000000
+      internalID: 7886857286223045309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b513ff83ac570e0800000000000000
+      internalID: -2272688090790143090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655249ecfe3d2b110800000000000000
+      internalID: 1275314671415731542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_10
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 428
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04b940a7dc665500800000000000000
+      internalID: 384614491549709323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_11
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d80171a9add94c0800000000000000
+      internalID: -4279023715585323651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 367
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05f2f80e7b9afaa0800000000000000
+      internalID: -6126413377465813746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 367
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b0fb06b7f9ddfb0800000000000000
+      internalID: -4621362290359334018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 367
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273613896a0229290800000000000000
+      internalID: -7885204097682283662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_15
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 367
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c521862a3fb05d0800000000000000
+      internalID: -3095112440030798719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_16
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 367
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889b32a5453556df0800000000000000
+      internalID: -187652187711358584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_17
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 367
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095dd81fa02a9fcf0800000000000000
+      internalID: -217964939064781424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_18
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 367
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d3b663fdd7d36f0800000000000000
+      internalID: -703267569155752560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_19
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 367
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855fe3e4b2f28b730800000000000000
+      internalID: 4015010930843645272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_20
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 367
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4533eef9a141d36a0800000000000000
+      internalID: -6467991385249270956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_21
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 367
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a889e91781156a20800000000000000
+      internalID: 3054867194193741985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_22
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 367
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d3c5f1e0081a460800000000000000
+      internalID: 7251217673187245343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_23
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 367
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04374a4fa6f7f2cb0800000000000000
+      internalID: -4886546973326019776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 306
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b5eec94b0fb14e0800000000000000
+      internalID: -2009748150173148389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_25
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 306
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a14ff270c4c9070800000000000000
+      internalID: 8114444222367799897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 306
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61841f52b76280560800000000000000
+      internalID: 7280111108003809302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_27
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 306
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7602fdb96acb94c10800000000000000
+      internalID: 2038367730127544423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_28
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 306
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cef1b57853b5f50800000000000000
+      internalID: 6871144511949499448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 306
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32424bfc82a63080800000000000000
+      internalID: -9207993661717855684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_30
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 306
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46f14abb1c892e80800000000000000
+      internalID: -8202871195561757106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_31
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 306
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66756f338dac17b0800000000000000
+      internalID: -5252132286204905873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_32
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 306
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a391f049a3d86180800000000000000
+      internalID: -9121808321346432091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_33
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 306
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f3b6c4187ff3d60800000000000000
+      internalID: 7872282808371855152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_34
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 306
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cac7a3f67d40d060800000000000000
+      internalID: 6976160996086237891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_35
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 306
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b26e5ea89d32f9a0800000000000000
+      internalID: -6200826010966007116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fe7803e5b1c8770800000000000000
+      internalID: 8614290278608006949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_37
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 245
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c5864d6ea21ead0800000000000000
+      internalID: -2674809532786910128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_38
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dd2025fd47016c0800000000000000
+      internalID: -4174708352070001338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_39
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da343c484b1ea0070800000000000000
+      internalID: 8073513447452787629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_40
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 245
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be65e02d727841de0800000000000000
+      internalID: -1363316182088788245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_41
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9268f6a26c114e80800000000000000
+      internalID: -8196238636803923301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_42
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e335d8a67691990800000000000000
+      internalID: -7414781604153573823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_43
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 245
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0e778d1fffbb1a0800000000000000
+      internalID: -6792554198774325004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_44
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee9836f320aeec20800000000000000
+      internalID: 3237701258441170671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_45
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59207351d2b4c770800000000000000
+      internalID: 8630219398066481501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_46
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 245
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ea0fbc0b8a21ce0800000000000000
+      internalID: -1435899853888508266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_47
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5087d1fcfdaea45d0800000000000000
+      internalID: -3077389148380891131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_48
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df4a6c62dfa17820800000000000000
+      internalID: 2914303752182321111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_49
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 184
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2b942a7d4ce91b0800000000000000
+      internalID: -5647860452256271704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_50
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4649ded34d3a8670800000000000000
+      internalID: 8541707004972451405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_51
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f828be8ca57e5240800000000000000
+      internalID: 4782389238303303924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_52
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 184
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760855f68fadf8020800000000000000
+      internalID: 2346334691437936743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_53
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3169d6806da6d10800000000000000
+      internalID: 2119741906317874153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_54
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fb60f6ccff8f890800000000000000
+      internalID: -7423902732219138273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_55
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 184
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384a66d5ead4f8fc0800000000000000
+      internalID: -3490485774902188925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_56
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1985909f18ac64c00800000000000000
+      internalID: 884617036402612369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_57
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed2d515b87b72b90800000000000000
+      internalID: -7266637664745607710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_58
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 184
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149ee106ae0dd04d0800000000000000
+      internalID: -3166645257918027455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_59
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4af378570ff4490800000000000000
+      internalID: -7759719245365140269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_60
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 123
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bbc7751abbb22b0800000000000000
+      internalID: -5608182609327899900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_61
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 123
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19095b40f1a1f21b0800000000000000
+      internalID: -5679291884565589871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_62
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 123
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7c3121505eae280800000000000000
+      internalID: -9013139894287742995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_63
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 123
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ff734c9f6439ca0800000000000000
+      internalID: -6011383039056674926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_64
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 123
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a844f5e4e5c6aab0800000000000000
+      internalID: -4997089149619779423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_65
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 123
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42b422a71bb35050800000000000000
+      internalID: 5788175656280175179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_66
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 123
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8b2aca63b9cfd10800000000000000
+      internalID: 2160772580357879991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_67
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 123
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d225a4cd7af0b5800800000000000000
+      internalID: 602092188813906477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_68
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 123
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1aab890c7c2a2b0800000000000000
+      internalID: -5574673758721236505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_69
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 123
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efe4affed4075040800000000000000
+      internalID: 4636179697219465193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_70
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 123
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e0f9f5be58a79d0800000000000000
+      internalID: -2775758974352421373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_71
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 123
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dea12e8150bfc20800000000000000
+      internalID: 3241189961253973340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_72
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 62
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e084b392c8098670800000000000000
+      internalID: 8541367800079614183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_73
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 62
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abab243e283f9910800000000000000
+      internalID: 1846256143340121000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_74
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 62
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71904a5f7a6ee5230800000000000000
+      internalID: 3629591958762293527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_75
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 62
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969a87be289156ce0800000000000000
+      internalID: -1412694858023786135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_76
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 62
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec4a9fb0753640b0800000000000000
+      internalID: -5744845516297319193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 62
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2283ddd6c1f5b1cd0800000000000000
+      internalID: -2586368985287280606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_78
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 62
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ba8ad82bd11ae90800000000000000
+      internalID: -7016294091748496502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_79
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 62
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20d6232ff8b0baf0800000000000000
+      internalID: -382602562380574678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_80
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 62
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719c578c1b9011c20800000000000000
+      internalID: 3175329871449934103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_81
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 62
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c051c7d9c69e37740800000000000000
+      internalID: 5148715451722503436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_82
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 62
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388bdcfb0fa90d8f0800000000000000
+      internalID: -517743598346848125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_83
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 62
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7b9236fffc74ff0800000000000000
+      internalID: -51844174904182830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_84
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a655a35a794cc80800000000000000
+      internalID: -8303345077060277697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_85
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e91b198c06eabe0800000000000000
+      internalID: -1464126414294770131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_86
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699e5d2d7a07a90a0800000000000000
+      internalID: -6874058015128557162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_87
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57296f90d406b010800000000000000
+      internalID: 1204155244442363740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_88
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0403c6365453fae00800000000000000
+      internalID: 1058123009592406080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_89
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c20fbd1bfc2b630800000000000000
+      internalID: 3941440986708716677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_90
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88126bfa4b3e11800800000000000000
+      internalID: 581496192089072008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_91
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9e9b339b7537010800000000000000
+      internalID: 1185387579876960754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_92
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3ac3dd7c016a1f0800000000000000
+      internalID: -1034120613838675037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_93
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf5084144a959d20800000000000000
+      internalID: 3284701120429055951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_94
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d178443c7c23592c0800000000000000
+      internalID: -4425575225265715427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Robot_95
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192491cb3763dd020800000000000000
+      internalID: 2368108849771659921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

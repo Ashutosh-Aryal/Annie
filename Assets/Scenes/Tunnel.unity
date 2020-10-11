@@ -64362,6 +64362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogAsset
       objectReference: {fileID: 0}
+    - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4094011683184477044, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -64724,9 +64728,37 @@ PrefabInstance:
       propertyPath: m_WaypointsContainer
       value: 
       objectReference: {fileID: 1576814755}
+    - target: {fileID: 1968623687732246147, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3883126622860298523, guid: b06c4dc62fd1d49f788e181d15edb961, type: 3}
     - target: {fileID: 1968623687732246908, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+--- !u!1 &1968623688048262785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1968623687732246908, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+  m_PrefabInstance: {fileID: 1968623688048262784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1968623688048262786
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968623688048262785}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 08319e1453ef64baaa753e235d2d3684, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
