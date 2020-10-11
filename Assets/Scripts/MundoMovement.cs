@@ -68,6 +68,8 @@ public class MundoMovement : MonoBehaviour {
         myRenderer = gameObject.GetComponent<SpriteRenderer>();
         myAnimator = gameObject.GetComponent<Animator>();
         myRigidbody = gameObject.GetComponent<Rigidbody2D>();
+
+        sL_AvailableEnemiesToAttack.RemoveRange(0, sL_AvailableEnemiesToAttack.Count);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -109,7 +111,7 @@ public class MundoMovement : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if(!TunnelDialogue.s_ShouldMove)
+        if(!TunnelDialogue.s_ShouldMove || EnemyBehavior.s_HasPlayerLost)
         {
             return;
         } 
@@ -280,7 +282,10 @@ public class MundoMovement : MonoBehaviour {
         if (bestKillOption != null)
         {
             se_MovementDirection = md;
-            Destroy(GameObject.Find(bestKillOption.name));
+
+            GameObject enemyToDestroy = GameObject.Find(bestKillOption.name);
+            sL_AvailableEnemiesToAttack.Remove(enemyToDestroy);
+            Destroy(enemyToDestroy);
         }
     }
 

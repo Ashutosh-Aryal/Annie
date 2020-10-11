@@ -37,10 +37,6 @@ public class TunnelDialogue : MonoBehaviour
             dialogueManager.Click_Window();
         }
 
-        
-        if(dialogueManager.isFinished)
-        {
-            s_ShouldMove = true;
-        }
+        s_ShouldMove = dialogueManager.isFinished;
     }
 }

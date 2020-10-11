@@ -12,11 +12,12 @@ public class EnemyBehavior : MonoBehaviour
     private const int OBSTACLE_LAYER = 1 << 8;
     private const float MAX_DISTANCE_FROM_TARGET = 0.4f;
     private const float MAX_SEE_DISTANCE = 50.0f;
-    private const float MAX_SEEN_TIMER = 8.0f;
-    private const float BLUE_HUE = 120.0f;
+    private const float MAX_SEEN_TIMER = 4.0f;
+    private const float BLUE_HUE = 1.0f / 3.0f;
     private const string PLAYER_TAG = "Player";
 
     [SerializeField] private GameObject m_WaypointsContainer;
+    [SerializeField] private GameObject m_GameOverMenu;
 
     private int m_WaypointIndex = 0;
     private int m_RandValue;
@@ -38,6 +39,9 @@ public class EnemyBehavior : MonoBehaviour
     private static HashSet<int> s_AssignedEnemyNumbers = new HashSet<int>();
     private static GameObject s_PlayerObject = null;
     private static int s_PlayerLayerMask = 0;
+    
+    public static bool s_HasPlayerLost = false;
+    public static GameObject s_GameOverMenu = null;
 
     private void OnMouseOver()
     {
@@ -60,6 +64,12 @@ public class EnemyBehavior : MonoBehaviour
         {
             s_PlayerObject = GameObject.FindGameObjectsWithTag(PLAYER_TAG)[0];
             s_PlayerLayerMask = (1 << s_PlayerObject.layer);
+        }
+
+        if(m_GameOverMenu != null)
+        {
+            s_GameOverMenu = m_GameOverMenu;
+            s_GameOverMenu.SetActive(false);
         }
 
         myVisionCone = gameObject.transform.GetChild(0).gameObject;
@@ -93,40 +103,12 @@ public class EnemyBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool prevDoesSeePlayer = m_DoesSeePlayer;
-
-        m_DoesSeePlayer = DoesEnemySeePlayer();
-
-        if (m_DoesSeePlayer) {
-            m_SeenTimer += Time.deltaTime; m_ShouldDecrementSeenTimer = false;
-        } else {
-
-            if (prevDoesSeePlayer) {
-                m_ResetSeenTimer = 5.0f - Time.deltaTime;
-            } else if(m_ResetSeenTimer > 0.0f) {
-                m_ResetSeenTimer -= Time.deltaTime;
-
-                if(m_ResetSeenTimer <= 0.0f) {
-                    m_ShouldDecrementSeenTimer = true;
-                }
-
-            } else if(m_ShouldDecrementSeenTimer) {
-                m_SeenTimer -= Time.deltaTime;
-            }
-            
-            if (prevDoesSeePlayer)
-            {
-                // TODO: Handle case in which player suddenly disappears from sight
-                // IDEA: Have a variable that holds last known location along with last known velocity
-                // and checks (using Raycast) around that direction to see if the player can be seen in that direction
-            }
-        } 
-
-        if(m_SeenTimer > MAX_SEEN_TIMER) {
-            m_SeenTimer = MAX_SEEN_TIMER;
+        if(s_HasPlayerLost)
+        {
+            myDestinationSetter.target = null;
+            s_GameOverMenu.SetActive(true);
+            return;
         }
-
-        myVisionCone.GetComponent<MeshRenderer>().material.color = GetColorFromTime();
 
         CreateVisionCone();
 
@@ -141,15 +123,59 @@ public class EnemyBehavior : MonoBehaviour
         }
     }
 
-    private Color GetColorFromTime()
+    private void UpdateVisionConeStatus()
     {
-        float ratio = Mathf.Clamp(m_SeenTimer / MAX_SEEN_TIMER, 0.0f, 1.0f);
+        bool prevDoesSeePlayer = m_DoesSeePlayer;
 
-        float hue = (1.0f - ratio) * BLUE_HUE;
-            
-        Color newColor = Color.HSVToRGB(hue, 1.0f, 1.0f);
+        m_DoesSeePlayer = DoesEnemySeePlayer();
 
-        return newColor;
+        if (m_DoesSeePlayer)
+        {
+            m_SeenTimer += Time.fixedDeltaTime; m_ShouldDecrementSeenTimer = false;
+        }
+        else
+        {
+
+            if (prevDoesSeePlayer)
+            {
+                m_ResetSeenTimer = 5.0f - Time.fixedDeltaTime;
+            }
+            else if (m_ResetSeenTimer > 0.0f)
+            {
+                m_ResetSeenTimer -= Time.fixedDeltaTime;
+
+                if (m_ResetSeenTimer <= 0.0f)
+                {
+                    m_ShouldDecrementSeenTimer = true;
+                }
+
+            }
+            else if (m_ShouldDecrementSeenTimer)
+            {
+                m_SeenTimer -= Time.fixedDeltaTime;
+            }
+
+            if (prevDoesSeePlayer)
+            {
+                // TODO: Handle case in which player suddenly disappears from sight
+                // IDEA: Have a variable that holds last known location along with last known velocity
+                // and checks (using Raycast) around that direction to see if the player can be seen in that direction
+            }
+        }
+
+        if (m_SeenTimer > MAX_SEEN_TIMER)
+        {
+            m_SeenTimer = MAX_SEEN_TIMER;
+        }
+
+        Color newColor = GetColorFromTime();
+
+        if (newColor == Color.red)
+        {
+            s_HasPlayerLost = true;
+        }
+
+        myVisionCone.GetComponent<MeshRenderer>().material.color = newColor;
     }
 
     private void CreateVisionCone() {
@@ -303,7 +329,20 @@ public class EnemyBehavior : MonoBehaviour
         {
             m_LookingTimer -= Time.fixedDeltaTime;
         }
-        
+
+
+        UpdateVisionConeStatus();
+    }
+
+    private Color GetColorFromTime()
+    {
+        float ratio = Mathf.Clamp(m_SeenTimer / MAX_SEEN_TIMER, 0.0f, 1.0f);
+
+        float hue = (1.0f - ratio) * BLUE_HUE;
+
+        Color newColor = Color.HSVToRGB(hue, 1.0f, 1.0f);
+
+        return newColor;
     }
 
     private void PlayLookingAnimation()
