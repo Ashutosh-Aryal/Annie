@@ -111,7 +111,7 @@ public class MundoMovement : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if(!TunnelDialogue.s_ShouldMove || EnemyBehavior.s_HasPlayerLost)
+        if(!TunnelDialogue.ShouldMove() || EnemyBehavior.s_HasPlayerLost)
         {
             return;
         } 

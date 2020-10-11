@@ -8,9 +8,21 @@ public class TunnelDialogue : MonoBehaviour
 {
     private const KeyCode SKIP_DIALOGUE_KEY = KeyCode.Space;
     private List<DialogData> allDialogScript = new List<DialogData>();
-    private DialogManager dialogueManager;
+    private static DialogManager dialogueManager;
 
     public static bool s_ShouldMove = false;
+
+    public static bool ShouldMove()
+    {
+        if(null == dialogueManager)
+        {
+            s_ShouldMove = true;
+            return s_ShouldMove;
+        }
+
+        s_ShouldMove = dialogueManager.isFinished;
+        return s_ShouldMove;
+    }
 
     void Start()
     {

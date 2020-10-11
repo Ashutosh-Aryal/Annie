@@ -10,7 +10,7 @@ public class EnemyBehavior : MonoBehaviour
     private const int RIGHT_CLICK = 1;
     private const int MAX_ENEMY_COUNT = 100;
     private const int OBSTACLE_LAYER = 1 << 8;
-    private const float MAX_DISTANCE_FROM_TARGET = 0.4f;
+    private const float MAX_DISTANCE_FROM_TARGET = 1.5f;
     private const float MAX_SEE_DISTANCE = 50.0f;
     private const float MAX_SEEN_TIMER = 4.0f;
     private const float BLUE_HUE = 1.0f / 3.0f;
@@ -249,7 +249,7 @@ public class EnemyBehavior : MonoBehaviour
             Vector2 directionVector = new Vector3(Mathf.Cos(rayAngleInRads), Mathf.Sin(rayAngleInRads));
 
             RaycastHit2D hitInformation = Physics2D.Raycast(gameObject.transform.position, 
-                directionVector, MAX_SEE_DISTANCE, s_PlayerLayerMask);
+                directionVector, MAX_SEE_DISTANCE, s_PlayerLayerMask | OBSTACLE_LAYER);
 
             if(hitInformation.collider == null)
             {

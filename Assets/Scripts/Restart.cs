@@ -8,7 +8,7 @@ public class Restart : MonoBehaviour
     // Start is called before the first frame update
     public void RestartGame()
     { 
-        SceneManager.LoadScene("Scenes/Tunnel");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().path);
         EnemyBehavior.s_GameOverMenu.SetActive(false);
         EnemyBehavior.s_HasPlayerLost = false;
     }
