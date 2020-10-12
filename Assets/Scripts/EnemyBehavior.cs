@@ -80,7 +80,7 @@ public class EnemyBehavior : MonoBehaviour
             s_PlayerLayerMask = (1 << s_PlayerObject.layer);
         }
 
-        if(m_GameOverMenu != null)
+        if(m_GameOverMenu != null && s_GameOverMenu == null)
         {
             s_GameOverMenu = m_GameOverMenu;
             s_GameOverMenu.SetActive(false);
