@@ -138,6 +138,9 @@ public class EnemyBehavior : MonoBehaviour
         } else if (s_HasPlayerLost || CheckWinStateBehavior.s_PlayerDidWin) {
             myDestinationSetter.target = null;
             s_EndGameMenu.SetActive(true); return;
+        } else if(!TunnelDialogue.ShouldMove())
+        {
+            myDestinationSetter.target = null; return;
         }
 
         CreateVisionCone();
@@ -427,7 +430,7 @@ public class EnemyBehavior : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (m_IsDead) {
+        if (m_IsDead || !TunnelDialogue.ShouldMove()) {
             return;
         } else if(m_LookingTimer > 0.0f) {
             m_LookingTimer -= Time.fixedDeltaTime;

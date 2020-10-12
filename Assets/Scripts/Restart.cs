@@ -12,6 +12,8 @@ public class Restart : MonoBehaviour
         SceneManager.LoadScene(0, LoadSceneMode.Single);
         EnemyBehavior.s_EndGameMenu.SetActive(false);
         EnemyBehavior.s_HasPlayerLost = false;
+        CheckWinStateBehavior.s_PlayerDidWin = false;
+        MundoMovement.s_NumHeldBatteries = 0;
     }
 
     public void Quit()

@@ -38,7 +38,7 @@ namespace Doublsb.Dialog
         private float _lastDelay;
         private Coroutine _textingRoutine;
 
-        private List<DialogData> myDialogData;
+        public List<DialogData> myDialogData;
 
         //================================================
         //Public Method
@@ -175,6 +175,7 @@ namespace Doublsb.Dialog
 
         private IEnumerator Activate_List(List<DialogData> DataList)
         {
+            isFinished = false;
             state = State.Active;
 
             foreach (var Data in DataList)
@@ -185,6 +186,7 @@ namespace Doublsb.Dialog
             }
 
             isFinished = true;
+            myDialogData.Clear();
         }
 
         private IEnumerator Activate()

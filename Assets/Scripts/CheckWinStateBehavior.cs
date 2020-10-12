@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class CheckWinStateBehavior : MonoBehaviour
 {
-    private Animator myAnimator;
+    public static Animator s_GateAnimator;
 
     public static bool s_PlayerDidWin = false;
 
@@ -15,12 +15,12 @@ public class CheckWinStateBehavior : MonoBehaviour
 
     private void Start()
     {
-        myAnimator = gameObject.GetComponent<Animator>();
+        s_GateAnimator = gameObject.GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(myAnimator.GetBool("openGate"))
+        if(s_GateAnimator.GetBool("openGate"))
         {
             m_EndGameTextObject.GetComponent<TextMeshProUGUI>().text = "You Win!";
             EnemyBehavior.s_EndGameMenu.SetActive(true);

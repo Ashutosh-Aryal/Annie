@@ -12,27 +12,28 @@ public class TunnelDialogue : MonoBehaviour
 
     public static bool s_ShouldMove = false;
 
-    public static bool ShouldMove()
-    {
-        if(null == dialogueManager)
-        {
-            s_ShouldMove = true;
-            return s_ShouldMove;
-        }
+    public static bool ShouldMove() {
 
-        s_ShouldMove = dialogueManager.isFinished;
+        s_ShouldMove = (null == dialogueManager)? true: dialogueManager.isFinished;
         return s_ShouldMove;
     }
 
-    void Start()
-    {
+    public static void DisplayDialogue(List<DialogData> displayedDialog) {
+        if (dialogueManager.myDialogData.Count == 0)
+        {
+            dialogueManager.Show(displayedDialog);
+        }
+    }
+
+    void Start() {
+
         dialogueManager = gameObject.GetComponent<DialogManager>();
 
         allDialogScript.Add(new DialogData("Annie: Mundo...? Where are we? What is this place?", "Annie"));
 
         allDialogScript.Add(new DialogData("Mundo: I'm not sure, but we can't stay here. They're right behind us & the only way forward is forward", "Mundo"));
 
-        allDialogScript.Add(new DialogData("Annie: I'm scared. What if we get caught? I don't want to end up like mama.", "Annie"));
+        allDialogScript.Add(new DialogData("Annie: I'm scared. What if they come again? I don't want to end up like mama...", "Annie"));
 
         allDialogScript.Add(new DialogData("Mundo: I won't let anyone hurt you, okay? Let's just keep moving. Things have had a way of working out so far, right?", "Mundo"));
 
@@ -47,6 +48,11 @@ public class TunnelDialogue : MonoBehaviour
         if(Input.GetKeyDown(SKIP_DIALOGUE_KEY))
         {
             dialogueManager.Click_Window();
+        }
+
+        if(dialogueManager.myDialogData.Count == 0 && ReactorInteractBehavior.s_PlayerInTrigger)
+        {
+            BatteryBehavior.s_PopUpTextObject.SetActive(true);
         }
 
         s_ShouldMove = dialogueManager.isFinished;

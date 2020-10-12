@@ -48,7 +48,7 @@ public class MundoMovement : MonoBehaviour {
 
     private const int NUM_MOVEMENT_DIRECTIONS = 4;
 
-    private int m_NumHeldBatteries = 0;
+    public static int s_NumHeldBatteries = 0;
 
     private static AnimationType se_AnimationType = AnimationType.IdleRight;
     private static AnimationType? se_LastValidAnimationType = null;
@@ -79,6 +79,8 @@ public class MundoMovement : MonoBehaviour {
     // Start is called before the first frame update
     void Start()
     {
+        ReactorInteractBehavior.SetDialog();
+
         myAnimator = gameObject.GetComponent<Animator>();
         myRigidbody = gameObject.GetComponent<Rigidbody2D>();
 
@@ -131,10 +133,7 @@ public class MundoMovement : MonoBehaviour {
         if(!TunnelDialogue.ShouldMove() || EnemyBehavior.s_HasPlayerLost || CheckWinStateBehavior.s_PlayerDidWin)
         {
             return;
-        } else if(m_NumHeldBatteries >= 3)
-        {
-            m_GateAnimator.SetBool("openGate", true);
-        }
+        } 
 
         CheckInput();
 
@@ -150,15 +149,20 @@ public class MundoMovement : MonoBehaviour {
         {
             Destroy(s_BatteryToPickUpObject);
             s_BatteryToPickUpObject = null;
-            m_NumHeldBatteries++;
+            s_NumHeldBatteries++;
+
+            if(BatteryBehavior.s_IsFirstPickedUpBattery)
+            {
+                BatteryBehavior.s_IsFirstPickedUpBattery = false;
+                TunnelDialogue.DisplayDialogue(BatteryBehavior.s_DialogueOnFirstPickUp);
+            }
+
         }
 
         bool didPressAttack = Input.GetKeyDown(ATTACK_KEY);
         bool UpAttack = Input.GetKeyUp(ATTACK_KEY);
-        bool holdingAttack = Input.GetKey(ATTACK_KEY);
 
         bool isNotHoldingAnnie = se_MundoState != MundoState.CanPutDownAnnie;
-        bool finishAttack = isNotHoldingAnnie && UpAttack;
 
         if (isNotHoldingAnnie && didPressAttack) {
 
