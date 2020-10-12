@@ -12,8 +12,8 @@ public class EnemyBehavior : MonoBehaviour
     private const int OBSTACLE_LAYER = 1 << 8;
     private const int TRIGGER_VISION_OBSTACLE_LAYER = 1 << 11;
     private const float MAX_DISTANCE_FROM_TARGET = 1.5f;
-    private const float MAX_SEE_DISTANCE = 30.0f;
-    private const float MAX_SEEN_TIMER = 4.0f;
+    private const float MAX_SEE_DISTANCE = 15.0f;
+    private const float MAX_SEEN_TIMER = 2.0f;
     private const float BLUE_HUE = 1.0f / 3.0f;
     private const string PLAYER_TAG = "Player";
 
@@ -228,7 +228,6 @@ public class EnemyBehavior : MonoBehaviour
 
         angle += 30.0f;
         float MAX_ANGLE = angle - 60.0f;
-        float viewDistance = 5.0f;
 
         Vector3[] vertices = new Vector3[(int) FOV + 2];
         int[] triangles = new int[(int) FOV * 3];
@@ -240,20 +239,23 @@ public class EnemyBehavior : MonoBehaviour
 
         for(; angle >=  MAX_ANGLE; angle -= 1.0f)
         {
-            Vector3 vertex;
             float rayAngleInRads = angle * Mathf.Deg2Rad;
             Vector3 directionVector = new Vector3(Mathf.Cos(rayAngleInRads), Mathf.Sin(rayAngleInRads));
 
-            var raycast2DInfo = Physics2D.Raycast(gameObject.transform.position, directionVector, MAX_SEE_DISTANCE, OBSTACLE_LAYER | TRIGGER_VISION_OBSTACLE_LAYER);
+            Physics2D.queriesHitTriggers = true;
 
+            var raycast2DInfo = Physics2D.Raycast(gameObject.transform.position, 
+                directionVector, MAX_SEE_DISTANCE, OBSTACLE_LAYER | TRIGGER_VISION_OBSTACLE_LAYER);
+
+            Vector3 worldPosition;
             if(raycast2DInfo.collider == null) {
-                vertex = vertices[0] + directionVector * viewDistance; 
-            } else
-            {
-                // transform point from world space to vision cone's local space
-                vertex = myVisionCone.transform.InverseTransformPoint(raycast2DInfo.point); 
+                worldPosition = gameObject.transform.position + directionVector * MAX_SEE_DISTANCE;
+            } else {
+                worldPosition = raycast2DInfo.point; 
             }
 
+            // transform point from world space to vision cone's local space
+            Vector3 vertex = myVisionCone.transform.InverseTransformPoint(worldPosition);
             vertices[vertexIndex] = vertex;
 
             if (vertexIndex > 1)
@@ -293,7 +295,7 @@ public class EnemyBehavior : MonoBehaviour
         for (float rayAngle = movementDirectionAngle - 30.0f; rayAngle <= movementDirectionAngle + 30.0f; rayAngle += 1.0f) {
 
             float rayAngleInRads = rayAngle * Mathf.Deg2Rad;
-            Vector2 directionVector = new Vector3(Mathf.Cos(rayAngleInRads), Mathf.Sin(rayAngleInRads));
+            Vector3 directionVector = new Vector3(Mathf.Cos(rayAngleInRads), Mathf.Sin(rayAngleInRads));
 
             RaycastHit2D hitInformation = Physics2D.Raycast(gameObject.transform.position, 
                 directionVector, MAX_SEE_DISTANCE, s_PlayerLayerMask | OBSTACLE_LAYER | TRIGGER_VISION_OBSTACLE_LAYER);
@@ -303,9 +305,21 @@ public class EnemyBehavior : MonoBehaviour
                 continue;
             }
 
+            bool rayCastIntersectsWithRandomTrigger = hitInformation.collider.isTrigger && hitInformation.collider.gameObject.layer != TRIGGER_VISION_OBSTACLE_LAYER;
+            if (rayCastIntersectsWithRandomTrigger)
+            {
+                Physics2D.queriesHitTriggers = false;
+                hitInformation = Physics2D.Raycast(gameObject.transform.position,
+                    directionVector, MAX_SEE_DISTANCE, s_PlayerLayerMask | OBSTACLE_LAYER);
+                Physics2D.queriesHitTriggers = true;
+                if(hitInformation.collider == null) { continue; }
+            }
+
             bool collidesWithPlayer = hitInformation.collider.gameObject.CompareTag(PLAYER_TAG);
 
             if (collidesWithPlayer) {
+                Vector3 finalPos = gameObject.transform.position + directionVector * MAX_SEE_DISTANCE;
+                Debug.DrawLine(gameObject.transform.position, finalPos, Color.black, 1.0f, false);
                 return true;
             }
         }
