@@ -59,6 +59,7 @@ public class MundoMovement : MonoBehaviour {
 
     private static Rigidbody2D myRigidbody;
     private static Animator myAnimator;
+    private static Animator m_GateAnimator;
 
     public static MundoState se_MundoState = MundoState.CannotInteractWithAnnie;
     public static GameObject s_BatteryToPickUpObject = null;
@@ -72,6 +73,9 @@ public class MundoMovement : MonoBehaviour {
     [SerializeField]
     private GameObject m_InteractWithAnnieText;
 
+    [SerializeField]
+    private GameObject m_GateObject;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -79,6 +83,8 @@ public class MundoMovement : MonoBehaviour {
         myRigidbody = gameObject.GetComponent<Rigidbody2D>();
 
         sL_AvailableEnemiesToAttack.RemoveRange(0, sL_AvailableEnemiesToAttack.Count);
+
+        m_GateAnimator = m_GateObject.GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -122,10 +128,13 @@ public class MundoMovement : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if(!TunnelDialogue.ShouldMove() || EnemyBehavior.s_HasPlayerLost)
+        if(!TunnelDialogue.ShouldMove() || EnemyBehavior.s_HasPlayerLost || CheckWinStateBehavior.s_PlayerDidWin)
         {
             return;
-        } 
+        } else if(m_NumHeldBatteries >= 3)
+        {
+            m_GateAnimator.SetBool("openGate", true);
+        }
 
         CheckInput();
 

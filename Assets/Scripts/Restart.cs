@@ -10,9 +10,13 @@ public class Restart : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(0, LoadSceneMode.Single);
-        //SceneManager.LoadScene(SceneManager.GetSceneByBuildIndex(0));
-        EnemyBehavior.s_GameOverMenu.SetActive(false);
+        EnemyBehavior.s_EndGameMenu.SetActive(false);
         EnemyBehavior.s_HasPlayerLost = false;
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 
 }

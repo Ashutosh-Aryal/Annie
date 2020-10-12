@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using Pathfinding;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -55,7 +56,7 @@ public class EnemyBehavior : MonoBehaviour
     private static int s_PlayerLayerMask = 0;
     
     public static bool s_HasPlayerLost = false;
-    public static GameObject s_GameOverMenu = null;
+    public static GameObject s_EndGameMenu = null;
 
     private void OnMouseOver()
     {
@@ -80,10 +81,10 @@ public class EnemyBehavior : MonoBehaviour
             s_PlayerLayerMask = (1 << s_PlayerObject.layer);
         }
 
-        if(m_GameOverMenu != null && s_GameOverMenu == null)
+        if(m_GameOverMenu != null && s_EndGameMenu == null)
         {
-            s_GameOverMenu = m_GameOverMenu;
-            s_GameOverMenu.SetActive(false);
+            s_EndGameMenu = m_GameOverMenu;
+            s_EndGameMenu.SetActive(false);
         }
 
         myVisionCone = gameObject.transform.GetChild(0).gameObject;
@@ -134,9 +135,9 @@ public class EnemyBehavior : MonoBehaviour
     {
         if (m_IsDead) {
             gameObject.transform.position = m_DeathLocation; return;
-        } else if (s_HasPlayerLost) {
+        } else if (s_HasPlayerLost || CheckWinStateBehavior.s_PlayerDidWin) {
             myDestinationSetter.target = null;
-            s_GameOverMenu.SetActive(true); return;
+            s_EndGameMenu.SetActive(true); return;
         }
 
         CreateVisionCone();
@@ -205,6 +206,7 @@ public class EnemyBehavior : MonoBehaviour
         if (newColor == Color.red)
         {
             s_HasPlayerLost = true;
+            s_EndGameMenu.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "You Lose!";
         }
 
         myVisionCone.GetComponent<MeshRenderer>().material.color = newColor;
