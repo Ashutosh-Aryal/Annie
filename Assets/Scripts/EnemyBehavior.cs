@@ -10,14 +10,26 @@ public class EnemyBehavior : MonoBehaviour
     private const int RIGHT_CLICK = 1;
     private const int MAX_ENEMY_COUNT = 100;
     private const int OBSTACLE_LAYER = 1 << 8;
+    private const int TRIGGER_VISION_OBSTACLE_LAYER = 1 << 11;
     private const float MAX_DISTANCE_FROM_TARGET = 1.5f;
-    private const float MAX_SEE_DISTANCE = 50.0f;
+    private const float MAX_SEE_DISTANCE = 30.0f;
     private const float MAX_SEEN_TIMER = 4.0f;
     private const float BLUE_HUE = 1.0f / 3.0f;
     private const string PLAYER_TAG = "Player";
 
     [SerializeField] private GameObject m_WaypointsContainer;
     [SerializeField] private GameObject m_GameOverMenu;
+
+    private enum AnimationState
+    {
+        Normal, 
+        Distracted, 
+        Spotted, 
+        Chasing,
+        Dead
+    };
+
+    private AnimationState m_AnimationState = AnimationState.Normal;
 
     private int m_WaypointIndex = 0;
     private int m_RandValue;
@@ -28,6 +40,7 @@ public class EnemyBehavior : MonoBehaviour
     private Rigidbody2D myRigidbody2D;
     private AIDestinationSetter myDestinationSetter;
     private GameObject myVisionCone;
+    private Animator myAnimator;
 
     private List<GameObject> m_Waypoints = new List<GameObject>();
     private Transform m_SoundLocation = null;
@@ -35,6 +48,7 @@ public class EnemyBehavior : MonoBehaviour
     private bool m_ShouldResetWaypointIndex = false;
     private bool m_DoesSeePlayer = false;
     private bool m_ShouldDecrementSeenTimer = false;
+    private bool m_IsDead = false;
 
     private static HashSet<int> s_AssignedEnemyNumbers = new HashSet<int>();
     private static GameObject s_PlayerObject = null;
@@ -84,6 +98,7 @@ public class EnemyBehavior : MonoBehaviour
         m_RandValue = rand;
         gameObject.name += rand;
 
+        myAnimator = gameObject.GetComponent<Animator>();
         myRigidbody2D = gameObject.GetComponent<Rigidbody2D>();
         myDestinationSetter = gameObject.GetComponent<AIDestinationSetter>();
 
@@ -95,6 +110,20 @@ public class EnemyBehavior : MonoBehaviour
         }
     }
 
+    private Vector3 m_DeathLocation = Vector3.zero;
+
+    public void Kill()
+    {
+        m_AnimationState = AnimationState.Dead;
+        m_IsDead = true;
+        myVisionCone.SetActive(false);
+        myDestinationSetter.target = null;
+        m_DeathLocation = gameObject.transform.position;
+        Destroy(myDestinationSetter);
+        Destroy(gameObject.GetComponent<BoxCollider2D>());
+        UpdateAnimation();
+    }
+
     private void OnDestroy()
     {
         s_AssignedEnemyNumbers.Remove(m_RandValue);
@@ -103,17 +132,18 @@ public class EnemyBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(s_HasPlayerLost)
-        {
+        if (m_IsDead) {
+            gameObject.transform.position = m_DeathLocation; return;
+        } else if (s_HasPlayerLost) {
             myDestinationSetter.target = null;
-            s_GameOverMenu.SetActive(true);
-            return;
+            s_GameOverMenu.SetActive(true); return;
         }
 
         CreateVisionCone();
 
         if (m_DoesSeePlayer) {
             myDestinationSetter.target = s_PlayerObject.transform; m_SoundLocation = null; m_ShouldResetWaypointIndex = true;
+            m_AnimationState = AnimationState.Chasing;
         } else if (m_LookingTimer > 0.0f) {
             return;
         } else if (null != m_SoundLocation) {
@@ -121,6 +151,8 @@ public class EnemyBehavior : MonoBehaviour
         } else {
             HandleDestinationSetting();
         }
+
+        UpdateAnimation();
     }
 
     private void UpdateVisionConeStatus()
@@ -185,7 +217,16 @@ public class EnemyBehavior : MonoBehaviour
         myVisionCone.GetComponent<MeshFilter>().mesh = visionCone;
 
         float FOV = 60.0f;
-        float angle = GetAngleFromDirection() + 30.0f;
+
+        float angle = prevAngle;
+
+        if (myDestinationSetter.ai.velocity.magnitude != 0.0f)
+        {
+            angle = GetAngleFromDirection();
+            prevAngle = angle;
+        }
+
+        angle += 30.0f;
         float MAX_ANGLE = angle - 60.0f;
         float viewDistance = 5.0f;
 
@@ -203,7 +244,7 @@ public class EnemyBehavior : MonoBehaviour
             float rayAngleInRads = angle * Mathf.Deg2Rad;
             Vector3 directionVector = new Vector3(Mathf.Cos(rayAngleInRads), Mathf.Sin(rayAngleInRads));
 
-            var raycast2DInfo = Physics2D.Raycast(gameObject.transform.position, directionVector, MAX_SEE_DISTANCE, OBSTACLE_LAYER);
+            var raycast2DInfo = Physics2D.Raycast(gameObject.transform.position, directionVector, MAX_SEE_DISTANCE, OBSTACLE_LAYER | TRIGGER_VISION_OBSTACLE_LAYER);
 
             if(raycast2DInfo.collider == null) {
                 vertex = vertices[0] + directionVector * viewDistance; 
@@ -241,7 +282,13 @@ public class EnemyBehavior : MonoBehaviour
             return false;
         }
 
-        float movementDirectionAngle = GetAngleFromDirection();
+        float movementDirectionAngle = prevAngle;
+
+        if (myDestinationSetter.ai.velocity.magnitude != 0.0f)
+        {
+            movementDirectionAngle = GetAngleFromDirection();
+            prevAngle = movementDirectionAngle;
+        }
 
         for (float rayAngle = movementDirectionAngle - 30.0f; rayAngle <= movementDirectionAngle + 30.0f; rayAngle += 1.0f) {
 
@@ -249,7 +296,7 @@ public class EnemyBehavior : MonoBehaviour
             Vector2 directionVector = new Vector3(Mathf.Cos(rayAngleInRads), Mathf.Sin(rayAngleInRads));
 
             RaycastHit2D hitInformation = Physics2D.Raycast(gameObject.transform.position, 
-                directionVector, MAX_SEE_DISTANCE, s_PlayerLayerMask | OBSTACLE_LAYER);
+                directionVector, MAX_SEE_DISTANCE, s_PlayerLayerMask | OBSTACLE_LAYER | TRIGGER_VISION_OBSTACLE_LAYER);
 
             if(hitInformation.collider == null)
             {
@@ -275,6 +322,7 @@ public class EnemyBehavior : MonoBehaviour
         if (!hasTargetDestinationAlreadyBeenSetToSound)
         {
             myDestinationSetter.target = m_SoundLocation;
+            m_AnimationState = AnimationState.Distracted;
         }
         else if (hasTargetDestinationAlreadyBeenSetToSound && isWithinEnoughDistanceToSound)
         {
@@ -283,6 +331,7 @@ public class EnemyBehavior : MonoBehaviour
             m_ShouldResetWaypointIndex = true;
         }
 
+        UpdateAnimation();
     }
 
     private float GetAngleFromDirection()
@@ -291,17 +340,19 @@ public class EnemyBehavior : MonoBehaviour
         return Mathf.Atan2(movementDirection.y, movementDirection.x) * Mathf.Rad2Deg;
     }
 
-    private void HandleDestinationSetting()
-    {
-        if(m_ShouldResetWaypointIndex)
-        {
+    private void HandleDestinationSetting() {
+
+        m_AnimationState = AnimationState.Normal;
+
+        if(m_ShouldResetWaypointIndex) {
+
             float smallestDistanceFound = 99999.0f;
             int index = 0;
-            foreach(GameObject waypoint in m_Waypoints)
-            {
+            foreach(GameObject waypoint in m_Waypoints) {
+
                 Vector3 distanceVector = gameObject.transform.position - waypoint.transform.position;
-                if(distanceVector.magnitude < smallestDistanceFound)
-                {
+                
+                if(distanceVector.magnitude < smallestDistanceFound) {
                     m_WaypointIndex = index;
                     smallestDistanceFound = distanceVector.magnitude;
                 }
@@ -315,21 +366,56 @@ public class EnemyBehavior : MonoBehaviour
         Vector3 distanceToWaypointVector = gameObject.transform.position - m_Waypoints[m_WaypointIndex].transform.position;
         bool shouldUpdateWaypointIndex = distanceToWaypointVector.magnitude <= MAX_DISTANCE_FROM_TARGET;
 
-        if(shouldUpdateWaypointIndex)
-        {
+        if(shouldUpdateWaypointIndex) {
             m_WaypointIndex = (m_WaypointIndex + 1) % m_Waypoints.Count;
         }
            
         myDestinationSetter.target = m_Waypoints[m_WaypointIndex].transform;
     }
 
-    private void FixedUpdate()
-    {
-        if(m_LookingTimer > 0.0f)
-        {
-            m_LookingTimer -= Time.fixedDeltaTime;
+    private const float FOURTY_FIVE_DEGREES = 45.0f;
+    private float prevAngle = 0.0f;
+
+    private void UpdateAnimation() {
+
+        myAnimator.SetBool("isDead", m_AnimationState == AnimationState.Dead);
+        myAnimator.SetBool("isSpotted", m_AnimationState == AnimationState.Spotted);
+        myAnimator.SetBool("isDistracted", m_AnimationState == AnimationState.Distracted);
+        myAnimator.SetBool("isChasing", m_AnimationState == AnimationState.Chasing);
+
+        myAnimator.SetFloat("horizontal", 0.0f);
+        myAnimator.SetFloat("vertical", 0.0f);
+
+        float angle = prevAngle;
+
+        if (myDestinationSetter.ai.velocity.magnitude != 0.0f) {
+            angle = GetAngleFromDirection();
+            prevAngle = angle;
         }
 
+        bool isMovingLeft = angle >= (FOURTY_FIVE_DEGREES * 3.0f) || angle <= (FOURTY_FIVE_DEGREES * -3.0f);
+        bool isMovingUp = (angle >= FOURTY_FIVE_DEGREES) && (angle < FOURTY_FIVE_DEGREES * 3.0f);
+        bool isMovingDown = (angle <= -FOURTY_FIVE_DEGREES) && (angle > -FOURTY_FIVE_DEGREES * 3.0f);
+        bool isMovingRight = angle < FOURTY_FIVE_DEGREES && angle > -FOURTY_FIVE_DEGREES;
+
+        if (isMovingLeft) {
+            myAnimator.SetFloat("horizontal", -1.0f);  
+        } else if(isMovingRight) {
+            myAnimator.SetFloat("horizontal", 1.0f);
+        } else if(isMovingUp) {
+            myAnimator.SetFloat("vertical", 1.0f);
+        } else if(isMovingDown) {
+            myAnimator.SetFloat("vertical", -1.0f);
+        } 
+     }
+
+    private void FixedUpdate()
+    {
+        if (m_IsDead) {
+            return;
+        } else if(m_LookingTimer > 0.0f) {
+            m_LookingTimer -= Time.fixedDeltaTime;
+        }
 
         UpdateVisionConeStatus();
     }

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4551660494577874439}
   - component: {fileID: 4551660494577874438}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4551660494843109309}
   - component: {fileID: 4551660494843109308}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-35 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4551660495070298162}
   - component: {fileID: 4551660495070298161}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4551660495302133920}
   - component: {fileID: 4114693693187249676}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: obstacleVertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +296,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -31.207737, y: 1.0462961}
+  m_Offset: {x: -31.207737, y: 0.059555054}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -307,7 +307,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5751953, y: 11.511023}
+  m_Size: {x: 2.5751953, y: 13.484505}
   m_EdgeRadius: 0
 --- !u!1 &4551660495574114563
 GameObject:
@@ -319,7 +319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4551660495574114565}
   - component: {fileID: 4551660495574114564}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-33 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4551660495901221096}
   - component: {fileID: 4551660495901221095}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -483,7 +483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4551660496062867925}
   - component: {fileID: 4551660496062867924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-37
   m_TagString: Untagged
   m_Icon: {fileID: 0}

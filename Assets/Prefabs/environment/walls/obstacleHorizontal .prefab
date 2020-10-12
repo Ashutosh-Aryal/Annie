@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1586105099954920676}
   - component: {fileID: 8812726453323491292}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-39 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3961659411535352650}
   - component: {fileID: 6812608416108351636}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 904047705838541165}
   - component: {fileID: 846972538417632242}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3742296886501204476}
   - component: {fileID: 716795379504507718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-38 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2632193336517711864}
   - component: {fileID: 2327687710901528509}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2463358260822962535}
   - component: {fileID: 5477686020230879445}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,7 +502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7427937954508392301}
   - component: {fileID: 3105949970908933901}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8345827898105741198}
   - component: {fileID: 5352352355131908506}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -666,7 +666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8491454632220440584}
   - component: {fileID: 6524715577637717092}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -748,7 +748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3510260783734224158}
   - component: {fileID: 252578855508288535}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-38 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -830,7 +830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 458206391419492556}
   - component: {fileID: 6406252722769494464}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 'obstacleHorizontal '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -876,7 +876,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -6.7416754, y: -2.7621212}
+  m_Offset: {x: -6.7416754, y: -3.7572966}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -887,7 +887,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10.222397, y: 5.1036415}
+  m_Size: {x: 10.222397, y: 7.093992}
   m_EdgeRadius: 0
 --- !u!1 &7756426293639356421
 GameObject:
@@ -899,7 +899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3063503272431504156}
   - component: {fileID: 580752277506845074}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -981,7 +981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5022214911803671735}
   - component: {fileID: 6199031891958632240}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-39 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -285,7 +285,7 @@ public class MundoMovement : MonoBehaviour {
 
             GameObject enemyToDestroy = GameObject.Find(bestKillOption.name);
             sL_AvailableEnemiesToAttack.Remove(enemyToDestroy);
-            Destroy(enemyToDestroy);
+            enemyToDestroy.GetComponent<EnemyBehavior>().Kill();
         }
     }
 
