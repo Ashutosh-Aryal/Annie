@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1968623687732246147}
   - component: {fileID: 1968623687732246146}
   - component: {fileID: 1968623687732246909}
+  - component: {fileID: 4845144001348360706}
   m_Layer: 10
   m_Name: Enemy
   m_TagString: enemy
@@ -108,15 +109,15 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968623687732246908}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.07, y: -0.05}
+  m_Offset: {x: -0.10188451, y: -0.05}
   serializedVersion: 2
-  m_Radius: 0.4
+  m_Radius: 0.36811548
 --- !u!212 &1968623687732246147
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -157,7 +158,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: ba09e197849e66041aee653685a88442, type: 3}
+  m_Sprite: {fileID: -3883126622860298523, guid: b06c4dc62fd1d49f788e181d15edb961, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -181,6 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_WaypointsContainer: {fileID: 0}
+  m_GameOverMenu: {fileID: 0}
 --- !u!114 &1968623687732246909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,6 +197,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 0}
+--- !u!61 &4845144001348360706
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968623687732246908}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.26, y: 0.52}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.26, y: 0.52}
+  m_EdgeRadius: 0
 --- !u!1 &7552620781951690053
 GameObject:
   m_ObjectHideFlags: 0
