@@ -41,31 +41,40 @@ public class MundoMovement : MonoBehaviour {
     private const KeyCode DOWN_KEY = KeyCode.S;
     private const KeyCode INTERACT_WITH_ANNIE_KEY = KeyCode.F;
     private const KeyCode ATTACK_KEY = KeyCode.Space;
+    private const KeyCode INTERACT_WITH_OTHER_OBJECTS_KEY = KeyCode.E;
 
-    private const float MOVEMENT_SPEED = 30.0f;
+    private const float MOVEMENT_SPEED = 20.0f;
     private const float IDLE_SPEED = 0.1f;
 
     private const int NUM_MOVEMENT_DIRECTIONS = 4;
+
+    private int m_NumHeldBatteries = 0;
 
     private static AnimationType se_AnimationType = AnimationType.IdleRight;
     private static AnimationType? se_LastValidAnimationType = null;
     private static MovementDirection se_MovementDirection = MovementDirection.Idle;
     private static MovementDirection se_LastRealMovementDirection = MovementDirection.East;
-    public static MundoState se_MundoState = MundoState.CannotInteractWithAnnie;
     
     private static List<GameObject> sL_AvailableEnemiesToAttack = new List<GameObject>();
 
     private static Rigidbody2D myRigidbody;
     private static Animator myAnimator;
-    private static SpriteRenderer myRenderer;
 
-    [SerializeField] GameObject m_AnnieObject;
-    [SerializeField] GameObject m_EnemyPrefab;
+    public static MundoState se_MundoState = MundoState.CannotInteractWithAnnie;
+    public static GameObject s_BatteryToPickUpObject = null;
+
+    [SerializeField] 
+    private GameObject m_AnnieObject;
+    
+    [SerializeField] 
+    private GameObject m_EnemyPrefab;
+
+    [SerializeField]
+    private GameObject m_InteractWithAnnieText;
 
     // Start is called before the first frame update
     void Start()
     {
-        myRenderer = gameObject.GetComponent<SpriteRenderer>();
         myAnimator = gameObject.GetComponent<Animator>();
         myRigidbody = gameObject.GetComponent<Rigidbody2D>();
 
@@ -89,6 +98,7 @@ public class MundoMovement : MonoBehaviour {
         } else if(isCollisionAnnie)
         {
             se_MundoState = MundoState.CanPickUpAnnie;
+            m_InteractWithAnnieText.SetActive(true);
         }
 
     }
@@ -105,6 +115,7 @@ public class MundoMovement : MonoBehaviour {
         else if (isCollisionAnnie && se_MundoState != MundoState.CanPutDownAnnie)
         {
             se_MundoState = MundoState.CannotInteractWithAnnie;
+            m_InteractWithAnnieText.SetActive(false);
         }
     }
 
@@ -124,6 +135,15 @@ public class MundoMovement : MonoBehaviour {
 
     private void CheckInput()
     {
+        bool didPressInteract = Input.GetKeyDown(INTERACT_WITH_OTHER_OBJECTS_KEY);
+
+        if(didPressInteract && s_BatteryToPickUpObject != null)
+        {
+            Destroy(s_BatteryToPickUpObject);
+            s_BatteryToPickUpObject = null;
+            m_NumHeldBatteries++;
+        }
+
         bool didPressAttack = Input.GetKeyDown(ATTACK_KEY);
         bool UpAttack = Input.GetKeyUp(ATTACK_KEY);
         bool holdingAttack = Input.GetKey(ATTACK_KEY);
@@ -147,8 +167,8 @@ public class MundoMovement : MonoBehaviour {
             se_AnimationType = AnimationType.StopAttacking; return;
         } 
 
-        bool didPressInteract = Input.GetKeyDown(INTERACT_WITH_ANNIE_KEY);
-        bool shouldInteract = (se_MundoState != MundoState.CannotInteractWithAnnie) && didPressInteract;
+        bool didPressInteractWithAnnie = Input.GetKeyDown(INTERACT_WITH_ANNIE_KEY);
+        bool shouldInteract = (se_MundoState != MundoState.CannotInteractWithAnnie) && didPressInteractWithAnnie;
 
         if (shouldInteract) { 
             if (se_MundoState == MundoState.CanPutDownAnnie) {
@@ -351,6 +371,7 @@ public class MundoMovement : MonoBehaviour {
     {
         se_MundoState = MundoState.CanPutDownAnnie;
         m_AnnieObject.SetActive(false);
+        m_InteractWithAnnieText.SetActive(false);
     }
 
     private void UpdateMovement()
