@@ -1,7 +1,295 @@
 fileFormatVersion: 2
 guid: 64e482aeebbb7429ab84592af836f9d5
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6787442110340908893
+    second: HC_Humans2A_0
+  - first:
+      213: -5190625286958734069
+    second: HC_Humans2A_1
+  - first:
+      213: -142186574502741158
+    second: HC_Humans2A_2
+  - first:
+      213: 4062381058203518981
+    second: HC_Humans2A_3
+  - first:
+      213: -6273135616475078144
+    second: HC_Humans2A_4
+  - first:
+      213: -5070789771771511187
+    second: HC_Humans2A_5
+  - first:
+      213: -3668925063697672792
+    second: HC_Humans2A_6
+  - first:
+      213: 9141778193891821262
+    second: HC_Humans2A_7
+  - first:
+      213: 2939457096484992344
+    second: HC_Humans2A_8
+  - first:
+      213: -7159531136505995835
+    second: HC_Humans2A_9
+  - first:
+      213: 7201333560602122039
+    second: HC_Humans2A_10
+  - first:
+      213: 8673464760974496921
+    second: HC_Humans2A_11
+  - first:
+      213: 7598063785782069349
+    second: HC_Humans2A_12
+  - first:
+      213: -2265044128412478889
+    second: HC_Humans2A_13
+  - first:
+      213: -3952705253491452401
+    second: HC_Humans2A_14
+  - first:
+      213: -305772653491551120
+    second: HC_Humans2A_15
+  - first:
+      213: 1214305109074682344
+    second: HC_Humans2A_16
+  - first:
+      213: -2304895323121984504
+    second: HC_Humans2A_17
+  - first:
+      213: -5128571935910488685
+    second: HC_Humans2A_18
+  - first:
+      213: 6585991979398782621
+    second: HC_Humans2A_19
+  - first:
+      213: -3563101389043737365
+    second: HC_Humans2A_20
+  - first:
+      213: 4924967240196603765
+    second: HC_Humans2A_21
+  - first:
+      213: -7665509006894619516
+    second: HC_Humans2A_22
+  - first:
+      213: -3989189057529806340
+    second: HC_Humans2A_23
+  - first:
+      213: -1184272117381380688
+    second: HC_Humans2A_24
+  - first:
+      213: 7436500392861834949
+    second: HC_Humans2A_25
+  - first:
+      213: -1404413171465805403
+    second: HC_Humans2A_26
+  - first:
+      213: 6008990769420175813
+    second: HC_Humans2A_27
+  - first:
+      213: 468004007347868442
+    second: HC_Humans2A_28
+  - first:
+      213: -2871981347345268436
+    second: HC_Humans2A_29
+  - first:
+      213: -2806257235765057061
+    second: HC_Humans2A_30
+  - first:
+      213: -8059996967779685806
+    second: HC_Humans2A_31
+  - first:
+      213: 4792561682054008489
+    second: HC_Humans2A_32
+  - first:
+      213: 2212194429679996434
+    second: HC_Humans2A_33
+  - first:
+      213: 5644805388377201308
+    second: HC_Humans2A_34
+  - first:
+      213: 8843666235499478878
+    second: HC_Humans2A_35
+  - first:
+      213: -8611417120078943839
+    second: HC_Humans2A_36
+  - first:
+      213: -4720299651482692171
+    second: HC_Humans2A_37
+  - first:
+      213: 5441776358736141513
+    second: HC_Humans2A_38
+  - first:
+      213: -1728330697690652056
+    second: HC_Humans2A_39
+  - first:
+      213: 2940711361096440976
+    second: HC_Humans2A_40
+  - first:
+      213: -7412449496421865150
+    second: HC_Humans2A_41
+  - first:
+      213: -7046854281174670547
+    second: HC_Humans2A_42
+  - first:
+      213: -4110763005170059230
+    second: HC_Humans2A_43
+  - first:
+      213: 2185324133320816027
+    second: HC_Humans2A_44
+  - first:
+      213: 3924558967495918491
+    second: HC_Humans2A_45
+  - first:
+      213: 7210234042937701392
+    second: HC_Humans2A_46
+  - first:
+      213: -6173795639510440915
+    second: HC_Humans2A_47
+  - first:
+      213: -2351031874587575683
+    second: HC_Humans2A_48
+  - first:
+      213: -5203932723358567021
+    second: HC_Humans2A_49
+  - first:
+      213: 5644357481248012051
+    second: HC_Humans2A_50
+  - first:
+      213: 8415344217518840298
+    second: HC_Humans2A_51
+  - first:
+      213: -3634106932088867464
+    second: HC_Humans2A_52
+  - first:
+      213: -3950222309488483558
+    second: HC_Humans2A_53
+  - first:
+      213: 1963707460632430957
+    second: HC_Humans2A_54
+  - first:
+      213: 7825891981028994667
+    second: HC_Humans2A_55
+  - first:
+      213: 7358316394493159388
+    second: HC_Humans2A_56
+  - first:
+      213: -5979136498814701684
+    second: HC_Humans2A_57
+  - first:
+      213: -4623699270104763289
+    second: HC_Humans2A_58
+  - first:
+      213: 4045559209694366318
+    second: HC_Humans2A_59
+  - first:
+      213: 13267334882967719
+    second: HC_Humans2A_60
+  - first:
+      213: 3093570577927796466
+    second: HC_Humans2A_61
+  - first:
+      213: 998248986757908403
+    second: HC_Humans2A_62
+  - first:
+      213: -8461438734524176130
+    second: HC_Humans2A_63
+  - first:
+      213: 1662533249066625209
+    second: HC_Humans2A_64
+  - first:
+      213: -3793558738760616374
+    second: HC_Humans2A_65
+  - first:
+      213: 8193499684714444537
+    second: HC_Humans2A_66
+  - first:
+      213: -1332228825502994486
+    second: HC_Humans2A_67
+  - first:
+      213: -8712583726934825741
+    second: HC_Humans2A_68
+  - first:
+      213: -4829061358761188720
+    second: HC_Humans2A_69
+  - first:
+      213: 2465102293068016002
+    second: HC_Humans2A_70
+  - first:
+      213: -8820478092176862688
+    second: HC_Humans2A_71
+  - first:
+      213: -2593782319471246726
+    second: HC_Humans2A_72
+  - first:
+      213: 6584084057770862791
+    second: HC_Humans2A_73
+  - first:
+      213: -4810471073390128148
+    second: HC_Humans2A_74
+  - first:
+      213: -6996991332021252120
+    second: HC_Humans2A_75
+  - first:
+      213: 2230160711086131913
+    second: HC_Humans2A_76
+  - first:
+      213: -1735262544437084661
+    second: HC_Humans2A_77
+  - first:
+      213: -8150167929508571069
+    second: HC_Humans2A_78
+  - first:
+      213: 6919632378432462785
+    second: HC_Humans2A_79
+  - first:
+      213: 6466289379976025171
+    second: HC_Humans2A_80
+  - first:
+      213: -8567019172861271032
+    second: HC_Humans2A_81
+  - first:
+      213: -3583621052725531668
+    second: HC_Humans2A_82
+  - first:
+      213: -1120520503398458934
+    second: HC_Humans2A_83
+  - first:
+      213: 2427080889515903223
+    second: HC_Humans2A_84
+  - first:
+      213: 7623679091083579090
+    second: HC_Humans2A_85
+  - first:
+      213: -5689030190049984298
+    second: HC_Humans2A_86
+  - first:
+      213: -8258399914550359487
+    second: HC_Humans2A_87
+  - first:
+      213: 4883813193624224107
+    second: HC_Humans2A_88
+  - first:
+      213: -6798638833465645575
+    second: HC_Humans2A_89
+  - first:
+      213: -97603861650588281
+    second: HC_Humans2A_90
+  - first:
+      213: -292050777236893684
+    second: HC_Humans2A_91
+  - first:
+      213: -8698939062310077635
+    second: HC_Humans2A_92
+  - first:
+      213: 3033205226705956460
+    second: HC_Humans2A_93
+  - first:
+      213: -6847569030464514377
+    second: HC_Humans2A_94
+  - first:
+      213: 2018991407828227494
+    second: HC_Humans2A_95
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +329,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +361,2037 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HC_Humans2A_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57c56053a6d13e50800000000000000
+      internalID: 6787442110340908893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b052aa87dc137f7b0800000000000000
+      internalID: -5190625286958734069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 448
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b3fe6501ad60ef0800000000000000
+      internalID: -142186574502741158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5080f7c8c0a706830800000000000000
+      internalID: 4062381058203518981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 448
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002e620b46851f8a0800000000000000
+      internalID: -6273135616475078144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 448
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6effda919fe0a9b0800000000000000
+      internalID: -5070789771771511187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5d5c6e71c551dc0800000000000000
+      internalID: -3668925063697672792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_7
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 448
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6855605de1ede70800000000000000
+      internalID: 9141778193891821262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8553d74c7ac0bc820800000000000000
+      internalID: 2939457096484992344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd163a3d5c34ac90800000000000000
+      internalID: -7159531136505995835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737d9c418b640f360800000000000000
+      internalID: 7201333560602122039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_11
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 448
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994d0c10f365e5870800000000000000
+      internalID: 8673464760974496921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 384
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568cc44c1ceb17960800000000000000
+      internalID: 7598063785782069349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 384
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752d36dad52f090e0800000000000000
+      internalID: -2265044128412478889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 384
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0652d7a38b2529c0800000000000000
+      internalID: -3952705253491452401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 384
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0748b96446da1cbf0800000000000000
+      internalID: -305772653491551120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 384
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1a65320141ad010800000000000000
+      internalID: 1214305109074682344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_17
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 384
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cdadc5aed5300e0800000000000000
+      internalID: -2304895323121984504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 384
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39594032ff6a3d8b0800000000000000
+      internalID: -5128571935910488685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 384
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ed2a9afc4266b50800000000000000
+      internalID: 6585991979398782621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_20
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 384
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becd85f2a225d8ec0800000000000000
+      internalID: -3563101389043737365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_21
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 384
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fba528c9ff85440800000000000000
+      internalID: 4924967240196603765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_22
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 384
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4842d7dfb24ae9590800000000000000
+      internalID: -7665509006894619516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_23
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 384
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf18f0410bd83a8c0800000000000000
+      internalID: -3989189057529806340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b54516a8ce909fe0800000000000000
+      internalID: -1184272117381380688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce159005b1c33760800000000000000
+      internalID: 7436500392861834949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1a6e459a5828ce0800000000000000
+      internalID: -1404413171465805403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c904ed8449346350800000000000000
+      internalID: 6008990769420175813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 320
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13dd634a2fae7600800000000000000
+      internalID: 468004007347868442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 320
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2100f55e2ca428d0800000000000000
+      internalID: -2871981347345268436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9aad989eb2e09d0800000000000000
+      internalID: -2806257235765057061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_31
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 320
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a24c42673252090800000000000000
+      internalID: -8059996967779685806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae4afe2579928240800000000000000
+      internalID: 4792561682054008489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_33
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 320
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e8c23fc1b43be10800000000000000
+      internalID: 2212194429679996434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_34
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 320
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a1f60e790665e40800000000000000
+      internalID: 5644805388377201308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_35
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 320
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fff0fd5930bba70800000000000000
+      internalID: 8843666235499478878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 256
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a92af821c91e7880800000000000000
+      internalID: -8611417120078943839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b559f7e9702e7eb0800000000000000
+      internalID: -4720299651482692171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_38
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 256
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc169934c2158b40800000000000000
+      internalID: 5441776358736141513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_39
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 256
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862eeb5336cb308e0800000000000000
+      internalID: -1728330697690652056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_40
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 256
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cdb1107618fc820800000000000000
+      internalID: 2940711361096440976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_41
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 256
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2496042b470b12990800000000000000
+      internalID: -7412449496421865150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 256
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23a4aafd5b843e90800000000000000
+      internalID: -7046854281174670547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_43
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 256
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228750993d2a3f6c0800000000000000
+      internalID: -4110763005170059230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95fcad88b4d35e10800000000000000
+      internalID: 2185324133320816027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_45
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 256
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b930ba57695d67630800000000000000
+      internalID: 3924558967495918491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014fabc19a5ef0460800000000000000
+      internalID: 7210234042937701392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_47
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 256
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24ef177395425aa0800000000000000
+      internalID: -6173795639510440915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a369367f47f5fd0800000000000000
+      internalID: -2351031874587575683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_49
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 192
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3957e2d72cae7c7b0800000000000000
+      internalID: -5203932723358567021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3173b1f5939c45e40800000000000000
+      internalID: 5644357481248012051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae919dbbafe49c470800000000000000
+      internalID: 8415344217518840298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_52
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 192
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875fe05effe019dc0800000000000000
+      internalID: -3634106932088867464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13ad1b1dbdfd29c0800000000000000
+      internalID: -3950222309488483558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69c7c1088d704b10800000000000000
+      internalID: 1963707460632430957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_55
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 192
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6eafcb1b472b9c60800000000000000
+      internalID: 7825891981028994667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7a2b656cdfd1660800000000000000
+      internalID: 7358316394493159388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fa39c7807d50da0800000000000000
+      internalID: -5979136498814701684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_58
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 192
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7643c21e20255dfb0800000000000000
+      internalID: -4623699270104763289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_59
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 192
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a84abbaa6b42830800000000000000
+      internalID: 4045559209694366318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_60
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 128
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0c0de12922f2000800000000000000
+      internalID: 13267334882967719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_61
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 128
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f67cf8dc029eea20800000000000000
+      internalID: 3093570577927796466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_62
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 128
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7491d1a2e7add00800000000000000
+      internalID: 998248986757908403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_63
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 128
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8a4f33d4ee29a80800000000000000
+      internalID: -8461438734524176130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_64
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 128
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b864e97e21821710800000000000000
+      internalID: 1662533249066625209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_65
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 128
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46389d1d629a5bc0800000000000000
+      internalID: -3793558738760616374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_66
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 128
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6fdae5d8825b170800000000000000
+      internalID: 8193499684714444537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_67
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 128
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfab5011f8f28de0800000000000000
+      internalID: -1332228825502994486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_68
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 128
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f46338f24fa61780800000000000000
+      internalID: -8712583726934825741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_69
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 128
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0926978974abbfcb0800000000000000
+      internalID: -4829061358761188720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_70
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 128
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289e151997dc53220800000000000000
+      internalID: 2465102293068016002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_71
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 128
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022dea678ed579580800000000000000
+      internalID: -8820478092176862688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a724a3f09b8010cd0800000000000000
+      internalID: -2593782319471246726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8aeba019d5f5b50800000000000000
+      internalID: 6584084057770862791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce31a44bb06cd3db0800000000000000
+      internalID: -4810471073390128148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efc2668471b5ee90800000000000000
+      internalID: -6996991332021252120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca4250d95f13fe10800000000000000
+      internalID: 2230160711086131913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e79ced8eb1be7e0800000000000000
+      internalID: -1735262544437084661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3485cd51379c4ee80800000000000000
+      internalID: -8150167929508571069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf12c48cf8770060800000000000000
+      internalID: 6919632378432462785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3541a546eefdcb950800000000000000
+      internalID: 6466289379976025171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804a4a9c375db1980800000000000000
+      internalID: -8567019172861271032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_82
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 64
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebeeaea3ab644ec0800000000000000
+      internalID: -3583621052725531668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_83
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 64
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac99467f98c1370f0800000000000000
+      internalID: -1120520503398458934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_84
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f80cb4b539bea120800000000000000
+      internalID: 2427080889515903223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_85
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de0c99cdbfbcc960800000000000000
+      internalID: 7623679091083579090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_86
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d009951f218c01b0800000000000000
+      internalID: -5689030190049984298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_87
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a0c185805446d80800000000000000
+      internalID: -8258399914550359487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_88
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61865b593ac6c340800000000000000
+      internalID: 4883813193624224107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_89
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5aa1f600266a1a0800000000000000
+      internalID: -6798638833465645575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_90
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d3c911ecd35aef0800000000000000
+      internalID: -97603861650588281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_91
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c001b6e8d5d62fbf0800000000000000
+      internalID: -292050777236893684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bfc340309274780800000000000000
+      internalID: -8698939062310077635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_93
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6eaaa4451c181a20800000000000000
+      internalID: 3033205226705956460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_94
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6523c2f3c88f0a0800000000000000
+      internalID: -6847569030464514377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Humans2A_95
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 0
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5da240df5e40c10800000000000000
+      internalID: 2018991407828227494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,295 @@
 fileFormatVersion: 2
 guid: 2af555b9e129b426caf5ae4fe787c0c2
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1276704297702560905
+    second: CC_Hood_0
+  - first:
+      213: 5714530446903980489
+    second: CC_Hood_1
+  - first:
+      213: -6534405951605565793
+    second: CC_Hood_2
+  - first:
+      213: -9008995666171964378
+    second: CC_Hood_3
+  - first:
+      213: -5942917194371241403
+    second: CC_Hood_4
+  - first:
+      213: 1129270018931789235
+    second: CC_Hood_5
+  - first:
+      213: 4850176051164902694
+    second: CC_Hood_6
+  - first:
+      213: 6831049858587876733
+    second: CC_Hood_7
+  - first:
+      213: -2081835062528839727
+    second: CC_Hood_8
+  - first:
+      213: -3363700647418288614
+    second: CC_Hood_9
+  - first:
+      213: 6028736451324895843
+    second: CC_Hood_10
+  - first:
+      213: -253257721105968523
+    second: CC_Hood_11
+  - first:
+      213: 7315659380077455387
+    second: CC_Hood_12
+  - first:
+      213: -5678365662164421187
+    second: CC_Hood_13
+  - first:
+      213: 8406704232900534352
+    second: CC_Hood_14
+  - first:
+      213: -137807794304018610
+    second: CC_Hood_15
+  - first:
+      213: -2904128033036710250
+    second: CC_Hood_16
+  - first:
+      213: -3041927889973615866
+    second: CC_Hood_17
+  - first:
+      213: 8810397062180618778
+    second: CC_Hood_18
+  - first:
+      213: 7166964237180867492
+    second: CC_Hood_19
+  - first:
+      213: -3090476888955732784
+    second: CC_Hood_20
+  - first:
+      213: -8783867576979636976
+    second: CC_Hood_21
+  - first:
+      213: 4920064173577211156
+    second: CC_Hood_22
+  - first:
+      213: -3290020097033561237
+    second: CC_Hood_23
+  - first:
+      213: -3173596888249156152
+    second: CC_Hood_24
+  - first:
+      213: 2315374800018974471
+    second: CC_Hood_25
+  - first:
+      213: 4990057566627202182
+    second: CC_Hood_26
+  - first:
+      213: 1877085001192054179
+    second: CC_Hood_27
+  - first:
+      213: -7751849585376398014
+    second: CC_Hood_28
+  - first:
+      213: 5579301721840629743
+    second: CC_Hood_29
+  - first:
+      213: -6377566467203564673
+    second: CC_Hood_30
+  - first:
+      213: 3268020078911925482
+    second: CC_Hood_31
+  - first:
+      213: -6005909981477421624
+    second: CC_Hood_32
+  - first:
+      213: 1923103323004185294
+    second: CC_Hood_33
+  - first:
+      213: 2270611127022139401
+    second: CC_Hood_34
+  - first:
+      213: -4964024484351248321
+    second: CC_Hood_35
+  - first:
+      213: -221484695832797532
+    second: CC_Hood_36
+  - first:
+      213: 8693994052461876509
+    second: CC_Hood_37
+  - first:
+      213: 5241435979827645751
+    second: CC_Hood_38
+  - first:
+      213: 6659731702540582876
+    second: CC_Hood_39
+  - first:
+      213: -3379010021175411631
+    second: CC_Hood_40
+  - first:
+      213: -2832082108841725025
+    second: CC_Hood_41
+  - first:
+      213: 355308386947000055
+    second: CC_Hood_42
+  - first:
+      213: -3178926621514821871
+    second: CC_Hood_43
+  - first:
+      213: -3617055393710655303
+    second: CC_Hood_44
+  - first:
+      213: 7327361315324047212
+    second: CC_Hood_45
+  - first:
+      213: -1141882397822987849
+    second: CC_Hood_46
+  - first:
+      213: -8021970640848502059
+    second: CC_Hood_47
+  - first:
+      213: 7646171249532621129
+    second: CC_Hood_48
+  - first:
+      213: 3760596964389969692
+    second: CC_Hood_49
+  - first:
+      213: -9050610712776160093
+    second: CC_Hood_50
+  - first:
+      213: -6244105336650076687
+    second: CC_Hood_51
+  - first:
+      213: -8107665624171206657
+    second: CC_Hood_52
+  - first:
+      213: -1734940735421571125
+    second: CC_Hood_53
+  - first:
+      213: -7672957310584712842
+    second: CC_Hood_54
+  - first:
+      213: -5904293081880415755
+    second: CC_Hood_55
+  - first:
+      213: 3772133118066961823
+    second: CC_Hood_56
+  - first:
+      213: -4115891984289170938
+    second: CC_Hood_57
+  - first:
+      213: 2643955321478959239
+    second: CC_Hood_58
+  - first:
+      213: -5297819565914239770
+    second: CC_Hood_59
+  - first:
+      213: -2468804216489109679
+    second: CC_Hood_60
+  - first:
+      213: -4302514792306399466
+    second: CC_Hood_61
+  - first:
+      213: 905415121621014008
+    second: CC_Hood_62
+  - first:
+      213: 343693285337318951
+    second: CC_Hood_63
+  - first:
+      213: -2221653873781358655
+    second: CC_Hood_64
+  - first:
+      213: -4966375971491487973
+    second: CC_Hood_65
+  - first:
+      213: 538058224846866144
+    second: CC_Hood_66
+  - first:
+      213: 6663800605538715955
+    second: CC_Hood_67
+  - first:
+      213: -1822354518090564892
+    second: CC_Hood_68
+  - first:
+      213: 3107418147839108537
+    second: CC_Hood_69
+  - first:
+      213: 1515073632502235211
+    second: CC_Hood_70
+  - first:
+      213: -4648363741876238363
+    second: CC_Hood_71
+  - first:
+      213: -1303262643219397394
+    second: CC_Hood_72
+  - first:
+      213: -4199491099088859480
+    second: CC_Hood_73
+  - first:
+      213: 178407570808577258
+    second: CC_Hood_74
+  - first:
+      213: 6598448498394362093
+    second: CC_Hood_75
+  - first:
+      213: 7823552867003777928
+    second: CC_Hood_76
+  - first:
+      213: 833077920245650793
+    second: CC_Hood_77
+  - first:
+      213: -2698563731546014122
+    second: CC_Hood_78
+  - first:
+      213: -216029595574029361
+    second: CC_Hood_79
+  - first:
+      213: -3575742866628484415
+    second: CC_Hood_80
+  - first:
+      213: -5581135163356306924
+    second: CC_Hood_81
+  - first:
+      213: 8469936746508519373
+    second: CC_Hood_82
+  - first:
+      213: 7141339397290944731
+    second: CC_Hood_83
+  - first:
+      213: -1607850369189704715
+    second: CC_Hood_84
+  - first:
+      213: -1791181640938876005
+    second: CC_Hood_85
+  - first:
+      213: 7841757789645210948
+    second: CC_Hood_86
+  - first:
+      213: -9113899666983991384
+    second: CC_Hood_87
+  - first:
+      213: 4994873716422673124
+    second: CC_Hood_88
+  - first:
+      213: 597692441850856779
+    second: CC_Hood_89
+  - first:
+      213: -1120706870696914665
+    second: CC_Hood_90
+  - first:
+      213: -2400008834062443265
+    second: CC_Hood_91
+  - first:
+      213: -3245123845910335131
+    second: CC_Hood_92
+  - first:
+      213: 5679794796955813324
+    second: CC_Hood_93
+  - first:
+      213: -6253527602250541293
+    second: CC_Hood_94
+  - first:
+      213: 3409039707403369249
+    second: CC_Hood_95
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +329,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +361,2037 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CC_Hood_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 427
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98496c36bc3c7b110800000000000000
+      internalID: 1276704297702560905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 428
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1bdd12a271e4f40800000000000000
+      internalID: 5714530446903980489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 427
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f961a5468602155a0800000000000000
+      internalID: -6534405951605565793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 427
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62459ce5c2e99f280800000000000000
+      internalID: -9008995666171964378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 428
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ae0f37c44868da0800000000000000
+      internalID: -5942917194371241403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 427
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd8ded5919fbaf00800000000000000
+      internalID: 1129270018931789235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 427
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6257ac3db694f4340800000000000000
+      internalID: 4850176051164902694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_7
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 428
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ddc1867a3ccce50800000000000000
+      internalID: 6831049858587876733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_8
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 427
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfe3096a06db13e0800000000000000
+      internalID: -2081835062528839727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_9
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 427
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16a1e3351cb151d0800000000000000
+      internalID: -3363700647418288614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_10
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 428
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3626ba16cdf5aa350800000000000000
+      internalID: 6028736451324895843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_11
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 427
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5729ad8c17f3c7cf0800000000000000
+      internalID: -253257721105968523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 367
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1865473271768560800000000000000
+      internalID: 7315659380077455387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 367
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5f9e9f3846231b0800000000000000
+      internalID: -5678365662164421187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 367
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0502fcd85fc9aa470800000000000000
+      internalID: 8406704232900534352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_15
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 367
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e479a3d8a88661ef0800000000000000
+      internalID: -137807794304018610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_16
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 367
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ec790d0f672b7d0800000000000000
+      internalID: -2904128033036710250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_17
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 367
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603e4cd63b6e8c5d0800000000000000
+      internalID: -3041927889973615866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_18
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 367
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12cb65d271d44a70800000000000000
+      internalID: 8810397062180618778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_19
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 367
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a31813600c267360800000000000000
+      internalID: 7166964237180867492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_20
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 367
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc3d3fb4ab6c15d0800000000000000
+      internalID: -3090476888955732784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_21
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 367
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dbe084afe691680800000000000000
+      internalID: -8783867576979636976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_22
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 367
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d023a5c44974440800000000000000
+      internalID: 4920064173577211156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_23
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 367
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b1b6c27208752d0800000000000000
+      internalID: -3290020097033561237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 306
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdbf9fc17e15f3d0800000000000000
+      internalID: -3173596888249156152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_25
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 306
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707a50dfc1dd12020800000000000000
+      internalID: 2315374800018974471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 306
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684809b1bee304540800000000000000
+      internalID: 4990057566627202182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_27
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 306
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad14450ddebc0a10800000000000000
+      internalID: 1877085001192054179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_28
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 306
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24571678fd5eb6490800000000000000
+      internalID: -7751849585376398014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 306
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe739090b59ad6d40800000000000000
+      internalID: 5579301721840629743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_30
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 306
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b73ee76155e77a0800000000000000
+      internalID: -6377566467203564673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_31
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 306
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeca36272f65a5d20800000000000000
+      internalID: 3268020078911925482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_32
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 306
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdb01941b8b6aca0800000000000000
+      internalID: -6005909981477421624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_33
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 306
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaa902884c30ba10800000000000000
+      internalID: 1923103323004185294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_34
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 306
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90834313ac4d28f10800000000000000
+      internalID: 2270611127022139401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_35
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 306
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38f6e1380e3c1bb0800000000000000
+      internalID: -4964024484351248321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 244
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae53b5b7d02decf0800000000000000
+      internalID: -221484695832797532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_37
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 245
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d155958278547a870800000000000000
+      internalID: 8693994052461876509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_38
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 244
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d049ad0425db840800000000000000
+      internalID: 5241435979827645751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_39
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 244
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfb65dd2be1c6c50800000000000000
+      internalID: 6659731702540582876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_40
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 245
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cba5bd9485b11d0800000000000000
+      internalID: -3379010021175411631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_41
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 244
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93ffb7b35c62b8d0800000000000000
+      internalID: -2832082108841725025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_42
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 244
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f661bd681f4ee400800000000000000
+      internalID: 355308386947000055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_43
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 245
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f8395941f22e3d0800000000000000
+      internalID: -3178926621514821871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_44
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 244
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b837fc8843adcdc0800000000000000
+      internalID: -3617055393710655303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_45
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 244
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f24d45b4400b560800000000000000
+      internalID: 7327361315324047212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_46
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 245
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b15d7652083720f0800000000000000
+      internalID: -1141882397822987849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_47
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 244
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2cc91543c3ca090800000000000000
+      internalID: -8021970640848502059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_48
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 183
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94152348d38ac1a60800000000000000
+      internalID: 7646171249532621129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 184
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f50edb303503430800000000000000
+      internalID: 3760596964389969692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_50
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 183
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acc1a84285c56280800000000000000
+      internalID: -9050610712776160093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_51
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 183
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fde9dc674b7859a0800000000000000
+      internalID: -6244105336650076687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_52
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 184
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff721a13219cb7f80800000000000000
+      internalID: -8107665624171206657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_53
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 183
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf97ded7904ce7e0800000000000000
+      internalID: -1734940735421571125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_54
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 183
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6719cd5aafd248590800000000000000
+      internalID: -7672957310584712842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_55
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 184
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1b8bc69bcbf0ea0800000000000000
+      internalID: -5904293081880415755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_56
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 183
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d2ed3d51f495430800000000000000
+      internalID: 3772133118066961823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_57
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 183
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60af0961c0a61e6c0800000000000000
+      internalID: -4115891984289170938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_58
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 184
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780d1ca4b5731b420800000000000000
+      internalID: 2643955321478959239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_59
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 183
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec41918c2d5a76b0800000000000000
+      internalID: -5297819565914239770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_60
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 123
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1571e2835ab0dbdd0800000000000000
+      internalID: -2468804216489109679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_61
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 123
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617a6b397956a44c0800000000000000
+      internalID: -4302514792306399466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_62
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 123
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5dc7a814ea09c00800000000000000
+      internalID: 905415121621014008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_63
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 123
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726c738d83b05c400800000000000000
+      internalID: 343693285337318951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_64
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 123
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf346792991b21e0800000000000000
+      internalID: -2221653873781358655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_65
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 123
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fd63eed53e31bb0800000000000000
+      internalID: -4966375971491487973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_66
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 123
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e68970da11977700800000000000000
+      internalID: 538058224846866144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_67
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 123
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3390b2b28539a7c50800000000000000
+      internalID: 6663800605538715955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_68
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 123
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea32669832b5b6e0800000000000000
+      internalID: -1822354518090564892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_69
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 123
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b56d867754cf1b20800000000000000
+      internalID: 3107418147839108537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_70
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 123
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b404bd9017f960510800000000000000
+      internalID: 1515073632502235211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_71
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 123
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e749aa0ec1bd7fb0800000000000000
+      internalID: -4648363741876238363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_72
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 62
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee40fdde781e9ede0800000000000000
+      internalID: -1303262643219397394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_73
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 62
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aec461681968b5c0800000000000000
+      internalID: -4199491099088859480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_74
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 62
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec194b8db4d97200800000000000000
+      internalID: 178407570808577258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_75
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 62
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0718ff2f5629b50800000000000000
+      internalID: 6598448498394362093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_76
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 62
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883cf3fa1e7d29c60800000000000000
+      internalID: 7823552867003777928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 62
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965967264ffaf8b00800000000000000
+      internalID: 833077920245650793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_78
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 62
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e72717596cc8ad0800000000000000
+      internalID: -2698563731546014122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_79
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 62
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3b6d63a32800df0800000000000000
+      internalID: -216029595574029361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_80
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 62
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2e872dec8606ec0800000000000000
+      internalID: -3575742866628484415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_81
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 62
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412a4b89323db82b0800000000000000
+      internalID: -5581135163356306924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_82
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 62
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc70ba568924b8570800000000000000
+      internalID: 8469936746508519373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_83
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 62
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8670c68522b1360800000000000000
+      internalID: 7141339397290944731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_84
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb8774ab94cfa9e0800000000000000
+      internalID: -1607850369189704715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_85
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9313a3a9c17427e0800000000000000
+      internalID: -1791181640938876005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_86
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445847a892583dc60800000000000000
+      internalID: 7841757789645210948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_87
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a74ed65a8ce48180800000000000000
+      internalID: -9113899666983991384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_88
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e20f4d5e2b515540800000000000000
+      internalID: 4994873716422673124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_89
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 0
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45c471fb1e6b4800800000000000000
+      internalID: 597692441850856779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_90
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71155c2f9037270f0800000000000000
+      internalID: -1120706870696914665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_91
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc98e36ea471bed0800000000000000
+      internalID: -2400008834062443265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_92
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 0
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5617d583e0107f2d0800000000000000
+      internalID: -3245123845910335131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_93
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5c9a5664fa2de40800000000000000
+      internalID: 5679794796955813324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_94
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31791c247c10739a0800000000000000
+      internalID: -6253527602250541293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Hood_95
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 0
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bbaf05d875f4f20800000000000000
+      internalID: 3409039707403369249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
