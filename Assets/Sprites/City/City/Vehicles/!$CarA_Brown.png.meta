@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: b789f1eed442d4d5d85d687ea3685765
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -924598255143789465
+    second: '!$CarA_Brown_0'
+  - first:
+      213: -8772726145097121369
+    second: '!$CarA_Brown_1'
+  - first:
+      213: -9111901596289630525
+    second: '!$CarA_Brown_2'
+  - first:
+      213: 1783091715868707066
+    second: '!$CarA_Brown_3'
+  - first:
+      213: 3154781360964134638
+    second: '!$CarA_Brown_4'
+  - first:
+      213: -3521731512617622881
+    second: '!$CarA_Brown_5'
+  - first:
+      213: 2029948531852708736
+    second: '!$CarA_Brown_6'
+  - first:
+      213: 3675248390196061637
+    second: '!$CarA_Brown_7'
+  - first:
+      213: 8916827912035052621
+    second: '!$CarA_Brown_8'
+  - first:
+      213: 701639616771481430
+    second: '!$CarA_Brown_9'
+  - first:
+      213: 3239600822816110727
+    second: '!$CarA_Brown_10'
+  - first:
+      213: -9202195826051418408
+    second: '!$CarA_Brown_11'
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +109,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: '!$CarA_Brown_0'
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 242
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c553229ca2b23f0800000000000000
+      internalID: -924598255143789465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Brown_1'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 242
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a144b90d04014680800000000000000
+      internalID: -8772726145097121369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Brown_2'
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 242
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce77dc66c50c8180800000000000000
+      internalID: -9111901596289630525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Brown_3'
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 161
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8cb46e770deb810800000000000000
+      internalID: 1783091715868707066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Brown_4'
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 161
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee66a4cdee808cb20800000000000000
+      internalID: 3154781360964134638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Brown_5'
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 161
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92a02429db402fc0800000000000000
+      internalID: -3521731512617622881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Brown_6'
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 81
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b08614f63db2c10800000000000000
+      internalID: 2029948531852708736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Brown_7'
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 81
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c566f640fa110330800000000000000
+      internalID: 3675248390196061637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Brown_8'
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 81
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c232c1ebfeebb70800000000000000
+      internalID: 8916827912035052621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Brown_9'
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f51069389bcb900800000000000000
+      internalID: 701639616771481430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Brown_10'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7887402c8cf55fc20800000000000000
+      internalID: 3239600822816110727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Brown_11'
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d67f9ac6ab3b4080800000000000000
+      internalID: -9202195826051418408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

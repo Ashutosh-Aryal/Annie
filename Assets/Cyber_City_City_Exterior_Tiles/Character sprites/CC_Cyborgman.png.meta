@@ -1,7 +1,295 @@
 fileFormatVersion: 2
 guid: 36c03955298b74836b5bdabc9aafacce
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4440815721846039465
+    second: CC_Cyborgman_0
+  - first:
+      213: -2941026521430433252
+    second: CC_Cyborgman_1
+  - first:
+      213: 4468402603119300223
+    second: CC_Cyborgman_2
+  - first:
+      213: -4808412907933573410
+    second: CC_Cyborgman_3
+  - first:
+      213: 7419102869054143235
+    second: CC_Cyborgman_4
+  - first:
+      213: 9055624261262588435
+    second: CC_Cyborgman_5
+  - first:
+      213: 4711191839729676209
+    second: CC_Cyborgman_6
+  - first:
+      213: -7765041694164326129
+    second: CC_Cyborgman_7
+  - first:
+      213: 3640532799783168282
+    second: CC_Cyborgman_8
+  - first:
+      213: -2858836980320339666
+    second: CC_Cyborgman_9
+  - first:
+      213: -4040024042038585562
+    second: CC_Cyborgman_10
+  - first:
+      213: 766029757736278200
+    second: CC_Cyborgman_11
+  - first:
+      213: -5412159511186545963
+    second: CC_Cyborgman_12
+  - first:
+      213: 6766049406396718364
+    second: CC_Cyborgman_13
+  - first:
+      213: -5756480928397550518
+    second: CC_Cyborgman_14
+  - first:
+      213: 6269603167372150361
+    second: CC_Cyborgman_15
+  - first:
+      213: 227639599776803424
+    second: CC_Cyborgman_16
+  - first:
+      213: 495390718492092175
+    second: CC_Cyborgman_17
+  - first:
+      213: -507108505397304690
+    second: CC_Cyborgman_18
+  - first:
+      213: 2045611719129191609
+    second: CC_Cyborgman_19
+  - first:
+      213: -6778767481055094850
+    second: CC_Cyborgman_20
+  - first:
+      213: -2336524932044328047
+    second: CC_Cyborgman_21
+  - first:
+      213: -9076002429750408905
+    second: CC_Cyborgman_22
+  - first:
+      213: 4238202754686479092
+    second: CC_Cyborgman_23
+  - first:
+      213: -5274458269437853790
+    second: CC_Cyborgman_24
+  - first:
+      213: -4388905505434115112
+    second: CC_Cyborgman_25
+  - first:
+      213: -7846746618558590306
+    second: CC_Cyborgman_26
+  - first:
+      213: 400801338560411704
+    second: CC_Cyborgman_27
+  - first:
+      213: 6095235427500330750
+    second: CC_Cyborgman_28
+  - first:
+      213: -2978515109495751956
+    second: CC_Cyborgman_29
+  - first:
+      213: 7991475232564933807
+    second: CC_Cyborgman_30
+  - first:
+      213: -2880856881702339756
+    second: CC_Cyborgman_31
+  - first:
+      213: 4528557046130492299
+    second: CC_Cyborgman_32
+  - first:
+      213: -8603094266422151293
+    second: CC_Cyborgman_33
+  - first:
+      213: -8804963765964622596
+    second: CC_Cyborgman_34
+  - first:
+      213: -4077029269546955289
+    second: CC_Cyborgman_35
+  - first:
+      213: -7376951480511008929
+    second: CC_Cyborgman_36
+  - first:
+      213: -3359160329393847908
+    second: CC_Cyborgman_37
+  - first:
+      213: -75886929561738304
+    second: CC_Cyborgman_38
+  - first:
+      213: 4851657742168439586
+    second: CC_Cyborgman_39
+  - first:
+      213: -4074941855647151646
+    second: CC_Cyborgman_40
+  - first:
+      213: 5795959572623433183
+    second: CC_Cyborgman_41
+  - first:
+      213: 4458316192593369047
+    second: CC_Cyborgman_42
+  - first:
+      213: -497493386557822403
+    second: CC_Cyborgman_43
+  - first:
+      213: 6115139517963239429
+    second: CC_Cyborgman_44
+  - first:
+      213: -4660515998081107508
+    second: CC_Cyborgman_45
+  - first:
+      213: 5115297107921571548
+    second: CC_Cyborgman_46
+  - first:
+      213: 288198078195149798
+    second: CC_Cyborgman_47
+  - first:
+      213: -59907249453215844
+    second: CC_Cyborgman_48
+  - first:
+      213: 7058354606417133591
+    second: CC_Cyborgman_49
+  - first:
+      213: -7929267016745481802
+    second: CC_Cyborgman_50
+  - first:
+      213: -2118337337199544382
+    second: CC_Cyborgman_51
+  - first:
+      213: 7762806150221766155
+    second: CC_Cyborgman_52
+  - first:
+      213: -5492671476689556118
+    second: CC_Cyborgman_53
+  - first:
+      213: 3358879712415166850
+    second: CC_Cyborgman_54
+  - first:
+      213: 6912803748008538799
+    second: CC_Cyborgman_55
+  - first:
+      213: 8774033730177529102
+    second: CC_Cyborgman_56
+  - first:
+      213: -6559020896751057796
+    second: CC_Cyborgman_57
+  - first:
+      213: 5477927602679626801
+    second: CC_Cyborgman_58
+  - first:
+      213: 5048323919344634132
+    second: CC_Cyborgman_59
+  - first:
+      213: 8166710003827130959
+    second: CC_Cyborgman_60
+  - first:
+      213: 5974952470629029588
+    second: CC_Cyborgman_61
+  - first:
+      213: 5145039783450867977
+    second: CC_Cyborgman_62
+  - first:
+      213: -7848572646285519808
+    second: CC_Cyborgman_63
+  - first:
+      213: 7951694170526615956
+    second: CC_Cyborgman_64
+  - first:
+      213: 5079076367206835700
+    second: CC_Cyborgman_65
+  - first:
+      213: 2013087291940933290
+    second: CC_Cyborgman_66
+  - first:
+      213: -3908668128010635838
+    second: CC_Cyborgman_67
+  - first:
+      213: 7415099524369050386
+    second: CC_Cyborgman_68
+  - first:
+      213: -969704597070545615
+    second: CC_Cyborgman_69
+  - first:
+      213: 3331158513728351970
+    second: CC_Cyborgman_70
+  - first:
+      213: 1371727059312207107
+    second: CC_Cyborgman_71
+  - first:
+      213: 2807376885545609639
+    second: CC_Cyborgman_72
+  - first:
+      213: -2182622687809266904
+    second: CC_Cyborgman_73
+  - first:
+      213: 2373624610605596988
+    second: CC_Cyborgman_74
+  - first:
+      213: 4795103525031104238
+    second: CC_Cyborgman_75
+  - first:
+      213: 7317666157113629157
+    second: CC_Cyborgman_76
+  - first:
+      213: -3691428942312930474
+    second: CC_Cyborgman_77
+  - first:
+      213: 6194763750152755566
+    second: CC_Cyborgman_78
+  - first:
+      213: 7135867078308047222
+    second: CC_Cyborgman_79
+  - first:
+      213: 7638435431146015291
+    second: CC_Cyborgman_80
+  - first:
+      213: -8941275620626715848
+    second: CC_Cyborgman_81
+  - first:
+      213: -3536011059104868967
+    second: CC_Cyborgman_82
+  - first:
+      213: 325378750212277979
+    second: CC_Cyborgman_83
+  - first:
+      213: 6936029370189388882
+    second: CC_Cyborgman_84
+  - first:
+      213: 3446970725153445603
+    second: CC_Cyborgman_85
+  - first:
+      213: -5666195691807625074
+    second: CC_Cyborgman_86
+  - first:
+      213: 2754149009814628897
+    second: CC_Cyborgman_87
+  - first:
+      213: -6238871940673419852
+    second: CC_Cyborgman_88
+  - first:
+      213: 7022244770875075644
+    second: CC_Cyborgman_89
+  - first:
+      213: 2657374056690184269
+    second: CC_Cyborgman_90
+  - first:
+      213: 2518012679927047777
+    second: CC_Cyborgman_91
+  - first:
+      213: 6380679153664635953
+    second: CC_Cyborgman_92
+  - first:
+      213: 8937947226121638901
+    second: CC_Cyborgman_93
+  - first:
+      213: 891686130882773682
+    second: CC_Cyborgman_94
+  - first:
+      213: -3203286969863152827
+    second: CC_Cyborgman_95
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +329,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +361,2037 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CC_Cyborgman_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c956221ad0f52c0800000000000000
+      internalID: -4440815721846039465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 428
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12e22306ff5f27d0800000000000000
+      internalID: -2941026521430433252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e4b503e74f20e30800000000000000
+      internalID: 4468402603119300223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede5731bfe5154db0800000000000000
+      internalID: -4808412907933573410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 428
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bbd0650c2f5f660800000000000000
+      internalID: 7419102869054143235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_5
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a37ff694a0cad70800000000000000
+      internalID: 9055624261262588435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf6ecb6404816140800000000000000
+      internalID: 4711191839729676209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_7
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 428
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09ec3958b70d3490800000000000000
+      internalID: -7765041694164326129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19eb340b45c58230800000000000000
+      internalID: 3640532799783168282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e297145c9ee5358d0800000000000000
+      internalID: -2858836980320339666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_10
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 428
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627904ae983fee7c0800000000000000
+      internalID: -4040024042038585562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_11
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 427
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8df3d810c71aa00800000000000000
+      internalID: 766029757736278200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 367
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d269f3799524e4b0800000000000000
+      internalID: -5412159511186545963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_13
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 367
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dd4094616d5ed50800000000000000
+      internalID: 6766049406396718364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 367
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c9d82481fdc10b0800000000000000
+      internalID: -5756480928397550518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_15
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 367
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95681e9ecda120750800000000000000
+      internalID: 6269603167372150361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 367
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a2289820db82300800000000000000
+      internalID: 227639599776803424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_17
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 367
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f072fb8db3bffd600800000000000000
+      internalID: 495390718492092175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_18
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 367
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82e639408366f8f0800000000000000
+      internalID: -507108505397304690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_19
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 367
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4521b3509736c10800000000000000
+      internalID: 2045611719129191609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_20
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 367
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7ddb434eafce1a0800000000000000
+      internalID: -6778767481055094850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_21
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 367
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19377a824fef29fd0800000000000000
+      internalID: -2336524932044328047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_22
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 367
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739052a70ef8b0280800000000000000
+      internalID: -9076002429750408905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_23
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 367
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa6b2f43fe11da30800000000000000
+      internalID: 4238202754686479092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 306
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aff883362c5dc6b0800000000000000
+      internalID: -5274458269437853790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_25
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 306
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3e7db32b97713c0800000000000000
+      internalID: -4388905505434115112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 306
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9251563681ca1390800000000000000
+      internalID: -7846746618558590306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_27
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 306
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838f462a1beef8500800000000000000
+      internalID: 400801338560411704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_28
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 306
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe888ec350a69450800000000000000
+      internalID: 6095235427500330750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 306
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea3f5ce9403aa6d0800000000000000
+      internalID: -2978515109495751956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_30
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 306
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa47d54226c67ee60800000000000000
+      internalID: 7991475232564933807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_31
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 306
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b7465fde32508d0800000000000000
+      internalID: -2880856881702339756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_32
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 306
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8343bfd3aaa8de30800000000000000
+      internalID: 4528557046130492299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_33
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 306
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38735b8885bab9880800000000000000
+      internalID: -8603094266422151293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_34
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 306
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf43e750b1c7ec580800000000000000
+      internalID: -8804963765964622596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_35
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 306
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed88c9fa7b7b67c0800000000000000
+      internalID: -4077029269546955289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f69d696bdcf9990800000000000000
+      internalID: -7376951480511008929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_37
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 245
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9145ee5a7dd161d0800000000000000
+      internalID: -3359160329393847908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_38
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3a0685d3562fef0800000000000000
+      internalID: -75886929561738304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_39
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b39b5e20d845340800000000000000
+      internalID: 4851657742168439586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_40
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 245
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9c7c5e8f5e277c0800000000000000
+      internalID: -4074941855647151646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_41
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd9eb2e5826f6050800000000000000
+      internalID: 5795959572623433183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_42
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d756ebb4fe1fdd30800000000000000
+      internalID: 4458316192593369047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_43
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 245
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a6d18966c8819f0800000000000000
+      internalID: -497493386557822403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_44
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50007200ef65dd450800000000000000
+      internalID: 6115139517963239429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_45
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9b9586465825fb0800000000000000
+      internalID: -4660515998081107508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_46
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 245
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde8f3e1e9f2df640800000000000000
+      internalID: 5115297107921571548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_47
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 244
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eba5cb00a2eff300800000000000000
+      internalID: 288198078195149798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_48
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fcedc8caa2b2ff0800000000000000
+      internalID: -59907249453215844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_49
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 184
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7104c362e1054f160800000000000000
+      internalID: 7058354606417133591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_50
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b90aa9c8a595f190800000000000000
+      internalID: -7929267016745481802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_51
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c736cd4a672a92e0800000000000000
+      internalID: -2118337337199544382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_52
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 184
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e9f2480170bbb60800000000000000
+      internalID: 7762806150221766155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_53
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6daff3b46c16c3b0800000000000000
+      internalID: -5492671476689556118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_54
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281b5c56d432d9e20800000000000000
+      internalID: 3358879712415166850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_55
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 184
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2b90a12663fef50800000000000000
+      internalID: 6912803748008538799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_56
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05f686d031a3c970800000000000000
+      internalID: 8774033730177529102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_57
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c740acede3da9f4a0800000000000000
+      internalID: -6559020896751057796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_58
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 184
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cb60f9122850c40800000000000000
+      internalID: 5477927602679626801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_59
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 183
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41905a38bdf3f0640800000000000000
+      internalID: 5048323919344634132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_60
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 123
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42ceb9ba7bf55170800000000000000
+      internalID: 8166710003827130959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_61
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 123
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d69fa98d9b4be250800000000000000
+      internalID: 5974952470629029588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_62
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 123
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90977d76c6ad66740800000000000000
+      internalID: 5145039783450867977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_63
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 123
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044dd4003c4441390800000000000000
+      internalID: -7848572646285519808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_64
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 123
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49988ccd7b71a5e60800000000000000
+      internalID: 7951694170526615956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_65
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 123
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5e17ebb018c7640800000000000000
+      internalID: 5079076367206835700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_66
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 123
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae0ef9e93cefeb10800000000000000
+      internalID: 2013087291940933290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_67
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 123
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5f80deb0f91c9c0800000000000000
+      internalID: -3908668128010635838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_68
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 123
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b6f240bb9b7e660800000000000000
+      internalID: 7415099524369050386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_69
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 123
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dfb828ecaea82f0800000000000000
+      internalID: -969704597070545615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_70
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 123
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eeeb4dd407aa3e20800000000000000
+      internalID: 3331158513728351970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_71
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 123
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30568132e7a590310800000000000000
+      internalID: 1371727059312207107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_72
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 62
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9a69d376ec5f620800000000000000
+      internalID: 2807376885545609639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_73
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 62
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b9b6eba34c5b1e0800000000000000
+      internalID: -2182622687809266904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_74
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 62
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c318541e10fc0f020800000000000000
+      internalID: 2373624610605596988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_75
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 62
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeec3be1041ab8240800000000000000
+      internalID: 4795103525031104238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_76
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 62
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9d7a769929d8560800000000000000
+      internalID: 7317666157113629157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 62
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65387db5fe865ccc0800000000000000
+      internalID: -3691428942312930474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_78
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 62
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69525b3fc838f550800000000000000
+      internalID: 6194763750152755566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_79
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 62
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679a4fedc41b70360800000000000000
+      internalID: 7135867078308047222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_80
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 62
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a4731fd8c210a60800000000000000
+      internalID: 7638435431146015291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_81
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 62
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b2fa922353ae380800000000000000
+      internalID: -8941275620626715848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_82
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 62
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99593342da09deec0800000000000000
+      internalID: -3536011059104868967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_83
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 62
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd60dd7df3af38400800000000000000
+      internalID: 325378750212277979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_84
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c90d9a6f9b14060800000000000000
+      internalID: 6936029370189388882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_85
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e611f79c9916df20800000000000000
+      internalID: 3446970725153445603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_86
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8035f10a01ad51b0800000000000000
+      internalID: -5666195691807625074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_87
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12aae7caee3b83620800000000000000
+      internalID: 2754149009814628897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_88
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5420166031b69a0800000000000000
+      internalID: -6238871940673419852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_89
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c6ad5e966047160800000000000000
+      internalID: 7022244770875075644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_90
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d407b5c00a3e0e420800000000000000
+      internalID: 2657374056690184269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_91
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1662bfef037c1f220800000000000000
+      internalID: 2518012679927047777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_92
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134bbeb42e9bc8850800000000000000
+      internalID: 6380679153664635953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_93
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f31b2a95a7f90c70800000000000000
+      internalID: 8937947226121638901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_94
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2096acfc7ef5c00800000000000000
+      internalID: 891686130882773682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_Cyborgman_95
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b5baff873ab83d0800000000000000
+      internalID: -3203286969863152827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

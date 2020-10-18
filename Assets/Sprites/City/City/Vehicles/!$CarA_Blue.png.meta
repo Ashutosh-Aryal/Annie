@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 294566e1db024489cae0f6f1630b485c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2267076212957103055
+    second: '!$CarA_Blue_0'
+  - first:
+      213: -7132619483585769889
+    second: '!$CarA_Blue_1'
+  - first:
+      213: 6917016497702268537
+    second: '!$CarA_Blue_2'
+  - first:
+      213: -6478819347044643040
+    second: '!$CarA_Blue_3'
+  - first:
+      213: 4738564523955665139
+    second: '!$CarA_Blue_4'
+  - first:
+      213: 2370134096292280261
+    second: '!$CarA_Blue_5'
+  - first:
+      213: -6357668269204897305
+    second: '!$CarA_Blue_6'
+  - first:
+      213: -9063742312853655846
+    second: '!$CarA_Blue_7'
+  - first:
+      213: -7436844996691284621
+    second: '!$CarA_Blue_8'
+  - first:
+      213: -7655545677930139643
+    second: '!$CarA_Blue_9'
+  - first:
+      213: 4575727806621189586
+    second: '!$CarA_Blue_10'
+  - first:
+      213: -966173243059680177
+    second: '!$CarA_Blue_11'
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +109,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: '!$CarA_Blue_0'
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 242
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c34ff123ab980e0800000000000000
+      internalID: -2267076212957103055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Blue_1'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 242
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e07d2be58d30d90800000000000000
+      internalID: -7132619483585769889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Blue_2'
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 242
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e6f035bdd2eff50800000000000000
+      internalID: 6917016497702268537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Blue_3'
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 161
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fc97f412c9616a0800000000000000
+      internalID: -6478819347044643040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Blue_4'
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 161
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f835ab1453c2c140800000000000000
+      internalID: 4738564523955665139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Blue_5'
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 161
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7fa8f276864e020800000000000000
+      internalID: 2370134096292280261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Blue_6'
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 81
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1054eb46605c7a0800000000000000
+      internalID: -6357668269204897305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Blue_7'
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 81
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade2ea2636e173280800000000000000
+      internalID: -9063742312853655846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Blue_8'
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 81
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d239aa0e40bc890800000000000000
+      internalID: -7436844996691284621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Blue_9'
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500723944c902c590800000000000000
+      internalID: -7655545677930139643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Blue_10'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d588866230408f30800000000000000
+      internalID: 4575727806621189586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$CarA_Blue_11'
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cc0ffed867792f0800000000000000
+      internalID: -966173243059680177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
