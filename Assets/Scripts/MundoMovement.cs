@@ -76,10 +76,15 @@ public class MundoMovement : MonoBehaviour {
     [SerializeField]
     private GameObject m_GateObject;
 
+    [SerializeField]
+    private GameObject m_DialogueObject;
+
+    private MyDialogBase m_LevelDialogue;
+
     // Start is called before the first frame update
     void Start()
     {
-        ReactorInteractBehavior.SetDialog();
+        m_LevelDialogue = m_DialogueObject.GetComponent<MyDialogBase>();
 
         myAnimator = gameObject.GetComponent<Animator>();
         myRigidbody = gameObject.GetComponent<Rigidbody2D>();
@@ -91,7 +96,6 @@ public class MundoMovement : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
         bool isCollisionEnemy = false;
         if (m_EnemyPrefab != null)
         {
@@ -130,7 +134,7 @@ public class MundoMovement : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if(!TunnelDialogue.ShouldMove() || EnemyBehavior.s_HasPlayerLost || CheckWinStateBehavior.s_PlayerDidWin)
+        if(!m_LevelDialogue.CanPlayerMove() || EnemyBehavior.s_HasPlayerLost || CheckWinStateBehavior.s_PlayerDidWin)
         {
             return;
         } 
@@ -154,7 +158,7 @@ public class MundoMovement : MonoBehaviour {
             if(BatteryBehavior.s_IsFirstPickedUpBattery)
             {
                 BatteryBehavior.s_IsFirstPickedUpBattery = false;
-                TunnelDialogue.DisplayDialogue(BatteryBehavior.s_DialogueOnFirstPickUp);
+                m_LevelDialogue.DisplayDialogue(BatteryBehavior.s_DialogueOnFirstPickUp);
             }
 
         }

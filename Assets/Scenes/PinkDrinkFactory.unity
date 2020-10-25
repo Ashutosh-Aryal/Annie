@@ -28306,6 +28306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 837272121}
   - component: {fileID: 837272120}
+  - component: {fileID: 837272122}
   m_Layer: 0
   m_Name: _0050_doors-top--type-2-closed
   m_TagString: Untagged
@@ -28378,6 +28379,32 @@ Transform:
   m_Father: {fileID: 1365422061}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &837272122
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837272119}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.57, y: 3.2}
+    newSize: {x: 2.57, y: 3.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.57, y: 3.2}
+  m_EdgeRadius: 0
 --- !u!1001 &837361403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32343,7 +32370,6 @@ Transform:
   - {fileID: 1194632477}
   - {fileID: 1089605508}
   - {fileID: 2102197256}
-  - {fileID: 1624119854}
   - {fileID: 253148542}
   - {fileID: 1957978579}
   - {fileID: 1091114566}
@@ -32372,6 +32398,7 @@ Transform:
   - {fileID: 1266896952}
   - {fileID: 1182158718}
   - {fileID: 119394258}
+  - {fileID: 1624119854}
   - {fileID: 65955664}
   - {fileID: 2021375847}
   - {fileID: 80203332}
@@ -32395,17 +32422,17 @@ Transform:
   - {fileID: 55385975}
   - {fileID: 1690782008}
   - {fileID: 1949591087}
-  - {fileID: 1587815001}
   - {fileID: 604295348}
   - {fileID: 1981156855}
   - {fileID: 1337861192}
+  - {fileID: 1587815001}
   - {fileID: 154065915}
   - {fileID: 342087369}
   - {fileID: 1016082575}
   - {fileID: 548527849}
   - {fileID: 567188974}
-  - {fileID: 919973648}
   - {fileID: 1297307920}
+  - {fileID: 919973648}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

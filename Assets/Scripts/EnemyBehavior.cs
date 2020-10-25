@@ -20,6 +20,7 @@ public class EnemyBehavior : MonoBehaviour
 
     [SerializeField] private GameObject m_WaypointsContainer;
     [SerializeField] private GameObject m_GameOverMenu;
+    [SerializeField] private GameObject m_DialogueObject;
 
     private enum AnimationState
     {
@@ -42,6 +43,7 @@ public class EnemyBehavior : MonoBehaviour
     private AIDestinationSetter myDestinationSetter;
     private GameObject myVisionCone;
     private Animator myAnimator;
+    private MyDialogBase myDialogBase;
 
     private List<GameObject> m_Waypoints = new List<GameObject>();
     private Transform m_SoundLocation = null;
@@ -85,6 +87,11 @@ public class EnemyBehavior : MonoBehaviour
         {
             s_EndGameMenu = m_GameOverMenu;
             s_EndGameMenu.SetActive(false);
+        }
+
+        if(m_DialogueObject != null)
+        {
+            myDialogBase = m_DialogueObject.GetComponent<MyDialogBase>();
         }
 
         myVisionCone = gameObject.transform.GetChild(0).gameObject;
@@ -138,8 +145,7 @@ public class EnemyBehavior : MonoBehaviour
         } else if (s_HasPlayerLost || CheckWinStateBehavior.s_PlayerDidWin) {
             myDestinationSetter.target = null;
             s_EndGameMenu.SetActive(true); return;
-        } else if(!TunnelDialogue.ShouldMove())
-        {
+        } else if(!myDialogBase.CanPlayerMove()) {
             myDestinationSetter.target = null; return;
         }
 
@@ -165,29 +171,23 @@ public class EnemyBehavior : MonoBehaviour
 
         m_DoesSeePlayer = DoesEnemySeePlayer();
 
-        if (m_DoesSeePlayer)
-        {
+        if (m_DoesSeePlayer) {
             m_SeenTimer += Time.fixedDeltaTime; m_ShouldDecrementSeenTimer = false;
         }
-        else
-        {
+        else {
 
-            if (prevDoesSeePlayer)
-            {
+            if (prevDoesSeePlayer) {
                 m_ResetSeenTimer = 5.0f - Time.fixedDeltaTime;
             }
-            else if (m_ResetSeenTimer > 0.0f)
-            {
+            else if (m_ResetSeenTimer > 0.0f) {
+
                 m_ResetSeenTimer -= Time.fixedDeltaTime;
 
-                if (m_ResetSeenTimer <= 0.0f)
-                {
+                if (m_ResetSeenTimer <= 0.0f) {
                     m_ShouldDecrementSeenTimer = true;
                 }
 
-            }
-            else if (m_ShouldDecrementSeenTimer)
-            {
+            } else if (m_ShouldDecrementSeenTimer) {
                 m_SeenTimer -= Time.fixedDeltaTime;
             }
 
@@ -199,15 +199,13 @@ public class EnemyBehavior : MonoBehaviour
             }
         }
 
-        if (m_SeenTimer > MAX_SEEN_TIMER)
-        {
+        if (m_SeenTimer > MAX_SEEN_TIMER) {
             m_SeenTimer = MAX_SEEN_TIMER;
         }
 
         Color newColor = GetColorFromTime();
 
-        if (newColor == Color.red)
-        {
+        if (newColor == Color.red) {
             s_HasPlayerLost = true;
             s_EndGameMenu.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "You Lose!";
         }
@@ -225,8 +223,7 @@ public class EnemyBehavior : MonoBehaviour
 
         float angle = prevAngle;
 
-        if (myDestinationSetter.ai.velocity.magnitude != 0.0f)
-        {
+        if (myDestinationSetter.ai.velocity.magnitude != 0.0f) {
             angle = GetAngleFromDirection();
             prevAngle = angle;
         }
@@ -242,8 +239,8 @@ public class EnemyBehavior : MonoBehaviour
         int vertexIndex = 1;
         int triangleIndex = 0;
 
-        for(; angle >=  MAX_ANGLE; angle -= 1.0f)
-        {
+        for(; angle >=  MAX_ANGLE; angle -= 1.0f) {
+
             float rayAngleInRads = angle * Mathf.Deg2Rad;
             Vector3 directionVector = new Vector3(Mathf.Cos(rayAngleInRads), Mathf.Sin(rayAngleInRads));
 
@@ -263,8 +260,7 @@ public class EnemyBehavior : MonoBehaviour
             Vector3 vertex = myVisionCone.transform.InverseTransformPoint(worldPosition);
             vertices[vertexIndex] = vertex;
 
-            if (vertexIndex > 1)
-            {
+            if (vertexIndex > 1) {
                 triangles[triangleIndex] = 0; // draw triangle from center of enemy
                 triangles[triangleIndex + 1] = vertexIndex - 1; // to last index
                 triangles[triangleIndex + 2] = vertexIndex; // to current index (which must be > 0)
@@ -430,7 +426,7 @@ public class EnemyBehavior : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (m_IsDead || !TunnelDialogue.ShouldMove()) {
+        if (m_IsDead || !myDialogBase.CanPlayerMove()) {
             return;
         } else if(m_LookingTimer > 0.0f) {
             m_LookingTimer -= Time.fixedDeltaTime;

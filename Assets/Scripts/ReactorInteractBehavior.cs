@@ -13,6 +13,11 @@ public class ReactorInteractBehavior : MonoBehaviour
 
     public static bool s_PlayerInTrigger = false;
 
+    [SerializeField]
+    private GameObject m_DialogueObject;
+
+    private TunnelDialogue m_TunnelDialogue;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
@@ -44,8 +49,9 @@ public class ReactorInteractBehavior : MonoBehaviour
         }
     }
 
-    public static void SetDialog()
+    private void Start()
     {
+        m_TunnelDialogue = m_DialogueObject.GetComponent<TunnelDialogue>();
         s_DialogWithBatteries.Clear();
         s_DialogWithoutBatteries.Clear();
 
@@ -58,28 +64,16 @@ public class ReactorInteractBehavior : MonoBehaviour
 
         s_DialogWithBatteries.Add(new DialogData("Mundo: Hey, look at that! We got the door open!", "Mundo"));
         s_DialogWithBatteries.Add(new DialogData("Annie: Hmph. Where's my thank you, huh?", "Annie"));
-        s_DialogWithBatteries.Add(new DialogData("Mundo: Hmmmmm, well as much as I'd love to give you the credit...", "Mundo"));
-
-        s_DialogWithBatteries.Add(new DialogData("Mundo: ...I have a feeling it's more accurate to say the player is responsible.", "Mundo"));
-        // idfk i couldnt think of anything and this just a playtest so whatever
-        s_DialogWithBatteries.Add(new DialogData("Annie: /speed = 0.2/ hOw uTtErLy DuLl. CaN't ThInK oF dEcEnT dIaLoGuE sO gO wItH a FoUrTh WaLlBrEaK iNsTeAd", "Annie", null, false));
-        s_DialogWithBatteries.Add(new DialogData("Mundo: Huh?", "Mundo"));
-        s_DialogWithBatteries.Add(new DialogData("Annie: I said let's go before they catch up!!", "Annie"));
-        s_DialogWithBatteries.Add(new DialogData("Mundo: Alright then, let's go!", "Mundo"));
-    }
-
-    // Start is called before the first frame update
-    void Awake()
-    {
-        
+        s_DialogWithBatteries.Add(new DialogData("Mundo: Good point! Thank you Annie. ", "Mundo"));
+        s_DialogWithBatteries.Add(new DialogData("Annie: Let's go before they catch up!!", "Annie"));
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && s_PlayerInTrigger && TunnelDialogue.ShouldMove())
+        if(Input.GetKeyDown(KeyCode.E) && s_PlayerInTrigger && m_TunnelDialogue.CanPlayerMove())
         {
-            TunnelDialogue.DisplayDialogue(GetDialogData(MundoMovement.s_NumHeldBatteries));
+            m_TunnelDialogue.DisplayDialogue(GetDialogData(MundoMovement.s_NumHeldBatteries));
         }
     }
 }
