@@ -1,0 +1,850 @@
+fileFormatVersion: 2
+guid: 30817ae437a184bd68671a86eb17dbfb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7217440666859168392
+    second: Selectguard largefile split n merge _ fearfolit_0
+  - first:
+      213: 3889983692075552468
+    second: Selectguard largefile split n merge _ fearfolit_1
+  - first:
+      213: -5925573751284198998
+    second: Selectguard largefile split n merge _ fearfolit_2
+  - first:
+      213: -999420350293619729
+    second: Selectguard largefile split n merge _ fearfolit_3
+  - first:
+      213: -5922053651678638960
+    second: Selectguard largefile split n merge _ fearfolit_4
+  - first:
+      213: -3499633628248453242
+    second: Selectguard largefile split n merge _ fearfolit_5
+  - first:
+      213: -663484990012199186
+    second: Selectguard largefile split n merge _ fearfolit_6
+  - first:
+      213: 5090327850541523788
+    second: Selectguard largefile split n merge _ fearfolit_7
+  - first:
+      213: 333292563288533977
+    second: Selectguard largefile split n merge _ fearfolit_8
+  - first:
+      213: 1629363524075472937
+    second: Selectguard largefile split n merge _ fearfolit_9
+  - first:
+      213: 5318570794015828464
+    second: Selectguard largefile split n merge _ fearfolit_10
+  - first:
+      213: -2488173199889428132
+    second: Selectguard largefile split n merge _ fearfolit_11
+  - first:
+      213: 28097215668696511
+    second: Selectguard largefile split n merge _ fearfolit_12
+  - first:
+      213: 2560401121288830539
+    second: Selectguard largefile split n merge _ fearfolit_13
+  - first:
+      213: -8993799340048905517
+    second: Selectguard largefile split n merge _ fearfolit_14
+  - first:
+      213: 9113480476167847605
+    second: Selectguard largefile split n merge _ fearfolit_15
+  - first:
+      213: 6190178343151046535
+    second: Selectguard largefile split n merge _ fearfolit_16
+  - first:
+      213: -6263449697346125225
+    second: Selectguard largefile split n merge _ fearfolit_17
+  - first:
+      213: -2102751135323433754
+    second: Selectguard largefile split n merge _ fearfolit_18
+  - first:
+      213: 425033000004747914
+    second: Selectguard largefile split n merge _ fearfolit_19
+  - first:
+      213: 7361334122293604339
+    second: Selectguard largefile split n merge _ fearfolit_20
+  - first:
+      213: -6029015576585146120
+    second: Selectguard largefile split n merge _ fearfolit_21
+  - first:
+      213: -758193726788796232
+    second: Selectguard largefile split n merge _ fearfolit_22
+  - first:
+      213: 5846016934445903656
+    second: Selectguard largefile split n merge _ fearfolit_23
+  - first:
+      213: -8996506209207370044
+    second: Selectguard largefile split n merge _ fearfolit_24
+  - first:
+      213: 1393385324403839350
+    second: Selectguard largefile split n merge _ fearfolit_25
+  - first:
+      213: -3332676453515506345
+    second: Selectguard largefile split n merge _ fearfolit_26
+  - first:
+      213: -7715988739530055554
+    second: Selectguard largefile split n merge _ fearfolit_27
+  - first:
+      213: 4239106532955398019
+    second: Selectguard largefile split n merge _ fearfolit_28
+  - first:
+      213: -400045251606731933
+    second: Selectguard largefile split n merge _ fearfolit_29
+  - first:
+      213: 9025914422311810637
+    second: Selectguard largefile split n merge _ fearfolit_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 112
+        width: 8
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882699ffb00892460800000000000000
+      internalID: 7217440666859168392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 245
+        width: 19
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dec934de8ffbf530800000000000000
+      internalID: 3889983692075552468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 206
+        width: 69
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa19358711224cda0800000000000000
+      internalID: -5925573751284198998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 224
+        width: 75
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febc37f8c785122f0800000000000000
+      internalID: -999420350293619729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 197
+        width: 112
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cc3e68493a0dda0800000000000000
+      internalID: -5922053651678638960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 205
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f4d38c1cdce6fc0800000000000000
+      internalID: -3499633628248453242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_6
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 212
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeee488bae3dac6f0800000000000000
+      internalID: -663484990012199186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_7
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 205
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c432ec9d53a74a640800000000000000
+      internalID: 5090327850541523788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_8
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 206
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dba71902d710a400800000000000000
+      internalID: 333292563288533977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_9
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 113
+        width: 7
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9284f7e0e79ac9610800000000000000
+      internalID: 1629363524075472937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 168
+        width: 112
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9a41a45fb5fc940800000000000000
+      internalID: 5318570794015828464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 189
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5191f858ab387dd0800000000000000
+      internalID: -2488173199889428132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_12
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 189
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb53c1fc442d36000800000000000000
+      internalID: 28097215668696511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_13
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 170
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ebee4114f588320800000000000000
+      internalID: 2560401121288830539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_14
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 170
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da0e33c62b9f2380800000000000000
+      internalID: -8993799340048905517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 70
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be31713536997e70800000000000000
+      internalID: 9113480476167847605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_16
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 94
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f85d7f76ee7e550800000000000000
+      internalID: 6190178343151046535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 71
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75208297fa1c319a0800000000000000
+      internalID: -6263449697346125225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_18
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 38
+        width: 74
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e45ff7bbf681d2e0800000000000000
+      internalID: -2102751135323433754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 76
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a820a17f24506e500800000000000000
+      internalID: 425033000004747914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_20
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 8
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffa548d166b82660800000000000000
+      internalID: 7361334122293604339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_21
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 6
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f07854b642a45ca0800000000000000
+      internalID: -6029015576585146120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_22
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 19
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b003d392da5a75f0800000000000000
+      internalID: -758193726788796232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 27
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fe098ad69312150800000000000000
+      internalID: 5846016934445903656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_24
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce399ca44df52380800000000000000
+      internalID: -8996506209207370044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_25
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6715550f19c465310800000000000000
+      internalID: 1393385324403839350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 246
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d46ec3c64ffb1d0800000000000000
+      internalID: -3332676453515506345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_27
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 247
+        width: 18
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70a5695f1d4be490800000000000000
+      internalID: -7715988739530055554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_28
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 244
+        width: 18
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f18d59ee454da30800000000000000
+      internalID: 4239106532955398019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_29
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 247
+        width: 19
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36326e396f0c27af0800000000000000
+      internalID: -400045251606731933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selectguard largefile split n merge _ fearfolit_30
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 103
+        width: 13
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4678f2885d724d70800000000000000
+      internalID: 9025914422311810637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3487408081152171196}
   - component: {fileID: 1210110705334768080}
   - component: {fileID: 5167454211134823307}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _0149_red-lamp-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3487408081983987961}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 3487408082141718733}
   - component: {fileID: 5746527409922952857}
   - component: {fileID: 8067396724075341513}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
