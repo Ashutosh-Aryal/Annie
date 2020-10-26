@@ -136,7 +136,7 @@ public class EnemyBehavior : MonoBehaviour
         myDestinationSetter.target = null;
         m_DeathLocation = gameObject.transform.position;
 
-        if (s_KnifePrefab && Random.Range(0.0f, 1.0f) <= 0.3f) {
+        if (s_KnifePrefab && Random.Range(0.0f, 1.0f) <= 0.5f) {
             Instantiate(s_KnifePrefab, gameObject.transform.position, Quaternion.identity);
         }
         
