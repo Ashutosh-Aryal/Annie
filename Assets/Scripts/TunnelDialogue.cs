@@ -11,8 +11,6 @@ public class TunnelDialogue : MyDialogBase
 
         base.Start();
 
-        m_DialogManager = gameObject.GetComponent<DialogManager>();
-
         List<DialogData> myDialogData = new List<DialogData>();
 
         myDialogData.Add(new DialogData("Annie: Mundo...? Where are we? What is this place?", "Annie"));
@@ -25,14 +23,14 @@ public class TunnelDialogue : MyDialogBase
 
         myDialogData.Add(new DialogData("Annie: /speed: 0.2/ .......", "Annie"));
 
-        m_DialogScript.Add(myDialogData);
-
-        m_DialogManager.Show(m_DialogScript[0]);
+        m_DialogManager.Show(myDialogData);
     }
 
     // Update is called once per frame
-    void Update() {
-        
+    new void Update() {
+
+        base.Update();
+
         if(m_DialogManager.myDialogData.Count == 0 && ReactorInteractBehavior.s_PlayerInTrigger) {
             BatteryBehavior.s_PopUpTextObject.SetActive(true);
         }

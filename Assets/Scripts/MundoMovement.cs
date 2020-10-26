@@ -377,6 +377,8 @@ public class MundoMovement : MonoBehaviour {
         }
     }
 
+    
+
     private void PutDownAnnie()
     {
         se_MundoState = MundoState.CanPickUpAnnie;

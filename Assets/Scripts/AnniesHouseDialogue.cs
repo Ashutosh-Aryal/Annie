@@ -26,7 +26,6 @@ public class AnniesHouseDialogue : MyDialogBase
     {
         base.Start();
 
-        m_DialogManager = gameObject.GetComponent<DialogManager>();
         m_MundoAnimator = m_MundoObject.GetComponent<Animator>();
         m_AnnieAnimator = m_AnnieObject.GetComponent<Animator>();
 
@@ -34,9 +33,7 @@ public class AnniesHouseDialogue : MyDialogBase
 
         myDialogScript.Add(new DialogData("Annie's Mom: Annie! Can you come down please?!", "Annie's Mom", () => m_AnnieAnimator.SetBool(SHOULD_PLAY_ANNIE_MOVING_UP_ANIMATION, true)));
 
-        m_DialogScript.Add(myDialogScript);
-
-        m_DialogManager.Show(m_DialogScript[0]);
+        m_DialogManager.Show(myDialogScript);
     }
 
     private void ShowAnnieDialogue()
@@ -49,9 +46,7 @@ public class AnniesHouseDialogue : MyDialogBase
         myDialogScript.Add(new DialogData("Annie's Dad: Well then! You're in luck because he's right outside!", "Annie's Dad"));
         myDialogScript.Add(new DialogData("Annie's Dad: Mundo! Come on in!", "Annie's Dad", () => MoveMundoInsideHouse()));
 
-        m_DialogScript.Add(myDialogScript);
-
-        m_DialogManager.Show(m_DialogScript[0]);
+        m_DialogManager.Show(myDialogScript);
     }
 
     private void ShowMundoDialogue()
@@ -65,9 +60,7 @@ public class AnniesHouseDialogue : MyDialogBase
         myDialogScript.Add(new DialogData("Annie: PLLEEEEEEEEEEEEAAASE!", "Annie"));
         myDialogScript.Add(new DialogData("Mundo: Alright, fine! Let's go then!", "Mundo"));
 
-        m_DialogScript.Add(myDialogScript);
-
-        m_DialogManager.Show(m_DialogScript[0]);
+        m_DialogManager.Show(myDialogScript);
     }
 
     private void ShowFinalDialogue()
@@ -76,9 +69,7 @@ public class AnniesHouseDialogue : MyDialogBase
 
         myDialogScript.Add(new DialogData("Mundo: Alright! We're off!", "Mundo", () => m_MundoAnimator.SetTrigger("shouldLeaveHouse")));
 
-        m_DialogScript.Add(myDialogScript);
-
-        m_DialogManager.Show(m_DialogScript[0]);
+        m_DialogManager.Show(myDialogScript);
     }
 
     private void MoveMundoInsideHouse()
@@ -94,18 +85,15 @@ public class AnniesHouseDialogue : MyDialogBase
 
         if(!m_HasAnnieComeDownstairs && Mathf.Approximately(m_AnnieObject.transform.position.y, FINAL_ANIMATION_Y_POSITION))
         {
-            m_DialogScript.RemoveAt(0);
             m_HasAnnieComeDownstairs = true;
             ShowAnnieDialogue();
         } else if(!m_MundoHasComeInside && Mathf.Approximately(m_MundoObject.transform.position.y, FINAL_ANIMATION_Y_POSITION))
         {
-            m_DialogScript.RemoveAt(0);
             m_MundoHasComeInside = true;
             ShowMundoDialogue();
         } else if(!m_IsOnFinalDialogue && Input.GetKeyUp(KeyCode.F) && CanPlayerMove())
         {
             m_IsOnFinalDialogue = true;
-            m_DialogScript.RemoveAt(0);
             ShowFinalDialogue();
         } else if(m_IsOnFinalDialogue && m_MundoObject.transform.position.y >= Y_POSITION_TO_LOAD_NEXT_LEVEL_ON)
         {

@@ -7,7 +7,6 @@ public class MyDialogBase : MonoBehaviour
 {
     protected LevelLoader m_LevelLoader;
     protected DialogManager m_DialogManager;
-    protected List<List<DialogData>> m_DialogScript = new List<List<DialogData>>();
 
     [SerializeField]
     private GameObject m_LevelLoaderObject;
@@ -25,6 +24,7 @@ public class MyDialogBase : MonoBehaviour
 
     protected void Start()
     {
+        m_DialogManager = gameObject.GetComponent<DialogManager>();
         if (m_LevelLoaderObject != null)
         {
             m_LevelLoader = m_LevelLoaderObject.GetComponent<LevelLoader>();

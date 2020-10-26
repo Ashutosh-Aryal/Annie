@@ -83,7 +83,7 @@ public class EnemyBehavior : MonoBehaviour
             s_PlayerLayerMask = (1 << s_PlayerObject.layer);
         }
 
-        if(m_GameOverMenu != null && s_EndGameMenu == null)
+        if(m_GameOverMenu != null)
         {
             s_EndGameMenu = m_GameOverMenu;
             s_EndGameMenu.SetActive(false);
@@ -144,7 +144,7 @@ public class EnemyBehavior : MonoBehaviour
             gameObject.transform.position = m_DeathLocation; return;
         } else if (s_HasPlayerLost || CheckWinStateBehavior.s_PlayerDidWin) {
             myDestinationSetter.target = null;
-            s_EndGameMenu.SetActive(true); return;
+            m_GameOverMenu.SetActive(true); return;
         } else if(!myDialogBase.CanPlayerMove()) {
             myDestinationSetter.target = null; return;
         }
@@ -207,7 +207,7 @@ public class EnemyBehavior : MonoBehaviour
 
         if (newColor == Color.red) {
             s_HasPlayerLost = true;
-            s_EndGameMenu.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "You Lose!";
+            m_GameOverMenu.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "You Lose!";
         }
 
         myVisionCone.GetComponent<MeshRenderer>().material.color = newColor;

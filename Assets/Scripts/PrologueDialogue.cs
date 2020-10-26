@@ -21,7 +21,6 @@ public class PrologueDialogue : MyDialogBase
 
         base.Start();
 
-        m_DialogManager = gameObject.GetComponent<DialogManager>();
         m_MysteriousFigureAnimator = m_MysteriousFigureObject.GetComponent<Animator>();
 
         List<DialogData> myDialogScript = new List<DialogData>();
@@ -53,9 +52,7 @@ public class PrologueDialogue : MyDialogBase
         
         myDialogScript.Add(new DialogData("/speed:0.1/ . . . . . . . . . . .", "Dad")); //, null, false));
 
-        m_DialogScript.Add(myDialogScript);
-
-        m_DialogManager.Show(m_DialogScript[0]);
+        m_DialogManager.Show(myDialogScript);
     }
 
     private void FlipDad()
