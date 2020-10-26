@@ -1,0 +1,970 @@
+fileFormatVersion: 2
+guid: a0bace6df74654a18a280561a8c02890
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1990044035830216371
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_0
+  - first:
+      213: -3336042681739619303
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_1
+  - first:
+      213: -1436960151364172059
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_2
+  - first:
+      213: -7076814580590537773
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_3
+  - first:
+      213: -5632589626795135910
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_4
+  - first:
+      213: -553318330519101190
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_5
+  - first:
+      213: -1751632479896974413
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_6
+  - first:
+      213: -6620509722292921539
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_7
+  - first:
+      213: 822126878349616262
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_8
+  - first:
+      213: 302744714277481006
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_9
+  - first:
+      213: 3169818587407448506
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_10
+  - first:
+      213: -4024090256750471044
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_11
+  - first:
+      213: 2492592695371265502
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_12
+  - first:
+      213: -2442622535068515231
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_13
+  - first:
+      213: -9046921064864107235
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_14
+  - first:
+      213: -9030618320284493670
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_15
+  - first:
+      213: -9023631968871313388
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_16
+  - first:
+      213: -257088025352008991
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_17
+  - first:
+      213: 7500606601536202438
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_18
+  - first:
+      213: 9022730585236374047
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_19
+  - first:
+      213: 6236177415207797131
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_20
+  - first:
+      213: 837928230551132466
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_21
+  - first:
+      213: -2731381362093886610
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_22
+  - first:
+      213: 2064840191350422435
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_23
+  - first:
+      213: -5848834924428233019
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_24
+  - first:
+      213: -8148932448305171777
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_25
+  - first:
+      213: -972442025485603246
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_26
+  - first:
+      213: 6642816274587665954
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_27
+  - first:
+      213: 7097543742374243320
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_28
+  - first:
+      213: -4180195906276223946
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_29
+  - first:
+      213: -3538331600795859962
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_30
+  - first:
+      213: 6155291616052524450
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_31
+  - first:
+      213: 1998999693983238089
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_32
+  - first:
+      213: 6201927153414784483
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_33
+  - first:
+      213: 3167330639369765668
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_34
+  - first:
+      213: 6968886162633192019
+    second: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 82
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4984fc3e71f164e0800000000000000
+      internalID: -1990044035830216371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 289
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9145e572bdef3b1d0800000000000000
+      internalID: -3336042681739619303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 224
+        width: 29
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e60c8d0b54ee0ce0800000000000000
+      internalID: -1436960151364172059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 224
+        width: 29
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3989e22aa1acd90800000000000000
+      internalID: -7076814580590537773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 226
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c6351c39505d1b0800000000000000
+      internalID: -5632589626795135910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_5
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 235
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af062b5f8e73258f0800000000000000
+      internalID: -553318330519101190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_6
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 160
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb44b24a83f0b7e0800000000000000
+      internalID: -1751632479896974413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 160
+        width: 58
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bd5ba0c793f14a0800000000000000
+      internalID: -6620509722292921539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68464504a08c86b00800000000000000
+      internalID: 822126878349616262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_9
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 165
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ae220b6b0933400800000000000000
+      internalID: 302744714277481006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_10
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 96
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9f9d8f5357dfb20800000000000000
+      internalID: 3169818587407448506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 130
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7817466b3f8728c0800000000000000
+      internalID: -4024090256750471044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_12
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed57651a9d7779220800000000000000
+      internalID: 2492592695371265502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_13
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 98
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16480e4febf0a1ed0800000000000000
+      internalID: -2442622535068515231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15b6c16931e27280800000000000000
+      internalID: -9046921064864107235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 66
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98de45eb7ccca280800000000000000
+      internalID: -9030618320284493670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_16
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 43
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4101197988e95c280800000000000000
+      internalID: -9023631968871313388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_17
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 32
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea03e49dc3ae6cf0800000000000000
+      internalID: -257088025352008991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_18
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 27
+        width: 93
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6e384d6f1871860800000000000000
+      internalID: 7500606601536202438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 32
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12011da9ad273d70800000000000000
+      internalID: 9022730585236374047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 6
+        width: 128
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8146c5815a5b8650800000000000000
+      internalID: 6236177415207797131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 6
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2399541494be0ab00800000000000000
+      internalID: 837928230551132466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_22
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 11
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6375466f1f281ad0800000000000000
+      internalID: -2731381362093886610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_23
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 13
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab346bc639c7ac10800000000000000
+      internalID: 2064840191350422435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_24
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c67e8bef93c4dea0800000000000000
+      internalID: -5848834924428233019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2bd18fc1d29ee80800000000000000
+      internalID: -8148932448305171777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_26
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 0
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ee44a41213182f0800000000000000
+      internalID: -972442025485603246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 6
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2264bf2e436003c50800000000000000
+      internalID: 6642816274587665954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_28
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 32
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb6306ed6a8f7260800000000000000
+      internalID: 7097543742374243320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_29
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 29
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6341dda88f5fcf5c0800000000000000
+      internalID: -4180195906276223946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_30
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 288
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604060de72255eec0800000000000000
+      internalID: -3538331600795859962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_31
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 225
+        width: 31
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a530c7dc1dfb6550800000000000000
+      internalID: 6155291616052524450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_32
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 228
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c74cf961afddbb10800000000000000
+      internalID: 1998999693983238089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 33
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5432603eba11650800000000000000
+      internalID: 6201927153414784483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_34
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 258
+        width: 16
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42388dd6f6e94fb20800000000000000
+      internalID: 3167330639369765668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future Joy tilee - RPG Maker VX Ace Tilesets - Resources _ Game Dev Unlimited_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352f2ebca0576b060800000000000000
+      internalID: 6968886162633192019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

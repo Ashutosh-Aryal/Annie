@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3280588405817667518}
   - component: {fileID: 7788981626900617154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fence (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1136412222393816152}
   - component: {fileID: 38565236280951730}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fence (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3873585524130337375}
   - component: {fileID: 8365408954761388622}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _0154_horizontal-bridge (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1174082809001718782}
   - component: {fileID: 9023569376252936727}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fence (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3203648129737776651}
   - component: {fileID: 9029602004438574392}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _0154_horizontal-bridge (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7320375496142547732}
   - component: {fileID: 5039347925560991313}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fence (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,7 +502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6759107981155568833}
   - component: {fileID: 4256855279696708965}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _0154_horizontal-bridge (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1329453934600418796}
   - component: {fileID: 5592441836877201883}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fence (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -666,7 +666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8040823881135363437}
   - component: {fileID: 5692294913845341503}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _0154_horizontal-bridge (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -748,7 +748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1186775183527680373}
   - component: {fileID: 4293480180139858900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fence (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -830,7 +830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8344484582863752149}
   - component: {fileID: 9215761787002256090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _0154_horizontal-bridge (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -912,7 +912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8499684113913278599}
   - component: {fileID: 2357077573391073761}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _0154_horizontal-bridge (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -994,7 +994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1695411076408305869}
   - component: {fileID: 957040740039770682}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fence (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1076,7 +1076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1347207719773714144}
   - component: {fileID: 7252111710487290965}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fence (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1158,7 +1158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7542363824010914406}
   - component: {fileID: 8968512932213783849}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fence (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1240,7 +1240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6411793810112367404}
   - component: {fileID: 9032634764421870841}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _0154_horizontal-bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1322,7 +1322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 465880848914386502}
   - component: {fileID: 1734907035947488005}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fence (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1405,7 +1405,7 @@ GameObject:
   - component: {fileID: 6298131687188685928}
   - component: {fileID: 8347357108371233293}
   - component: {fileID: 9222879462602774682}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bridge2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1507,7 +1507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4639343238883693654}
   - component: {fileID: 6409275236635362000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _0154_horizontal-bridge (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1589,7 +1589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7835476201591445226}
   - component: {fileID: 9047844237564726238}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _0154_horizontal-bridge (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

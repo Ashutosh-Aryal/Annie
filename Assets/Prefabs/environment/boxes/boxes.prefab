@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1457455991175051781}
   - component: {fileID: 9182501954612419589}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: boxes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,6 +70,10 @@ PrefabInstance:
     - target: {fileID: 265835023073902258, guid: 2e5f53600c9f5f540b6a45f15b9767e1, type: 3}
       propertyPath: m_Name
       value: box_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 265835023073902258, guid: 2e5f53600c9f5f540b6a45f15b9767e1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5637693613158785022, guid: 2e5f53600c9f5f540b6a45f15b9767e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -132,6 +136,10 @@ PrefabInstance:
     - target: {fileID: 1235260275975236125, guid: d5ecfb4aff6f6c44d84aa249f0a0afff, type: 3}
       propertyPath: m_Name
       value: box_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1235260275975236125, guid: d5ecfb4aff6f6c44d84aa249f0a0afff, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3734168738028359671, guid: d5ecfb4aff6f6c44d84aa249f0a0afff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -238,6 +246,10 @@ PrefabInstance:
     - target: {fileID: 7938107297308525835, guid: 2980a2b3ac1652a4d9d41c484cbeca16, type: 3}
       propertyPath: m_Name
       value: box_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7938107297308525835, guid: 2980a2b3ac1652a4d9d41c484cbeca16, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2980a2b3ac1652a4d9d41c484cbeca16, type: 3}

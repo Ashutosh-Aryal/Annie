@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6405844406541960967}
   - component: {fileID: 3821723721717875068}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4535676927935374074}
   - component: {fileID: 1428164563757641561}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8306479713855671503}
   - component: {fileID: 3471555216230140932}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7014760824949286139}
   - component: {fileID: 1517197296685728076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8843812032058467307}
   - component: {fileID: 5836730904901583459}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-13 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3900368328431435920}
   - component: {fileID: 4933750304729843978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-13 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,7 +502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2329263750581458521}
   - component: {fileID: 4682709767611838534}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4990067594945562609}
   - component: {fileID: 6115711495857851051}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-13 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -666,7 +666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 541188155355313216}
   - component: {fileID: 4909529030578562894}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -748,7 +748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1583599621116338038}
   - component: {fileID: 2999061558678159654}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -830,7 +830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5414448729541759923}
   - component: {fileID: 3756118498028270605}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -912,7 +912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8866341032320900152}
   - component: {fileID: 7101127845449145168}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -994,7 +994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3999909146570109517}
   - component: {fileID: 4917652377328361378}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: hallway4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1073,7 +1073,7 @@ GameObject:
   m_Component:
   - component: {fileID: 20429174290491721}
   - component: {fileID: 5073485515438922483}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-38 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1155,7 +1155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 861627070523796596}
   - component: {fileID: 4642706024809158778}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1237,7 +1237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7032835295653472760}
   - component: {fileID: 8316858537028019428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-38 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1319,7 +1319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3589073991048480617}
   - component: {fileID: 5967191657376310870}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-13 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1401,7 +1401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8343820754645415299}
   - component: {fileID: 7643015631887429883}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-13 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1483,7 +1483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3930591365371806757}
   - component: {fileID: 2270725314801595272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-39 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1565,7 +1565,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5672267767414763917}
   - component: {fileID: 6201968334063282868}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TileSep-39 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1692,6 +1692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor11
       objectReference: {fileID: 0}
+    - target: {fileID: 3566708309598668115, guid: 09e2b7bd0033a4d698af7df20cb362b6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e2b7bd0033a4d698af7df20cb362b6, type: 3}
 --- !u!4 &2164815315806732361 stripped
@@ -1754,6 +1758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor11 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3566708309598668115, guid: 09e2b7bd0033a4d698af7df20cb362b6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e2b7bd0033a4d698af7df20cb362b6, type: 3}
 --- !u!4 &8722264419472039328 stripped
@@ -1815,6 +1823,10 @@ PrefabInstance:
     - target: {fileID: 3566708309598668115, guid: 09e2b7bd0033a4d698af7df20cb362b6, type: 3}
       propertyPath: m_Name
       value: floor11 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566708309598668115, guid: 09e2b7bd0033a4d698af7df20cb362b6, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e2b7bd0033a4d698af7df20cb362b6, type: 3}
