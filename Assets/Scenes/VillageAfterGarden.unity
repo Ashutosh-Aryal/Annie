@@ -3153,6 +3153,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3145300517740040317, guid: b306444eaf39f3540bc6087b2f0c2ca6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3145300519171002125, guid: b306444eaf39f3540bc6087b2f0c2ca6, type: 3}
       propertyPath: m_Name
       value: DialogCanvas
