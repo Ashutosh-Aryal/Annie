@@ -815,6 +815,14 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 400
       objectReference: {fileID: 0}
+    - target: {fileID: 4714292632491928530, guid: 6907b3ba658918d4d8525a6b0d1c8804, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3568325448928878724}
+    - target: {fileID: 4714292632491928530, guid: 6907b3ba658918d4d8525a6b0d1c8804, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartGame
+      objectReference: {fileID: 0}
     - target: {fileID: 6088036218776737865, guid: 6907b3ba658918d4d8525a6b0d1c8804, type: 3}
       propertyPath: m_fontSize
       value: 40
@@ -935,3 +943,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1580556283, guid: 6907b3ba658918d4d8525a6b0d1c8804, type: 3}
   m_PrefabInstance: {fileID: 5843039535709171076}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3568325448928878724 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6959073425770302720, guid: 6907b3ba658918d4d8525a6b0d1c8804, type: 3}
+  m_PrefabInstance: {fileID: 5843039535709171076}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ddebb8703b745569904f1835424082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
