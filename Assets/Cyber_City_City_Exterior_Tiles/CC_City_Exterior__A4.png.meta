@@ -62,6 +62,102 @@ TextureImporter:
   - first:
       213: -5651862559878104237
     second: CC_City_Exterior__A4_19
+  - first:
+      213: -6393852240072838804
+    second: CC_City_Exterior__A4_20
+  - first:
+      213: 3528574812422648323
+    second: CC_City_Exterior__A4_21
+  - first:
+      213: 4188303347921632885
+    second: CC_City_Exterior__A4_22
+  - first:
+      213: -176078451227628887
+    second: CC_City_Exterior__A4_23
+  - first:
+      213: -7408260995659127070
+    second: CC_City_Exterior__A4_24
+  - first:
+      213: -4620242288177520812
+    second: CC_City_Exterior__A4_25
+  - first:
+      213: 5622446584589517748
+    second: CC_City_Exterior__A4_26
+  - first:
+      213: 4636766937730224119
+    second: CC_City_Exterior__A4_27
+  - first:
+      213: 8091219155337317776
+    second: CC_City_Exterior__A4_28
+  - first:
+      213: 5040933206827393848
+    second: CC_City_Exterior__A4_29
+  - first:
+      213: 997931125589064423
+    second: CC_City_Exterior__A4_30
+  - first:
+      213: 1117139592841909072
+    second: CC_City_Exterior__A4_31
+  - first:
+      213: 5108005065122374086
+    second: CC_City_Exterior__A4_32
+  - first:
+      213: 8534898438962159449
+    second: CC_City_Exterior__A4_33
+  - first:
+      213: -244583431449922217
+    second: CC_City_Exterior__A4_34
+  - first:
+      213: 7703796237328726150
+    second: CC_City_Exterior__A4_35
+  - first:
+      213: -375829908003859937
+    second: CC_City_Exterior__A4_36
+  - first:
+      213: -2536402574235211355
+    second: CC_City_Exterior__A4_37
+  - first:
+      213: -400598380908225542
+    second: CC_City_Exterior__A4_38
+  - first:
+      213: -1072093903544066175
+    second: CC_City_Exterior__A4_39
+  - first:
+      213: 930489826789808316
+    second: CC_City_Exterior__A4_40
+  - first:
+      213: -7754667730574428210
+    second: CC_City_Exterior__A4_41
+  - first:
+      213: -1196877436253439640
+    second: CC_City_Exterior__A4_42
+  - first:
+      213: 3007420262192558159
+    second: CC_City_Exterior__A4_43
+  - first:
+      213: -7975202521569782604
+    second: CC_City_Exterior__A4_44
+  - first:
+      213: -4979189545063629616
+    second: CC_City_Exterior__A4_45
+  - first:
+      213: 2880338417318433352
+    second: CC_City_Exterior__A4_46
+  - first:
+      213: -5738230714780009203
+    second: CC_City_Exterior__A4_47
+  - first:
+      213: 5238813968833360491
+    second: CC_City_Exterior__A4_48
+  - first:
+      213: 231966463857275308
+    second: CC_City_Exterior__A4_49
+  - first:
+      213: -5455515420990610718
+    second: CC_City_Exterior__A4_50
+  - first:
+      213: 3485103122670658446
+    second: CC_City_Exterior__A4_51
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -362,10 +458,10 @@ TextureImporter:
       name: CC_City_Exterior__A4_10
       rect:
         serializedVersion: 2
-        x: 384
-        y: 340
-        width: 93
-        height: 140
+        x: 392
+        y: 347
+        width: 82
+        height: 75
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,7 +589,7 @@ TextureImporter:
         width: 96
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -509,12 +605,12 @@ TextureImporter:
       name: CC_City_Exterior__A4_17
       rect:
         serializedVersion: 2
-        x: 98
-        y: 481
+        x: 97
+        y: 483
         width: 95
-        height: 93
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -530,12 +626,12 @@ TextureImporter:
       name: CC_City_Exterior__A4_18
       rect:
         serializedVersion: 2
-        x: 674
+        x: 672
         y: 480
-        width: 93
-        height: 95
+        width: 95
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -553,10 +649,10 @@ TextureImporter:
         serializedVersion: 2
         x: 578
         y: 481
-        width: 97
-        height: 96
+        width: 93
+        height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -564,6 +660,678 @@ TextureImporter:
       bones: []
       spriteID: 35bb22752fc8091b0800000000000000
       internalID: -5651862559878104237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_20
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 483
+        width: 43
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c617f1483497447a0800000000000000
+      internalID: -6393852240072838804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_21
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 484
+        width: 50
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302b7d1c81408f030800000000000000
+      internalID: 3528574812422648323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_22
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 484
+        width: 67
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57eb27054b7df1a30800000000000000
+      internalID: 4188303347921632885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 482
+        width: 34
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aae9fdd4917e8df0800000000000000
+      internalID: -176078451227628887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 482
+        width: 52
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e62b5600e1903990800000000000000
+      internalID: -7408260995659127070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 482
+        width: 55
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fd0f43e1a91efb0800000000000000
+      internalID: -4620242288177520812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_26
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 411
+        width: 50
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b301133161f60e40800000000000000
+      internalID: 5622446584589517748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_27
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 241
+        width: 46
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff8fa596fa195040800000000000000
+      internalID: 4636766937730224119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_28
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 398
+        width: 109
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d87b1e3f8c94070800000000000000
+      internalID: 8091219155337317776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_29
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 258
+        width: 95
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833ea692b0ef4f540800000000000000
+      internalID: 5040933206827393848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_30
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 584
+        width: 82
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaba0b421d59dd00800000000000000
+      internalID: 997931125589064423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_31
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 588
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053ddd37a80e08f00800000000000000
+      internalID: 1117139592841909072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_32
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 337
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1e3891b8743e640800000000000000
+      internalID: 5108005065122374086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 458
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f106019ec027670800000000000000
+      internalID: 8534898438962159449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_34
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 458
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7553b7a3aa01b9cf0800000000000000
+      internalID: -244583431449922217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68838f38cd169ea60800000000000000
+      internalID: 7703796237328726150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_36
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 432
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12567d90b8c8caf0800000000000000
+      internalID: -375829908003859937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 350
+        width: 7
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9e2531c43ecccd0800000000000000
+      internalID: -2536402574235211355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_38
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 350
+        width: 7
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb5e5025e9c07af0800000000000000
+      internalID: -400598380908225542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_39
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 335
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fd46166482f11f0800000000000000
+      internalID: -1072093903544066175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_40
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 422
+        width: 71
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8dbe84193c9ec00800000000000000
+      internalID: 930489826789808316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_41
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 351
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec73de7f8c2e16490800000000000000
+      internalID: -7754667730574428210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_42
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 453
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869fe642056d36fe0800000000000000
+      internalID: -1196877436253439640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_43
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 453
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40bc426bc08cb920800000000000000
+      internalID: 3007420262192558159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 433
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b49802af83625190800000000000000
+      internalID: -7975202521569782604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_45
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 433
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcb4295d7d56eab0800000000000000
+      internalID: -4979189545063629616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 350
+        width: 7
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8421d25a78409f720800000000000000
+      internalID: 2880338417318433352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_47
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 351
+        width: 7
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d3d4e3195bd50b0800000000000000
+      internalID: -5738230714780009203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_48
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 332
+        width: 72
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62baa85c8104b840800000000000000
+      internalID: 5238813968833360491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_49
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 422
+        width: 71
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca13406154c183300800000000000000
+      internalID: 231966463857275308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_50
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 353
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2603111ad1a44b0800000000000000
+      internalID: -5455515420990610718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CC_City_Exterior__A4_51
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 600
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83a36043d29d5030800000000000000
+      internalID: 3485103122670658446
       vertices: []
       indices: 
       edges: []
