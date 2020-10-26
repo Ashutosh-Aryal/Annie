@@ -81,10 +81,19 @@ public class MundoMovement : MonoBehaviour {
 
     private MyDialogBase m_LevelDialogue;
 
+    private bool m_IsInSceneWherePlayerCanMove = true;
+
     // Start is called before the first frame update
     void Start()
     {
         m_LevelDialogue = m_DialogueObject.GetComponent<MyDialogBase>();
+
+        var levelDialogue = m_LevelDialogue as AnniesHouseDialogue;
+
+        if(levelDialogue != null)
+        {
+            m_IsInSceneWherePlayerCanMove = false;
+        }
 
         myAnimator = gameObject.GetComponent<Animator>();
         myRigidbody = gameObject.GetComponent<Rigidbody2D>();
@@ -395,6 +404,12 @@ public class MundoMovement : MonoBehaviour {
 
     private void UpdateMovement()
     {
+
+        if(!m_IsInSceneWherePlayerCanMove)
+        {
+            return;
+        }
+
         switch(se_MovementDirection)
         {
             case MovementDirection.North:

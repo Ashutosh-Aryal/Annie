@@ -5,15 +5,23 @@ using Doublsb.Dialog;
 
 public class AnniesHouseDialogue : MyDialogBase
 {
-    private const float FINAL_ANIMATION_Y_POSITION = 10.58f;
+    private const float BOTTOM_Y_POSITION = 10.58f;
+    private const float TOP_Y_POSITION = 13.32f;
     private const float Y_POSITION_TO_LOAD_NEXT_LEVEL_ON = 12.5f;
     private const string SHOULD_PLAY_ANNIE_MOVING_UP_ANIMATION = "shouldMoveUpAndStop";
+
     private Animator m_AnnieAnimator;
     private Animator m_MundoAnimator;
+    private Vector3 m_AnnieStartLocation;
+    private Vector3 m_MundoDoorLocation;
+    private Vector3 m_MundoHouseLocation;
+    private Vector3 m_AnnieEndLocation;
 
     private bool m_HasAnnieComeDownstairs = false;
     private bool m_MundoHasComeInside = false;
     private bool m_IsOnFinalDialogue = false;
+
+    private float m_MovementTimer = 0.0f;
 
     [SerializeField]
     private GameObject m_MundoObject;
@@ -28,6 +36,15 @@ public class AnniesHouseDialogue : MyDialogBase
 
         m_MundoAnimator = m_MundoObject.GetComponent<Animator>();
         m_AnnieAnimator = m_AnnieObject.GetComponent<Animator>();
+
+        m_MundoDoorLocation = m_MundoObject.transform.position;
+        m_MundoHouseLocation = m_MundoDoorLocation;
+        m_MundoHouseLocation.y = BOTTOM_Y_POSITION;
+
+        m_AnnieStartLocation = m_AnnieObject.transform.position;
+
+        m_AnnieEndLocation = m_AnnieStartLocation;
+        m_AnnieEndLocation.y = BOTTOM_Y_POSITION;
 
         List<DialogData> myDialogScript = new List<DialogData>();
 
@@ -67,7 +84,7 @@ public class AnniesHouseDialogue : MyDialogBase
     {
         List<DialogData> myDialogScript = new List<DialogData>();
 
-        myDialogScript.Add(new DialogData("Mundo: Alright! We're off!", "Mundo", () => m_MundoAnimator.SetTrigger("shouldLeaveHouse")));
+        myDialogScript.Add(new DialogData("Mundo: Alright! We're off!", "Mundo", () => m_MundoAnimator.SetBool("shouldLeaveHouse", true)));
 
         m_DialogManager.Show(myDialogScript);
     }
@@ -83,13 +100,31 @@ public class AnniesHouseDialogue : MyDialogBase
     {
         base.Update();
 
-        if(!m_HasAnnieComeDownstairs && Mathf.Approximately(m_AnnieObject.transform.position.y, FINAL_ANIMATION_Y_POSITION))
+        if(m_AnnieAnimator.GetBool(SHOULD_PLAY_ANNIE_MOVING_UP_ANIMATION))
+        {
+            m_MovementTimer += Time.deltaTime;
+            m_AnnieObject.transform.position = Vector3.Lerp(m_AnnieStartLocation, m_AnnieEndLocation, m_MovementTimer);
+        } else if(m_MundoAnimator.GetBool("shouldWalkInHouse"))
+        {
+            m_MovementTimer += Time.deltaTime;
+            m_MundoObject.transform.position = Vector3.Lerp(m_MundoDoorLocation, m_MundoHouseLocation, m_MovementTimer);
+        } else if(m_MundoAnimator.GetBool("shouldLeaveHouse"))
+        {
+            m_MovementTimer += Time.deltaTime;
+            m_MundoObject.transform.position = Vector3.Lerp(m_MundoHouseLocation, m_MundoDoorLocation, m_MovementTimer);
+        }
+
+        if(!m_HasAnnieComeDownstairs && Mathf.Approximately(m_AnnieObject.transform.position.y, BOTTOM_Y_POSITION))
         {
             m_HasAnnieComeDownstairs = true;
+            m_MovementTimer = 0.0f;
+            m_AnnieAnimator.SetBool(SHOULD_PLAY_ANNIE_MOVING_UP_ANIMATION, false);
             ShowAnnieDialogue();
-        } else if(!m_MundoHasComeInside && Mathf.Approximately(m_MundoObject.transform.position.y, FINAL_ANIMATION_Y_POSITION))
+        } else if(!m_MundoHasComeInside && Mathf.Approximately(m_MundoObject.transform.position.y, BOTTOM_Y_POSITION))
         {
             m_MundoHasComeInside = true;
+            m_MovementTimer = 0.0f;
+            m_MundoAnimator.SetBool("shouldWalkInHouse", false);
             ShowMundoDialogue();
         } else if(!m_IsOnFinalDialogue && Input.GetKeyUp(KeyCode.F) && CanPlayerMove())
         {
