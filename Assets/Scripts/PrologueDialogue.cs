@@ -37,10 +37,10 @@ public class PrologueDialogue : MyDialogBase
             () => m_MysteriousFigureAnimator.SetTrigger("FadeIn"), false));
         myDialogScript.Add(new DialogData("Unknown Man: Who's there?!", "Dad", () => FlipDad()));
 
-        myDialogScript.Add(new DialogData("Mysterious Figure: Unimportant. A better question is what I am about to give you. /speed:0.2/...", 
-            "Mysterious Figure"));
+        myDialogScript.Add(new DialogData("Mysterious Figure: Unimportant. A better question is what I am about to give you/speed:0.2/...", "Mysterious Figure"));
+        myDialogScript.Add(new DialogData("Mysterious Figure: & how it'll convince you that having that child is the worst thing you can do for it.", "Mysterious Figure"));
 
-        myDialogScript.Add(new DialogData("Unknown Woman: Excuse me?! What gives you the righ-/close/", "Mom"));
+        myDialogScript.Add(new DialogData("Unknown Woman: Excuse me?! What gives you the righ-", "Mom"));
         myDialogScript.Add(new DialogData("Mysterious Figure: I know, I know. Humans and their natalist bullshit...", "Mysterious Figure"));
         myDialogScript.Add(new DialogData("Mysterious Figure: So, don't take my word for it.", "Mysterious Figure"));
         

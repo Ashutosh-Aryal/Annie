@@ -21,6 +21,7 @@ public class EnemyBehavior : MonoBehaviour
     [SerializeField] private GameObject m_WaypointsContainer;
     [SerializeField] private GameObject m_GameOverMenu;
     [SerializeField] private GameObject m_DialogueObject;
+    [SerializeField] private GameObject m_KnifePrefab;
 
     private enum AnimationState
     {
@@ -55,6 +56,7 @@ public class EnemyBehavior : MonoBehaviour
 
     private static HashSet<int> s_AssignedEnemyNumbers = new HashSet<int>();
     private static GameObject s_PlayerObject = null;
+    private static GameObject s_KnifePrefab = null;
     private static int s_PlayerLayerMask = 0;
     
     public static bool s_HasPlayerLost = false;
@@ -87,6 +89,11 @@ public class EnemyBehavior : MonoBehaviour
         {
             s_EndGameMenu = m_GameOverMenu;
             s_EndGameMenu.SetActive(false);
+        }
+
+        if(m_KnifePrefab != null)
+        {
+            s_KnifePrefab = m_KnifePrefab;
         }
 
         if(m_DialogueObject != null)
@@ -122,11 +129,17 @@ public class EnemyBehavior : MonoBehaviour
 
     public void Kill()
     {
+        MundoMovement.s_NumKnifesLeft--;
         m_AnimationState = AnimationState.Dead;
         m_IsDead = true;
         myVisionCone.SetActive(false);
         myDestinationSetter.target = null;
         m_DeathLocation = gameObject.transform.position;
+
+        if (s_KnifePrefab && Random.Range(0.0f, 1.0f) <= 0.3f) {
+            Instantiate(s_KnifePrefab, gameObject.transform.position, Quaternion.identity);
+        }
+        
         Destroy(myDestinationSetter);
         Destroy(gameObject.GetComponent<BoxCollider2D>());
         UpdateAnimation();
@@ -444,6 +457,16 @@ public class EnemyBehavior : MonoBehaviour
         Color newColor = Color.HSVToRGB(hue, 1.0f, 1.0f);
 
         return newColor;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Player") && m_DoesSeePlayer)
+        {
+            s_HasPlayerLost = true;
+            m_GameOverMenu.SetActive(true);
+            m_GameOverMenu.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "You Lose!";
+        }
     }
 
     private void PlayLookingAnimation()

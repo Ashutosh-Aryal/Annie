@@ -9,7 +9,7 @@ public class Restart : MonoBehaviour
     // Start is called before the first frame update
     public void RestartGame()
     {
-        SceneManager.LoadScene(0, LoadSceneMode.Single);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         EnemyBehavior.s_EndGameMenu.SetActive(false);
         EnemyBehavior.s_HasPlayerLost = false;
         CheckWinStateBehavior.s_PlayerDidWin = false;

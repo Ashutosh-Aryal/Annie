@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class MundoMovement : MonoBehaviour {    
@@ -79,11 +80,13 @@ public class MundoMovement : MonoBehaviour {
     [SerializeField]
     private GameObject m_DialogueObject;
 
+    private TextMeshProUGUI m_NumKnivesLeftTextGUI;
+
     private MyDialogBase m_LevelDialogue;
 
     private bool m_IsInSceneWherePlayerCanMove = true;
 
-    public static int s_NumKnifesLeft = 0;
+    public static int s_NumKnifesLeft = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -101,6 +104,13 @@ public class MundoMovement : MonoBehaviour {
         myRigidbody = gameObject.GetComponent<Rigidbody2D>();
 
         sL_AvailableEnemiesToAttack.RemoveRange(0, sL_AvailableEnemiesToAttack.Count);
+
+        m_NumKnivesLeftTextGUI = m_DialogueObject.transform.GetChild(m_DialogueObject.transform.childCount - 1).GetComponent<TextMeshProUGUI>();
+
+        if(!m_AnnieObject.activeInHierarchy)
+        {
+            se_MundoState = MundoMovement.MundoState.CanPutDownAnnie;
+        }
 
         m_GateAnimator = m_GateObject.GetComponent<Animator>();
     }
@@ -145,8 +155,31 @@ public class MundoMovement : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        if(m_NumKnivesLeftTextGUI != null)
+        {
+            m_NumKnivesLeftTextGUI.text = "Num Knives Left: " + s_NumKnifesLeft;
+        }
+
         if(!m_LevelDialogue.CanPlayerMove() || EnemyBehavior.s_HasPlayerLost || CheckWinStateBehavior.s_PlayerDidWin)
         {
+            se_MovementDirection = MundoMovement.MovementDirection.Idle;
+            if(myRigidbody.velocity.y < 0.0f)
+            {
+                se_AnimationType = MundoMovement.AnimationType.IdleDown;
+            } else if(myRigidbody.velocity.y > 0.0f)
+            {
+                se_AnimationType = MundoMovement.AnimationType.IdleUp;
+            } else if(myRigidbody.velocity.x > 0.0f)
+            {
+                se_AnimationType = MundoMovement.AnimationType.IdleRight;
+            } else if(myRigidbody.velocity.x < 0.0f)
+            {
+                se_AnimationType = MundoMovement.AnimationType.IdleLeft;
+            }
+
+            myRigidbody.velocity = Vector2.zero;
+            se_MovementDirection = MovementDirection.Idle;
+            UpdateAnimation();
             return;
         } 
 
@@ -179,21 +212,27 @@ public class MundoMovement : MonoBehaviour {
 
         bool isNotHoldingAnnie = se_MundoState != MundoState.CanPutDownAnnie;
 
-        if (isNotHoldingAnnie && didPressAttack) {
-
-            se_LastValidAnimationType = se_AnimationType;
-            OnAttack(); 
-            se_MovementDirection = MovementDirection.Idle; 
-            return;
-        } else if(isNotHoldingAnnie && UpAttack) {
-
-            if(se_AnimationType != AnimationType.StartAttacking)
+        if (s_NumKnifesLeft > 0)
+        {
+            if (isNotHoldingAnnie && didPressAttack)
             {
-                se_LastValidAnimationType = se_AnimationType;
-            }
 
-            se_AnimationType = AnimationType.StopAttacking; return;
-        } 
+                se_LastValidAnimationType = se_AnimationType;
+                OnAttack();
+                se_MovementDirection = MovementDirection.Idle;
+                return;
+            }
+            else if (isNotHoldingAnnie && UpAttack)
+            {
+
+                if (se_AnimationType != AnimationType.StartAttacking)
+                {
+                    se_LastValidAnimationType = se_AnimationType;
+                }
+
+                se_AnimationType = AnimationType.StopAttacking; return;
+            }
+        }
 
         bool didPressInteractWithAnnie = Input.GetKeyDown(INTERACT_WITH_ANNIE_KEY);
         bool shouldInteract = (se_MundoState != MundoState.CannotInteractWithAnnie) && didPressInteractWithAnnie;
