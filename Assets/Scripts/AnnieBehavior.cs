@@ -89,6 +89,8 @@ public class AnnieBehavior : MonoBehaviour
         GameObject gameObject = new GameObject();
         gameObject.transform.position = currentMousePos;
 
+        MetricManager.s_NumHacks++;
+
         s_AttachedEnemyObject.GetComponent<EnemyBehavior>().SetSoundLocation(gameObject.transform);
     }
 }

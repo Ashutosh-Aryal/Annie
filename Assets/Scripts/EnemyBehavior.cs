@@ -129,6 +129,7 @@ public class EnemyBehavior : MonoBehaviour
 
     public void Kill()
     {
+        MetricManager.s_NumKnifes++;
         MundoMovement.s_NumKnifesLeft--;
         m_AnimationState = AnimationState.Dead;
         m_IsDead = true;
@@ -157,7 +158,8 @@ public class EnemyBehavior : MonoBehaviour
             gameObject.transform.position = m_DeathLocation; return;
         } else if (s_HasPlayerLost || CheckWinStateBehavior.s_PlayerDidWin) {
             myDestinationSetter.target = null;
-            m_GameOverMenu.SetActive(true); return;
+            m_GameOverMenu.SetActive(true);
+            MetricManager.s_NumDeaths++; return;
         } else if(!myDialogBase.CanPlayerMove()) {
             myDestinationSetter.target = null; return;
         }
@@ -461,9 +463,10 @@ public class EnemyBehavior : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Player") && m_DoesSeePlayer)
+        if (collision.gameObject.CompareTag("Player") && m_DoesSeePlayer)
         {
             s_HasPlayerLost = true;
+            MetricManager.s_NumDeaths++;
             m_GameOverMenu.SetActive(true);
             m_GameOverMenu.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "You Lose!";
         }

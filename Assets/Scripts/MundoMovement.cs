@@ -86,7 +86,12 @@ public class MundoMovement : MonoBehaviour {
 
     private bool m_IsInSceneWherePlayerCanMove = true;
 
-    public static int s_NumKnifesLeft = 1;
+    public static int s_NumKnifesLeft = 0;
+
+    private void OnApplicationQuit()
+    {
+        MetricManager.OnApplicationQuit();
+    }
 
     // Start is called before the first frame update
     void Start()

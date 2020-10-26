@@ -11,26 +11,23 @@ public class MetricManager : MonoBehaviour
 {
     // You'll have more interesting metrics, and they will be better named.
     public static int s_NumDeaths;
-    public static double m_metric2;
-
-    private void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
+    public static int s_NumKnifes;
+    public static int s_NumHacks;
 
     // Converts all metrics tracked in this script to their string representation
     // so they look correct when printing to a file.
-    private string ConvertMetricsToStringRepresentation ()
+    private static string ConvertMetricsToStringRepresentation ()
     {
         string metrics = "Here are my metrics:\n";
         metrics += "Total Num Deaths: " + s_NumDeaths.ToString () + "\n";
-        metrics += "Metric 2: " + m_metric2.ToString () + "\n";
+        metrics += "Total Num Hacks: " + s_NumHacks.ToString () + "\n";
+        metrics += "Total Num Kills: " + s_NumKnifes.ToString () + "\n";
         return metrics;
     }
 
     // Uses the current date/time on this computer to create a uniquely named file,
     // preventing files from colliding and overwriting data.
-    private string CreateUniqueFileName ()
+    private static string CreateUniqueFileName ()
     {
         string dateTime = System.DateTime.Now.ToString ();
         dateTime = dateTime.Replace ("/", "_");
@@ -40,7 +37,7 @@ public class MetricManager : MonoBehaviour
     }
 
     // Generate the report that will be saved out to a file.
-    private void WriteMetricsToFile ()
+    private static void WriteMetricsToFile ()
     {
         string totalReport = "Report generated on " + System.DateTime.Now + "\n\n";
         totalReport += "Total Report:\n";
@@ -57,7 +54,7 @@ public class MetricManager : MonoBehaviour
     // called right before your application actually exits. You can use this
     // to save information for the next time the game starts, or in our case
     // write the metrics out to a file.
-    private void OnApplicationQuit ()
+    public static void OnApplicationQuit ()
     {
         WriteMetricsToFile ();
     }

@@ -11,6 +11,8 @@ public class TunnelDialogue : MyDialogBase
 
         base.Start();
 
+        MundoMovement.s_NumKnifesLeft = 2;
+
         List<DialogData> myDialogData = new List<DialogData>();
 
         myDialogData.Add(new DialogData("Annie: Mundo...? Where are we? What is this place?", "Annie"));
