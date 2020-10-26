@@ -17,6 +17,11 @@ public class LevelLoader : MonoBehaviour
     {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
 
+        if(transform.GetChild(0).GetChild(0).childCount == 0)
+        {
+            return;
+        }
+
         TextMeshProUGUI textMesh = transform.GetChild(0).GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>();
         if (textMesh != null)
         {
