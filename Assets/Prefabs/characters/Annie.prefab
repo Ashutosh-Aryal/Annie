@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22462e9084c38f64fb8206d9a47d6fce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowPrefab: {fileID: 0}
+  arrowPrefab: {fileID: 6732888656712234722, guid: 63bc0cf327fec2b48a561bf4b72cb6ac, type: 3}
 --- !u!95 &5332169040568047085
 Animator:
   serializedVersion: 3

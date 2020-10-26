@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/VillageAfterGarden.unity
     guid: 08d0667e7ea16412fba048eab786d271
   - enabled: 1
+    path: Assets/Scenes/TruckInside.unity
+    guid: a621657d9a0af4c8d9cec170256dbf78
+  - enabled: 1
+    path: Assets/Scenes/Zion.unity
+    guid: e29dfab6f08ce4632bcc00b9903602ee
+  - enabled: 1
     path: Assets/Scenes/TunnelRemix.unity
     guid: 71f7532d51f11e94aad79176ac3b975d
   - enabled: 1
