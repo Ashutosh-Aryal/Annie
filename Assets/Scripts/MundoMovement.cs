@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class MundoMovement : MonoBehaviour {    
     private enum AnimationType
@@ -44,7 +45,7 @@ public class MundoMovement : MonoBehaviour {
     private const KeyCode ATTACK_KEY = KeyCode.Space;
     private const KeyCode INTERACT_WITH_OTHER_OBJECTS_KEY = KeyCode.E;
 
-    private const float MOVEMENT_SPEED = 20.0f;
+    [SerializeField] private float MOVEMENT_SPEED = 20.0f;
     private const float IDLE_SPEED = 0.1f;
 
     private const int NUM_MOVEMENT_DIRECTIONS = 4;
@@ -60,7 +61,6 @@ public class MundoMovement : MonoBehaviour {
 
     private static Rigidbody2D myRigidbody;
     private static Animator myAnimator;
-    private static Animator m_GateAnimator;
 
     public static MundoState se_MundoState = MundoState.CannotInteractWithAnnie;
     public static GameObject s_BatteryToPickUpObject = null;
@@ -73,9 +73,6 @@ public class MundoMovement : MonoBehaviour {
 
     [SerializeField]
     private GameObject m_InteractWithAnnieText;
-
-    [SerializeField]
-    private GameObject m_GateObject;
 
     [SerializeField]
     private GameObject m_DialogueObject;
@@ -116,8 +113,6 @@ public class MundoMovement : MonoBehaviour {
         {
             se_MundoState = MundoMovement.MundoState.CanPutDownAnnie;
         }
-
-        m_GateAnimator = m_GateObject.GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -194,6 +189,13 @@ public class MundoMovement : MonoBehaviour {
         UpdateAnimation();
     }
 
+    private bool IsPlaying(Animator anim, string stateName) {
+        if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
+            return true;
+        else
+            return false;
+    }
+
     private void CheckInput()
     {
         bool didPressInteract = Input.GetKeyDown(INTERACT_WITH_OTHER_OBJECTS_KEY);
@@ -215,6 +217,10 @@ public class MundoMovement : MonoBehaviour {
         bool didPressAttack = Input.GetKeyDown(ATTACK_KEY);
         bool UpAttack = Input.GetKeyUp(ATTACK_KEY);
 
+        if(myAnimator.GetCurrentAnimatorStateInfo(0).IsName("Mundo Attack")) {
+            UpAttack = UpAttack || !IsPlaying(myAnimator, "Mundo Attack");
+        }
+
         bool isNotHoldingAnnie = se_MundoState != MundoState.CanPutDownAnnie;
 
         if (s_NumKnifesLeft > 0)
@@ -229,7 +235,6 @@ public class MundoMovement : MonoBehaviour {
             }
             else if (isNotHoldingAnnie && UpAttack)
             {
-
                 if (se_AnimationType != AnimationType.StartAttacking)
                 {
                     se_LastValidAnimationType = se_AnimationType;
@@ -380,6 +385,8 @@ public class MundoMovement : MonoBehaviour {
             enemyToDestroy.GetComponent<EnemyBehavior>().Kill();
         }
     }
+
+    
 
     private bool IsLeftArgCloser(MovementDirection newDirection, MovementDirection oldDirection)
     {

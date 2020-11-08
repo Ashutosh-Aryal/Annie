@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Collections.Specialized;
+﻿using System.Collections.Generic;
 using Pathfinding;
 using TMPro;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class EnemyBehavior : MonoBehaviour
 {
@@ -17,7 +14,7 @@ public class EnemyBehavior : MonoBehaviour
     private const float MAX_SEEN_TIMER = 2.0f;
     private const float BLUE_HUE = 1.0f / 3.0f;
     private const string PLAYER_TAG = "Player";
-
+    
     [SerializeField] private GameObject m_WaypointsContainer;
     [SerializeField] private GameObject m_GameOverMenu;
     [SerializeField] private GameObject m_DialogueObject;
@@ -144,6 +141,8 @@ public class EnemyBehavior : MonoBehaviour
         Destroy(myDestinationSetter);
         Destroy(gameObject.GetComponent<BoxCollider2D>());
         UpdateAnimation();
+
+        Destroy(gameObject.GetComponent<AIPath>());
     }
 
     private void OnDestroy()
@@ -228,6 +227,7 @@ public class EnemyBehavior : MonoBehaviour
         myVisionCone.GetComponent<MeshRenderer>().material.color = newColor;
     }
 
+    private bool m_HasSeenDeadEnemy = false;
     private void CreateVisionCone() {
 
         Mesh visionCone = new Mesh();
@@ -316,7 +316,15 @@ public class EnemyBehavior : MonoBehaviour
             RaycastHit2D hitInformation = Physics2D.Raycast(gameObject.transform.position, 
                 directionVector, MAX_SEE_DISTANCE, s_PlayerLayerMask | OBSTACLE_LAYER | TRIGGER_VISION_OBSTACLE_LAYER);
 
-            if(hitInformation.collider == null)
+            RaycastHit2D enemyHitInformation = Physics2D.Raycast(gameObject.transform.position,
+                directionVector, MAX_SEE_DISTANCE, gameObject.layer);
+
+            if(enemyHitInformation.collider != null && enemyHitInformation.collider.GetComponent<EnemyBehavior>().m_IsDead && !m_HasSeenDeadEnemy) {
+                gameObject.GetComponent<AIPath>().maxSpeed *= 1.5f;
+                m_HasSeenDeadEnemy = true;
+            }
+
+            if (hitInformation.collider == null)
             {
                 continue;
             }
@@ -406,7 +414,33 @@ public class EnemyBehavior : MonoBehaviour
     private const float FOURTY_FIVE_DEGREES = 45.0f;
     private float prevAngle = 0.0f;
 
+    private const float IDLE_ANIMATOR_SPEED = 0.1f;
+    private const float MOVING_ANIMATOR_SPEED = 1.0f;
+
+    private Vector3 prevPosition;
+
+    private GameObject myGameObject { 
+        get 
+            { return this.gameObject; 
+        } 
+    }
+
     private void UpdateAnimation() {
+
+        Vector2 currentVelocity = new Vector2(myDestinationSetter.ai.velocity.x, myDestinationSetter.ai.velocity.y);
+
+        bool isMoving = prevPosition != myDestinationSetter.ai.position || currentVelocity.sqrMagnitude != 0.0f;
+
+        float angle, speed;
+        if (isMoving) {
+            speed = MOVING_ANIMATOR_SPEED;
+            prevAngle = GetAngleFromDirection();
+        } else {
+            speed = IDLE_ANIMATOR_SPEED;
+        }
+
+        angle = prevAngle;
+        prevPosition = myDestinationSetter.ai.position;
 
         myAnimator.SetBool("isDead", m_AnimationState == AnimationState.Dead);
         myAnimator.SetBool("isSpotted", m_AnimationState == AnimationState.Spotted);
@@ -416,26 +450,19 @@ public class EnemyBehavior : MonoBehaviour
         myAnimator.SetFloat("horizontal", 0.0f);
         myAnimator.SetFloat("vertical", 0.0f);
 
-        float angle = prevAngle;
+        bool isFacingLeft = angle >= (FOURTY_FIVE_DEGREES * 3.0f) || angle <= (FOURTY_FIVE_DEGREES * -3.0f);
+        bool isFacingUp = (angle >= FOURTY_FIVE_DEGREES) && (angle < FOURTY_FIVE_DEGREES * 3.0f);
+        bool isFacingDown = (angle <= -FOURTY_FIVE_DEGREES) && (angle > -FOURTY_FIVE_DEGREES * 3.0f);
+        bool isFacingRight = angle < FOURTY_FIVE_DEGREES && angle > -FOURTY_FIVE_DEGREES;
 
-        if (myDestinationSetter.ai.velocity.magnitude != 0.0f) {
-            angle = GetAngleFromDirection();
-            prevAngle = angle;
-        }
-
-        bool isMovingLeft = angle >= (FOURTY_FIVE_DEGREES * 3.0f) || angle <= (FOURTY_FIVE_DEGREES * -3.0f);
-        bool isMovingUp = (angle >= FOURTY_FIVE_DEGREES) && (angle < FOURTY_FIVE_DEGREES * 3.0f);
-        bool isMovingDown = (angle <= -FOURTY_FIVE_DEGREES) && (angle > -FOURTY_FIVE_DEGREES * 3.0f);
-        bool isMovingRight = angle < FOURTY_FIVE_DEGREES && angle > -FOURTY_FIVE_DEGREES;
-
-        if (isMovingLeft) {
-            myAnimator.SetFloat("horizontal", -1.0f);  
-        } else if(isMovingRight) {
-            myAnimator.SetFloat("horizontal", 1.0f);
-        } else if(isMovingUp) {
-            myAnimator.SetFloat("vertical", 1.0f);
-        } else if(isMovingDown) {
-            myAnimator.SetFloat("vertical", -1.0f);
+        if (isFacingLeft) {
+            myAnimator.SetFloat("horizontal", -speed);  
+        } else if(isFacingRight) {
+            myAnimator.SetFloat("horizontal", speed);
+        } else if(isFacingUp) {
+            myAnimator.SetFloat("vertical", speed);
+        } else if(isFacingDown) {
+            myAnimator.SetFloat("vertical", -speed);
         } 
      }
 
@@ -452,6 +479,10 @@ public class EnemyBehavior : MonoBehaviour
 
     private Color GetColorFromTime()
     {
+        if(m_HasSeenDeadEnemy && m_SeenTimer < MAX_SEEN_TIMER / 2.0f) {
+            m_SeenTimer = MAX_SEEN_TIMER / 2.0f;
+        }
+
         float ratio = Mathf.Clamp(m_SeenTimer / MAX_SEEN_TIMER, 0.0f, 1.0f);
 
         float hue = (1.0f - ratio) * BLUE_HUE;
