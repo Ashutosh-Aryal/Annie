@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class ReactorInteractBehavior : MonoBehaviour
 {
+    public AudioClip GateOpen;
+    AudioSource audioSource;
+
+
     private const int TOTAL_NUM_BATTERIES = 3;
 
     private static List<DialogData> s_DialogWithoutBatteries = new List<DialogData>();
@@ -50,6 +54,9 @@ public class ReactorInteractBehavior : MonoBehaviour
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
+
         m_TunnelDialogue = m_DialogueObject.GetComponent<TunnelDialogue>();
         s_DialogWithBatteries.Clear();
         s_DialogWithoutBatteries.Clear();
@@ -62,6 +69,7 @@ public class ReactorInteractBehavior : MonoBehaviour
         s_DialogWithoutBatteries.Add(new DialogData("Annie: Annie's on the case!", "Annie"));
 
         s_DialogWithBatteries.Add(new DialogData("Mundo: Hey, look at that! We got the door open!", "Mundo"));
+       
         s_DialogWithBatteries.Add(new DialogData("Annie: Hmph. Where's my thank you, huh?", "Annie"));
         s_DialogWithBatteries.Add(new DialogData("Mundo: Good point! Thank you Annie. ", "Mundo"));
         s_DialogWithBatteries.Add(new DialogData("Annie: Let's go before they catch up!!", "Annie"));

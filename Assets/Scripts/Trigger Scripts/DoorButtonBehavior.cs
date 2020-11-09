@@ -18,6 +18,9 @@ public class DoorButtonBehavior : MonoBehaviour
 
     private bool m_AnnieOnButton = false;
 
+ 
+
+
     [SerializeField]
     private GameObject m_DropAnnieHereText;
 
@@ -30,6 +33,7 @@ public class DoorButtonBehavior : MonoBehaviour
         
         if(isCollidingWithAnnie)
         {
+       
             Destroy(m_DoorObject.GetComponent<BoxCollider2D>());
             m_DoorObject.GetComponent<SpriteRenderer>().sortingOrder = OPEN_SORTING_ORDER;
             m_DoorAnimator.SetBool("isTriggered", true);
@@ -63,6 +67,7 @@ public class DoorButtonBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       
         m_DoorObject = gameObject.transform.parent.GetChild(0).gameObject;
         m_DoorAnimator = m_DoorObject.GetComponent<Animator>();
 
@@ -74,6 +79,8 @@ public class DoorButtonBehavior : MonoBehaviour
         {
             s_InteractText = m_DropAnnieHereText;
         }
+        
+
     }
 
     // Update is called once per frame
