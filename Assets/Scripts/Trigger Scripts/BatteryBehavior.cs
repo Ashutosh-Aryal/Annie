@@ -5,9 +5,6 @@ using Doublsb.Dialog;
 
 public class BatteryBehavior : MonoBehaviour
 {
-    
-
-
     [SerializeField]
     private GameObject m_InteractPopUpTextObject;
 
@@ -31,7 +28,7 @@ public class BatteryBehavior : MonoBehaviour
             s_DialogueOnFirstPickUp.Clear();
             s_DialogueOnFirstPickUp.Add(new DialogData("Annie: Hey, it's one of those batteries again!", "Annie"));
             s_DialogueOnFirstPickUp.Add(new DialogData("Mundo: We should look for pick up others we see!", "Mundo"));
-        } else if (s_DialogueOnFirstPickUp.Count != 0) {
+        } else {
             
             s_DialogueOnFirstPickUp.Clear();
             s_DialogueOnFirstPickUp.Add(new DialogData("Annie: Huh? What's this?", "Annie"));
@@ -43,17 +40,13 @@ public class BatteryBehavior : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
         MundoMovement.s_BatteryToPickUpObject = gameObject;
         s_PopUpTextObject.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
-    {
-        
+    {   
         MundoMovement.s_BatteryToPickUpObject = null;
-        s_PopUpTextObject.SetActive(false);
-        
-        
+        s_PopUpTextObject.SetActive(false);   
     }
 }

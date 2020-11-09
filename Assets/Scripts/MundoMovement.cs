@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
@@ -130,9 +131,10 @@ public class MundoMovement : MonoBehaviour {
 
         m_NumKnivesLeftTextGUI = m_DialogueObject.transform.GetChild(m_DialogueObject.transform.childCount - 1).GetComponent<TextMeshProUGUI>();
 
-        if(!m_AnnieObject.activeInHierarchy)
-        {
+        if(!m_AnnieObject.activeInHierarchy) {
             se_MundoState = MundoMovement.MundoState.CanPutDownAnnie;
+        } else {
+            se_MundoState = MundoMovement.MundoState.CannotInteractWithAnnie;
         }
     }
 
@@ -203,6 +205,11 @@ public class MundoMovement : MonoBehaviour {
             UpdateAnimation();
             return;
         } 
+
+        if(myAnimator.GetCurrentAnimatorStateInfo(0).IsName("PickUpAnnie") || myAnimator.GetCurrentAnimatorStateInfo(0).IsName("PutDownAnnie")) {
+            myRigidbody.velocity = Vector2.zero;
+            return;
+        }
 
         CheckInput();
 
@@ -461,9 +468,18 @@ public class MundoMovement : MonoBehaviour {
     {
         audioSource.PlayOneShot(PutDownAnnieSFX);
         se_MundoState = MundoState.CanPickUpAnnie;
+        StartCoroutine("DisplayAnnie");
+    } 
+
+    IEnumerator DisplayAnnie() {
+
+        while(!(myAnimator.GetCurrentAnimatorStateInfo(0).IsName("Mundo Idle") || myAnimator.GetCurrentAnimatorStateInfo(0).IsName("MundoMovement"))) {
+            yield return null;
+        }
+
         m_AnnieObject.transform.position = gameObject.transform.position;
         m_AnnieObject.SetActive(true);
-    } 
+    }
 
     private void PickUpAnnie()
     {
@@ -526,7 +542,7 @@ public class MundoMovement : MonoBehaviour {
 
     private void UpdateAnimation()
     {
-        //myAnimator.SetBool("isCarryingAnnie", se_MundoState == MundoState.CanPutDownAnnie);
+        myAnimator.SetBool("isHoldingAnnie", se_MundoState == MundoState.CanPutDownAnnie);
 
         Vector2 movementDirection = Vector2.zero;
         bool? isAttacking = null;
