@@ -253,7 +253,6 @@ public class MundoMovement : MonoBehaviour {
         bool isNotHoldingAnnie = se_MundoState != MundoState.CanPutDownAnnie;
 
         if (s_NumKnifesLeft > 0 && isNotHoldingAnnie && didPressAttack) {
-            audioSource.PlayOneShot(StabSoundSFX);
             se_LastValidAnimationType = se_AnimationType;
             OnAttack();
             se_MovementDirection = MovementDirection.Idle; return;
@@ -401,6 +400,7 @@ public class MundoMovement : MonoBehaviour {
 
         if (bestKillOption != null)
         {
+            audioSource.PlayOneShot(StabSoundSFX);
             se_MovementDirection = md;
 
             GameObject enemyToDestroy = GameObject.Find(bestKillOption.name);
