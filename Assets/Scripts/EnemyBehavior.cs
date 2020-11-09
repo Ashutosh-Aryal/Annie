@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour
 {
+    public AudioClip EnemyGotKilled;
+    private AudioSource audioSource { get { return GetComponent<AudioSource>(); } }
+
     private const int RIGHT_CLICK = 1;
     private const int MAX_ENEMY_COUNT = 100;
     private const int OBSTACLE_LAYER = 1 << 8;
@@ -76,7 +79,11 @@ public class EnemyBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(s_PlayerObject == null)
+        gameObject.AddComponent<AudioSource>();
+        audioSource.clip = EnemyGotKilled;
+        audioSource.playOnAwake = false;
+
+        if (s_PlayerObject == null)
         {
             s_PlayerObject = GameObject.FindGameObjectsWithTag(PLAYER_TAG)[0];
             s_PlayerLayerMask = (1 << s_PlayerObject.layer);
@@ -130,6 +137,7 @@ public class EnemyBehavior : MonoBehaviour
         MundoMovement.s_NumKnifesLeft--;
         m_AnimationState = AnimationState.Dead;
         m_IsDead = true;
+        audioSource.PlayOneShot(EnemyGotKilled);
         myVisionCone.SetActive(false);
         myDestinationSetter.target = null;
         m_DeathLocation = gameObject.transform.position;

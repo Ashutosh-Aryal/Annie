@@ -6,6 +6,10 @@ using UnityEngine.XR.WSA;
 
 public class AnnieBehavior : MonoBehaviour
 {
+    public AudioClip HackSound;
+    private AudioSource audioSource { get { return GetComponent<AudioSource>(); } }
+
+
     private const int LEFT_CLICK = 0;
     private const int RIGHT_CLICK = 1;
     private const int MIDDLE_CLICK = 2;
@@ -22,7 +26,9 @@ public class AnnieBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        gameObject.AddComponent<AudioSource>();
+        audioSource.clip = HackSound;
+        audioSource.playOnAwake = false;
     }
 
     // Update is called once per frame
@@ -31,10 +37,12 @@ public class AnnieBehavior : MonoBehaviour
         if (Input.GetMouseButtonUp(RIGHT_CLICK))
         {
             DestroyArrow(true);
+            
         }
         else if (s_AttachedEnemyObject != null)
         {
             CreateArrow();
+            audioSource.PlayOneShot(HackSound);
         }
     }
 

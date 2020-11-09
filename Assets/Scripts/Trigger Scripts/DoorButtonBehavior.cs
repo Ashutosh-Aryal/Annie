@@ -5,6 +5,14 @@ using UnityEngine.UI;
 
 public class DoorButtonBehavior : MonoBehaviour
 {
+
+
+    public AudioClip DoorClose;
+    public AudioClip DoorOpen;
+    private AudioSource audioSource { get { return GetComponent<AudioSource>(); } }
+    
+
+
     private const string ANNIE_TAG = "annie";
     private const string MUNDO_TAG = "Player";
     private const int CLOSED_SORTING_ORDER = 1;
@@ -33,7 +41,7 @@ public class DoorButtonBehavior : MonoBehaviour
         
         if(isCollidingWithAnnie)
         {
-       
+            audioSource.PlayOneShot(DoorOpen);
             Destroy(m_DoorObject.GetComponent<BoxCollider2D>());
             m_DoorObject.GetComponent<SpriteRenderer>().sortingOrder = OPEN_SORTING_ORDER;
             m_DoorAnimator.SetBool("isTriggered", true);
@@ -52,6 +60,7 @@ public class DoorButtonBehavior : MonoBehaviour
 
         if (isCollidingWithAnnie)
         {
+            audioSource.PlayOneShot(DoorClose);
             BoxCollider2D readdedBoxCollider = m_DoorObject.AddComponent<BoxCollider2D>();
             readdedBoxCollider.size = m_DoorBoxColliderSize;
             readdedBoxCollider.offset = m_DoorBoxColliderOffset;
@@ -67,7 +76,11 @@ public class DoorButtonBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+        gameObject.AddComponent<AudioSource>();
+        audioSource.clip = DoorClose;
+        audioSource.playOnAwake = false;
+
+
         m_DoorObject = gameObject.transform.parent.GetChild(0).gameObject;
         m_DoorAnimator = m_DoorObject.GetComponent<Animator>();
 

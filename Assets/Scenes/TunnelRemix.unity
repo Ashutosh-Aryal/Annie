@@ -3264,7 +3264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90368357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.927027, y: -2.1292672, z: -10}
+  m_LocalPosition: {x: 50.08703, y: -53.32926, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3282,6 +3282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22462e9084c38f64fb8206d9a47d6fce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HackSound: {fileID: 0}
   arrowPrefab: {fileID: 6732888656712234722, guid: 63bc0cf327fec2b48a561bf4b72cb6ac, type: 3}
 --- !u!1 &91306220
 GameObject:
@@ -12370,6 +12371,10 @@ PrefabInstance:
       propertyPath: m_GameOverMenu
       value: 
       objectReference: {fileID: 1274949843}
+    - target: {fileID: 1968623687732246146, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+      propertyPath: EnemyGotKilled
+      value: 
+      objectReference: {fileID: 8300000, guid: 41826aa0075684a96b9a84762fc0d80b, type: 3}
     - target: {fileID: 1968623687732246908, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
       propertyPath: m_Name
       value: Enemy (4)
@@ -22346,6 +22351,10 @@ PrefabInstance:
       propertyPath: m_DialogueObject
       value: 
       objectReference: {fileID: 996969188}
+    - target: {fileID: 1968623687732246146, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+      propertyPath: EnemyGotKilled
+      value: 
+      objectReference: {fileID: 8300000, guid: 41826aa0075684a96b9a84762fc0d80b, type: 3}
     - target: {fileID: 1968623687732246908, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
       propertyPath: m_Name
       value: Enemy (6)
@@ -24603,6 +24612,10 @@ PrefabInstance:
       propertyPath: m_GameOverMenu
       value: 
       objectReference: {fileID: 1274949843}
+    - target: {fileID: 1968623687732246146, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+      propertyPath: EnemyGotKilled
+      value: 
+      objectReference: {fileID: 8300000, guid: 41826aa0075684a96b9a84762fc0d80b, type: 3}
     - target: {fileID: 1968623687732246908, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
       propertyPath: m_Name
       value: Enemy (3)
@@ -25128,6 +25141,10 @@ PrefabInstance:
       propertyPath: m_DialogueObject
       value: 
       objectReference: {fileID: 996969188}
+    - target: {fileID: 1968623687732246146, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+      propertyPath: EnemyGotKilled
+      value: 
+      objectReference: {fileID: 8300000, guid: 41826aa0075684a96b9a84762fc0d80b, type: 3}
     - target: {fileID: 1968623687732246147, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -25819,6 +25836,10 @@ PrefabInstance:
       propertyPath: m_DialogueObject
       value: 
       objectReference: {fileID: 996969188}
+    - target: {fileID: 1968623687732246146, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+      propertyPath: EnemyGotKilled
+      value: 
+      objectReference: {fileID: 8300000, guid: 41826aa0075684a96b9a84762fc0d80b, type: 3}
     - target: {fileID: 1968623687732246147, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -39217,37 +39238,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1374988855 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3487408081152171194, guid: af6107a32416e464fbf978baa36a9a4a, type: 3}
-  m_PrefabInstance: {fileID: 3487408082006240640}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1374988860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374988855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5584e3b3e886146c1be39b4c0c4d97c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DoorClose: {fileID: 8300000, guid: c266a9beb137646349db98cb202fac78, type: 3}
---- !u!114 &1374988861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374988855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3211bd9aa2384faa914e1b86b80d757, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DoorOpen: {fileID: 8300000, guid: b779dcffcd33a4dfdba9a5db954b668a, type: 3}
 --- !u!1 &1378649889
 GameObject:
   m_ObjectHideFlags: 0
@@ -40232,6 +40222,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f04a4931b9a1fe4b957c136117ffdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DoorClose: {fileID: 0}
+  DoorOpen: {fileID: 0}
   m_DropAnnieHereText: {fileID: 0}
 --- !u!114 &1397971031
 MonoBehaviour:
@@ -42988,13 +42980,17 @@ PrefabInstance:
       propertyPath: arrowPrefab
       value: 
       objectReference: {fileID: 6732888656712234722, guid: 63bc0cf327fec2b48a561bf4b72cb6ac, type: 3}
+    - target: {fileID: 5332169040568047084, guid: 1834d49f0c2715d4e8d3b32a1c3cdef9, type: 3}
+      propertyPath: HackSound
+      value: 
+      objectReference: {fileID: 8300000, guid: ee26034ff6c1d4196bf926c76c30624d, type: 3}
     - target: {fileID: 5332169040568047086, guid: 1834d49f0c2715d4e8d3b32a1c3cdef9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.682228
+      value: 44.842228
       objectReference: {fileID: 0}
     - target: {fileID: 5332169040568047086, guid: 1834d49f0c2715d4e8d3b32a1c3cdef9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.854166
+      value: -53.05416
       objectReference: {fileID: 0}
     - target: {fileID: 5332169040568047086, guid: 1834d49f0c2715d4e8d3b32a1c3cdef9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -50127,6 +50123,14 @@ PrefabInstance:
       propertyPath: m_DialogueObject
       value: 
       objectReference: {fileID: 996969188}
+    - target: {fileID: 5414145348311304680, guid: d722b6014ceaaaf459ab9d7dcbbdfac6, type: 3}
+      propertyPath: BatteryPickUpSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 37ae63a3a827840edadf91b8b639f65b, type: 3}
+    - target: {fileID: 5414145348311304680, guid: d722b6014ceaaaf459ab9d7dcbbdfac6, type: 3}
+      propertyPath: StabSoundSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 8403469cc185c4b4aae60d9b77421f4f, type: 3}
     - target: {fileID: 5414145348311304682, guid: d722b6014ceaaaf459ab9d7dcbbdfac6, type: 3}
       propertyPath: m_Offset.x
       value: -0.008298278
@@ -50157,11 +50161,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5414145348311304686, guid: d722b6014ceaaaf459ab9d7dcbbdfac6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.927029
+      value: 50.08703
       objectReference: {fileID: 0}
     - target: {fileID: 5414145348311304686, guid: d722b6014ceaaaf459ab9d7dcbbdfac6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.12926674
+      value: -51.32926
       objectReference: {fileID: 0}
     - target: {fileID: 5414145348311304686, guid: d722b6014ceaaaf459ab9d7dcbbdfac6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -60230,6 +60234,10 @@ PrefabInstance:
       propertyPath: m_DialogueObject
       value: 
       objectReference: {fileID: 996969188}
+    - target: {fileID: 1968623687732246146, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+      propertyPath: EnemyGotKilled
+      value: 
+      objectReference: {fileID: 8300000, guid: 41826aa0075684a96b9a84762fc0d80b, type: 3}
     - target: {fileID: 1968623687732246908, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
       propertyPath: m_Name
       value: Enemy (5)
@@ -61591,6 +61599,10 @@ PrefabInstance:
       propertyPath: m_DialogueObject
       value: 
       objectReference: {fileID: 996969188}
+    - target: {fileID: 1968623687732246146, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+      propertyPath: EnemyGotKilled
+      value: 
+      objectReference: {fileID: 8300000, guid: 41826aa0075684a96b9a84762fc0d80b, type: 3}
     - target: {fileID: 1968623687732246147, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -62078,11 +62090,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2484575122142655793, guid: e885a720e4b85c6458393c4183d6294d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.927027
+      value: 50.08703
       objectReference: {fileID: 0}
     - target: {fileID: 2484575122142655793, guid: e885a720e4b85c6458393c4183d6294d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.1292672
+      value: -53.32926
       objectReference: {fileID: 0}
     - target: {fileID: 2484575122142655793, guid: e885a720e4b85c6458393c4183d6294d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -62376,6 +62388,10 @@ PrefabInstance:
       propertyPath: DoorClose
       value: 
       objectReference: {fileID: 8300000, guid: c266a9beb137646349db98cb202fac78, type: 3}
+    - target: {fileID: 5167454211134823307, guid: af6107a32416e464fbf978baa36a9a4a, type: 3}
+      propertyPath: DoorOpen
+      value: 
+      objectReference: {fileID: 8300000, guid: b779dcffcd33a4dfdba9a5db954b668a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af6107a32416e464fbf978baa36a9a4a, type: 3}
 --- !u!1001 &3516513188379007141
@@ -62890,5 +62906,9 @@ PrefabInstance:
       propertyPath: m_InteractPopUpTextObject
       value: 
       objectReference: {fileID: 1503775368}
+    - target: {fileID: 8104106152707654674, guid: 9c9bec3d109484dda831331e618815a2, type: 3}
+      propertyPath: BatteryPickUpSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 37ae63a3a827840edadf91b8b639f65b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c9bec3d109484dda831331e618815a2, type: 3}

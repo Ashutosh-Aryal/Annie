@@ -97,7 +97,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.29083204, y: -0.16837668}
+  m_Offset: {x: 0.3886237, y: -0.2172738}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -108,7 +108,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.468336, y: 2.855649}
+  m_Size: {x: 2.906042, y: 2.3666952}
   m_EdgeRadius: 0
 --- !u!114 &8104106152707654674
 MonoBehaviour:
@@ -122,4 +122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d40a2cf15b4bbea449e0cc0e3c28c22d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BatteryPickUpSFX: {fileID: 0}
   m_InteractPopUpTextObject: {fileID: 0}
+  m_ShouldResetText: 0

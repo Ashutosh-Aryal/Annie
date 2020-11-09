@@ -91,6 +91,11 @@ public class MundoMovement : MonoBehaviour {
 
     public static int s_NumKnifesLeft = 0;
 
+    public AudioClip BatteryPickUpSFX;
+    public AudioClip StabSoundSFX;
+    private AudioSource audioSource { get { return GetComponent<AudioSource>(); } }
+
+
     private void OnApplicationQuit()
     {
         MetricManager.OnApplicationQuit();
@@ -99,6 +104,11 @@ public class MundoMovement : MonoBehaviour {
     // Start is called before the first frame update
     void Start()
     {
+        gameObject.AddComponent<AudioSource>();
+        audioSource.clip = BatteryPickUpSFX;
+        audioSource.playOnAwake = false;
+
+
         BatteryBehavior.s_IsFirstPickedUpBattery = true;
         s_NumHeldBatteries = 0;
         s_BatteryToPickUpObject = null;
@@ -211,6 +221,7 @@ public class MundoMovement : MonoBehaviour {
 
         if(didPressInteract && s_BatteryToPickUpObject != null)
         {
+            audioSource.PlayOneShot(BatteryPickUpSFX);
             Destroy(s_BatteryToPickUpObject);
             s_BatteryToPickUpObject = null;
             s_NumHeldBatteries++;
@@ -241,6 +252,7 @@ public class MundoMovement : MonoBehaviour {
         } else if (isNotHoldingAnnie && UpAttack) {
 
             if (se_AnimationType != AnimationType.StartAttacking) {
+                audioSource.PlayOneShot(StabSoundSFX);
                 se_LastValidAnimationType = se_AnimationType;
             }
             se_AnimationType = AnimationType.StopAttacking; return;
