@@ -21,19 +21,18 @@ public class BatteryBehavior : MonoBehaviour
             s_PopUpTextObject = m_InteractPopUpTextObject;
         }
 
-        if (s_DialogueOnFirstPickUp.Count != 0) {
+        if(m_ShouldResetText) {
+            s_DialogueOnFirstPickUp.Clear();
+            s_DialogueOnFirstPickUp.Add(new DialogData("Annie: Hey, it's one of those batteries again!", "Annie"));
+            s_DialogueOnFirstPickUp.Add(new DialogData("Mundo: We should look for pick up others we see!", "Mundo"));
+        } else if (s_DialogueOnFirstPickUp.Count != 0) {
 
             s_DialogueOnFirstPickUp.Clear();
             s_DialogueOnFirstPickUp.Add(new DialogData("Annie: Huh? What's this?", "Annie"));
             s_DialogueOnFirstPickUp.Add(new DialogData("Mundo: It looks like a battery AND it looks important.", "Mundo"));
             s_DialogueOnFirstPickUp.Add(new DialogData("Mundo: Hey! It's probably for that reactor! Let's keep an eye out for more!", "Mundo"));
         
-        } else if(m_ShouldResetText) {
-
-            s_DialogueOnFirstPickUp.Clear();
-            s_DialogueOnFirstPickUp.Add(new DialogData("Annie: Hey, it's one of those batteries again!", "Annie"));
-            s_DialogueOnFirstPickUp.Add(new DialogData("Mundo: We should look for pick up others we see!", "Mundo"));
-        }
+        } 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class ReactorInteractBehavior : MonoBehaviour
 {
-    private const string POP_UP_TEXT = "Press F to Interact With Reactor!";
     private const int TOTAL_NUM_BATTERIES = 3;
 
     private static List<DialogData> s_DialogWithoutBatteries = new List<DialogData>();
