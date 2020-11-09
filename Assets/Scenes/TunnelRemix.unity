@@ -9035,7 +9035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3958462149300200966, guid: f9aa0170969ff42448b0b5b9fb78094a, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8766992305424551671, guid: f9aa0170969ff42448b0b5b9fb78094a, type: 3}
       propertyPath: m_Name
@@ -31224,7 +31224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 380235650087602498e014c9bd150b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GateOpen: {fileID: 0}
+  GateOpen: {fileID: 8300000, guid: 6f6033558292843bea66a68d5da28070, type: 3}
   m_DialogueObject: {fileID: 996969188}
 --- !u!1001 &1067802083
 PrefabInstance:
@@ -33319,6 +33319,10 @@ PrefabInstance:
       propertyPath: m_InteractPopUpTextObject
       value: 
       objectReference: {fileID: 1503775368}
+    - target: {fileID: 1061343678640701325, guid: 296574d3e2adb9547848cca7fda90022, type: 3}
+      propertyPath: m_ShouldResetText
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6671502841870746357, guid: 296574d3e2adb9547848cca7fda90022, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.64743805
@@ -60747,6 +60751,10 @@ PrefabInstance:
       propertyPath: DoorClose
       value: 
       objectReference: {fileID: 8300000, guid: c266a9beb137646349db98cb202fac78, type: 3}
+    - target: {fileID: 5167454211134823307, guid: af6107a32416e464fbf978baa36a9a4a, type: 3}
+      propertyPath: DoorOpen
+      value: 
+      objectReference: {fileID: 8300000, guid: b779dcffcd33a4dfdba9a5db954b668a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af6107a32416e464fbf978baa36a9a4a, type: 3}
 --- !u!4 &2108767976 stripped
@@ -62517,7 +62525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3145300519171002125, guid: b306444eaf39f3540bc6087b2f0c2ca6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3145300519171002225, guid: b306444eaf39f3540bc6087b2f0c2ca6, type: 3}
       propertyPath: m_LocalPosition.x
