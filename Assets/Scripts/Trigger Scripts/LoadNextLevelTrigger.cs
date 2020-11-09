@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerFromZionToTunnel : MonoBehaviour
+public class LoadNextLevelTrigger : MonoBehaviour
 {
     [SerializeField]
     private GameObject m_LevelLoaderObject;
