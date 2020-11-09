@@ -52,7 +52,7 @@ public class NPCTrigger : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision) {
         if (collision.CompareTag("Player") && m_ShouldStartOnInteract) {
-            BatteryBehavior.s_PopUpTextObject.SetActive(false);
+            m_InteractTextObject.SetActive(false);
             m_PlayerInTrigger = false;
         }
     }
@@ -63,7 +63,9 @@ public class NPCTrigger : MonoBehaviour
 
         m_DialogBase = m_DialogueObject.GetComponent<MyDialogBase>();
 
-        PopulateDialogData();
+        for (int x = 0; x < m_DialogueText.Length; x++) {
+            m_DialogDatas.Add(new DialogData(m_DialogueText[x], m_Characters[x]));
+        }
     }
 
     private void PopulateDialogData() {
@@ -95,6 +97,11 @@ public class NPCTrigger : MonoBehaviour
 
         if (m_ShouldStartOnInteract) {
             if (Input.GetKeyDown(KeyCode.E) && m_PlayerInTrigger && m_DialogBase.CanPlayerMove()) {
+
+                if(m_DialogDatas.Count == 0) {
+                    PopulateDialogData();
+                }
+
                 m_DialogBase.DisplayDialogue(m_DialogDatas);
                 m_WasDialogueTriggered = true;
             }

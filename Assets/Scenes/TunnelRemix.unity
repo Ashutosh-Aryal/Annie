@@ -22835,7 +22835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1760419730615066263, guid: 5d7ffc9059667234882cf326cccc540d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d7ffc9059667234882cf326cccc540d, type: 3}
@@ -62753,11 +62753,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8482642629103501081, guid: 7d9fcb224a3104c0e9af9f04d4f8de3f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 44
+      value: 43.22
       objectReference: {fileID: 0}
     - target: {fileID: 8482642629103501081, guid: 7d9fcb224a3104c0e9af9f04d4f8de3f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 37.1
+      value: 41.85
       objectReference: {fileID: 0}
     - target: {fileID: 8482642629103501081, guid: 7d9fcb224a3104c0e9af9f04d4f8de3f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -62797,6 +62797,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d9fcb224a3104c0e9af9f04d4f8de3f, type: 3}
+--- !u!1 &8414402348089775625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5292414635722094155, guid: 7d9fcb224a3104c0e9af9f04d4f8de3f, type: 3}
+  m_PrefabInstance: {fileID: 8414402348089775624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &8414402348089775626
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8414402348089775625}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00000011920929, y: -0.21545827}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.26, y: 0.54}
+    newSize: {x: 0.26, y: 0.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2695763, y: 0.9709166}
+  m_EdgeRadius: 0
+--- !u!114 &8414402348089775627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8414402348089775625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881bcf6ba1b3f944ea610c4cfdcb6d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DialogueText:
+  - 'Unknown Boy: Don''t go further down.'
+  - 'Mundo: We''re currently on the run from the guards in the city.'
+  - 'Mundo: Where else would we go?'
+  - 'Unknown Boy: I don''t know, but just don''t go further down.'
+  - 'Mundo: Hmm.........'
+  m_Characters:
+  - Mundo
+  - Mundo
+  - Mundo
+  - Mundo
+  - Mundo
+  m_InteractTextObject: {fileID: 1503775368}
+  m_DialogueObject: {fileID: 996969188}
+  m_ObjectToSetActive: {fileID: 0}
+  m_LevelLoaderObject: {fileID: 768771629}
+  m_ShouldStartOnInteract: 1
+  m_ShouldDestroyAttachedObject: 0
+  m_ShouldLoadNextLevel: 0
 --- !u!1001 &8923391216479898293
 PrefabInstance:
   m_ObjectHideFlags: 0
