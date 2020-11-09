@@ -29,7 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PinkDrinkFactory.unity
     guid: d4c3cf8c8b4fc41ac80974fb5102fe51
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: 7197b329f391c452c908dc67dde1fc8f
+  - enabled: 1
     path: Assets/Scenes/End.unity
     guid: 591d3cc3ba2104f35bdb376221914772
   m_configObjects: {}
