@@ -5,8 +5,7 @@ using Doublsb.Dialog;
 
 public class BatteryBehavior : MonoBehaviour
 {
-    public AudioClip BatteryPickUpSFX;
-    private AudioSource audioSource { get { return GetComponent<AudioSource>(); } }
+    
 
 
     [SerializeField]
@@ -21,10 +20,6 @@ public class BatteryBehavior : MonoBehaviour
 
     private void Start()
     {
-        gameObject.AddComponent<AudioSource>();
-        audioSource.clip = BatteryPickUpSFX;
-        audioSource.playOnAwake = false;
-
 
         if (m_InteractPopUpTextObject) {
             s_PopUpTextObject = m_InteractPopUpTextObject;
@@ -55,10 +50,7 @@ public class BatteryBehavior : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
-        {
-            audioSource.PlayOneShot(BatteryPickUpSFX);
-        }
+        
         MundoMovement.s_BatteryToPickUpObject = null;
         s_PopUpTextObject.SetActive(false);
         

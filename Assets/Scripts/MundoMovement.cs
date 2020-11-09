@@ -93,6 +93,8 @@ public class MundoMovement : MonoBehaviour {
 
     public AudioClip BatteryPickUpSFX;
     public AudioClip StabSoundSFX;
+    public AudioClip PickUpAnnieSFX;
+    public AudioClip PutDownAnnieSFX;
     private AudioSource audioSource { get { return GetComponent<AudioSource>(); } }
 
 
@@ -244,7 +246,7 @@ public class MundoMovement : MonoBehaviour {
         bool isNotHoldingAnnie = se_MundoState != MundoState.CanPutDownAnnie;
 
         if (s_NumKnifesLeft > 0 && isNotHoldingAnnie && didPressAttack) {
-
+            audioSource.PlayOneShot(StabSoundSFX);
             se_LastValidAnimationType = se_AnimationType;
             OnAttack();
             se_MovementDirection = MovementDirection.Idle; return;
@@ -252,7 +254,7 @@ public class MundoMovement : MonoBehaviour {
         } else if (isNotHoldingAnnie && UpAttack) {
 
             if (se_AnimationType != AnimationType.StartAttacking) {
-                audioSource.PlayOneShot(StabSoundSFX);
+                
                 se_LastValidAnimationType = se_AnimationType;
             }
             se_AnimationType = AnimationType.StopAttacking; return;
@@ -457,6 +459,7 @@ public class MundoMovement : MonoBehaviour {
 
     private void PutDownAnnie()
     {
+        audioSource.PlayOneShot(PutDownAnnieSFX);
         se_MundoState = MundoState.CanPickUpAnnie;
         m_AnnieObject.transform.position = gameObject.transform.position;
         m_AnnieObject.SetActive(true);
@@ -464,6 +467,7 @@ public class MundoMovement : MonoBehaviour {
 
     private void PickUpAnnie()
     {
+        audioSource.PlayOneShot(PickUpAnnieSFX);
         se_MundoState = MundoState.CanPutDownAnnie;
         m_AnnieObject.SetActive(false);
         m_InteractWithAnnieText.SetActive(false);
@@ -476,8 +480,8 @@ public class MundoMovement : MonoBehaviour {
         {
             return;
         }
-
-        switch(se_MovementDirection)
+        audioSource.PlayOneShot(PickUpAnnieSFX);
+        switch (se_MovementDirection)
         {
             case MovementDirection.North:
                 myRigidbody.velocity = Vector2.up * MOVEMENT_SPEED;

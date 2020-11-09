@@ -5226,6 +5226,10 @@ PrefabInstance:
       propertyPath: m_WaypointsContainer
       value: 
       objectReference: {fileID: 822162481}
+    - target: {fileID: 1968623687732246146, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+      propertyPath: EnemyGotKilled
+      value: 
+      objectReference: {fileID: 8300000, guid: 41826aa0075684a96b9a84762fc0d80b, type: 3}
     - target: {fileID: 1968623687732246147, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
       propertyPath: m_SortingOrder
       value: 10
@@ -7810,6 +7814,10 @@ PrefabInstance:
       propertyPath: m_WaypointsContainer
       value: 
       objectReference: {fileID: 1844647896}
+    - target: {fileID: 1968623687732246146, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+      propertyPath: EnemyGotKilled
+      value: 
+      objectReference: {fileID: 8300000, guid: 41826aa0075684a96b9a84762fc0d80b, type: 3}
     - target: {fileID: 1968623687732246147, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
       propertyPath: m_SortingOrder
       value: 10
@@ -10239,6 +10247,10 @@ PrefabInstance:
       propertyPath: m_WaypointsContainer
       value: 
       objectReference: {fileID: 1099921600}
+    - target: {fileID: 1968623687732246146, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+      propertyPath: EnemyGotKilled
+      value: 
+      objectReference: {fileID: 8300000, guid: 41826aa0075684a96b9a84762fc0d80b, type: 3}
     - target: {fileID: 1968623687732246147, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
       propertyPath: m_SortingOrder
       value: 10
@@ -11383,6 +11395,18 @@ PrefabInstance:
       propertyPath: m_InteractWithAnnieText
       value: 
       objectReference: {fileID: 1018486036}
+    - target: {fileID: 5414145348311304680, guid: d722b6014ceaaaf459ab9d7dcbbdfac6, type: 3}
+      propertyPath: PickUpAnnieSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 2daa59b7531024764a13d5004f410980, type: 3}
+    - target: {fileID: 5414145348311304680, guid: d722b6014ceaaaf459ab9d7dcbbdfac6, type: 3}
+      propertyPath: PutDownAnnieSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: f90c035a29e2641f4b5b0a27e2ec67d9, type: 3}
+    - target: {fileID: 5414145348311304680, guid: d722b6014ceaaaf459ab9d7dcbbdfac6, type: 3}
+      propertyPath: StabSoundSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 8403469cc185c4b4aae60d9b77421f4f, type: 3}
     - target: {fileID: 5414145348311304682, guid: d722b6014ceaaaf459ab9d7dcbbdfac6, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -14878,6 +14902,10 @@ PrefabInstance:
       propertyPath: m_KnifePrefab
       value: 
       objectReference: {fileID: 1544250645562298546, guid: 8faf1ad8fc2b466499b2079b44861c06, type: 3}
+    - target: {fileID: 1968623687732246146, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+      propertyPath: EnemyGotKilled
+      value: 
+      objectReference: {fileID: 8300000, guid: 41826aa0075684a96b9a84762fc0d80b, type: 3}
     - target: {fileID: 1968623687732246147, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
       propertyPath: m_SortingOrder
       value: 10
@@ -23007,7 +23035,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.139
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

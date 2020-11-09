@@ -42,12 +42,13 @@ public class AnnieBehavior : MonoBehaviour
         else if (s_AttachedEnemyObject != null)
         {
             CreateArrow();
-            audioSource.PlayOneShot(HackSound);
+            
         }
     }
 
     private void CreateArrow()
     {
+        audioSource.PlayOneShot(HackSound);
         Vector3 startMousePos = s_AttachedEnemyObject.transform.position;
         startMousePos.z = 0.0f;
 
