@@ -13,6 +13,9 @@ public class TriggerFinalWordsBehavior : MonoBehaviour
     [SerializeField]
     private GameObject m_EnemiesContainer;
 
+    [SerializeField]
+    private GameObject m_BelowGardenCollider;
+
     private MyDialogBase m_DialogueBase;
 
     private bool m_HasDialogueTriggered = false;
@@ -29,7 +32,8 @@ public class TriggerFinalWordsBehavior : MonoBehaviour
         m_FinalsWordsDialogue.Add(new DialogData("Annie's Mom: Do you understand?", "Annie's Mom"));
         m_FinalsWordsDialogue.Add(new DialogData("Mundo: I understand. Where should we go?", "Mundo"));
         m_FinalsWordsDialogue.Add(new DialogData("Annie's Mom: There's a road past the garden. Make your way there & try to escape if you can.", "Annie's Mom"));
-        m_FinalsWordsDialogue.Add(new DialogData("Annie's Mom: Oh and Mundo, I need you to take this...", "Annie's Mom", () => MundoMovement.s_NumKnifesLeft++));
+        m_FinalsWordsDialogue.Add(new DialogData("Annie's Mom: Oh and Mundo, I need you to take this...", "Annie's Mom", 
+            () => { MundoMovement.s_NumKnifesLeft = 1; }));
         m_FinalsWordsDialogue.Add(new DialogData("You've been given a knife! When num knifes > 0, press [Space] to use the knife whenever you're not holding Annie (place or pickup Annie with [F]).", "Mundo", null, false));
         m_FinalsWordsDialogue.Add(new DialogData("Annie's Mom: Use this to keep Annie safe, but only use it when you absolutely must.", "Annie's Mom"));
         m_FinalsWordsDialogue.Add(new DialogData("Annie: Mama, why are you saying that? You're going to come with us, right?", "Annie"));
@@ -59,6 +63,7 @@ public class TriggerFinalWordsBehavior : MonoBehaviour
         if(m_HasDialogueTriggered && m_DialogueBase.CanPlayerMove())
         {
             m_EnemiesContainer.SetActive(true);
+            m_BelowGardenCollider.SetActive(false);
         }
     }
 }

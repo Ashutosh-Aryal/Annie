@@ -3282,7 +3282,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22462e9084c38f64fb8206d9a47d6fce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HackSound: {fileID: 0}
+  HackSound: {fileID: 8300000, guid: 38539fd9e15fea64db71e1903aa5acf1, type: 3}
+  ClickedEnemySound: {fileID: 8300000, guid: e055c1da920950d43826c92df1a9f5ba, type: 3}
   arrowPrefab: {fileID: 6732888656712234722, guid: 63bc0cf327fec2b48a561bf4b72cb6ac, type: 3}
 --- !u!1 &91306220
 GameObject:
@@ -22835,7 +22836,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1760419730615066263, guid: 5d7ffc9059667234882cf326cccc540d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d7ffc9059667234882cf326cccc540d, type: 3}

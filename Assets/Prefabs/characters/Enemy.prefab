@@ -186,6 +186,8 @@ MonoBehaviour:
   m_GameOverMenu: {fileID: 0}
   m_DialogueObject: {fileID: 0}
   m_KnifePrefab: {fileID: 1544250645562298546, guid: 8faf1ad8fc2b466499b2079b44861c06, type: 3}
+  m_GotInterestAudioClip: {fileID: 8300000, guid: e824f1699bb78e04894ad23c809531d1, type: 3}
+  m_LostInterestAudioClip: {fileID: 8300000, guid: 143efe84e32b83941bbf9b16bb9a8dac, type: 3}
 --- !u!114 &1968623687732246909
 MonoBehaviour:
   m_ObjectHideFlags: 0

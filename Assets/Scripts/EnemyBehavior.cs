@@ -5,9 +5,6 @@ using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour
 {
-    public AudioClip EnemyGotKilled;
-    private AudioSource audioSource { get { return GetComponent<AudioSource>(); } }
-
     private const int RIGHT_CLICK = 1;
     private const int MAX_ENEMY_COUNT = 100;
     private const int OBSTACLE_LAYER = 1 << 8;
@@ -22,6 +19,9 @@ public class EnemyBehavior : MonoBehaviour
     [SerializeField] private GameObject m_GameOverMenu;
     [SerializeField] private GameObject m_DialogueObject;
     [SerializeField] private GameObject m_KnifePrefab;
+
+    [SerializeField] private AudioClip m_GotInterestAudioClip;
+    [SerializeField] private AudioClip m_LostInterestAudioClip;
 
     private enum AnimationState
     {
@@ -62,6 +62,8 @@ public class EnemyBehavior : MonoBehaviour
     public static bool s_HasPlayerLost = false;
     public static GameObject s_EndGameMenu = null;
 
+    private AudioSource m_AudioSource;
+
     private void OnMouseOver()
     {
         if (Input.GetMouseButtonDown(RIGHT_CLICK) && MundoMovement.se_MundoState == MundoMovement.MundoState.CanPutDownAnnie)
@@ -79,9 +81,9 @@ public class EnemyBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.AddComponent<AudioSource>();
-        audioSource.clip = EnemyGotKilled;
-        audioSource.playOnAwake = false;
+        m_AudioSource = gameObject.AddComponent<AudioSource>();
+        m_AudioSource.volume = 0.3f;
+        m_AudioSource.spatialBlend = 0.6f;
 
         if (s_PlayerObject == null)
         {
@@ -137,7 +139,6 @@ public class EnemyBehavior : MonoBehaviour
         MundoMovement.s_NumKnifesLeft--;
         m_AnimationState = AnimationState.Dead;
         m_IsDead = true;
-        audioSource.PlayOneShot(EnemyGotKilled);
         myVisionCone.SetActive(false);
         myDestinationSetter.target = null;
         m_DeathLocation = gameObject.transform.position;
@@ -194,6 +195,10 @@ public class EnemyBehavior : MonoBehaviour
 
         m_DoesSeePlayer = DoesEnemySeePlayer();
 
+        if(!prevDoesSeePlayer && m_DoesSeePlayer) {
+            m_AudioSource.PlayOneShot(m_GotInterestAudioClip);
+        }
+
         if (m_DoesSeePlayer) {
             m_SeenTimer += Time.fixedDeltaTime; m_ShouldDecrementSeenTimer = false;
         }
@@ -207,6 +212,7 @@ public class EnemyBehavior : MonoBehaviour
                 m_ResetSeenTimer -= Time.fixedDeltaTime;
 
                 if (m_ResetSeenTimer <= 0.0f) {
+                    m_AudioSource.PlayOneShot(m_LostInterestAudioClip);
                     m_ShouldDecrementSeenTimer = true;
                 }
 

@@ -7,8 +7,8 @@ using UnityEngine.XR.WSA;
 public class AnnieBehavior : MonoBehaviour
 {
     public AudioClip HackSound;
-    private AudioSource audioSource { get { return GetComponent<AudioSource>(); } }
-
+    public AudioClip ClickedEnemySound;
+    private AudioSource m_AudioSource;
 
     private const int LEFT_CLICK = 0;
     private const int RIGHT_CLICK = 1;
@@ -20,15 +20,21 @@ public class AnnieBehavior : MonoBehaviour
     private static bool sb_HasOverlayAppeared = false;
 
     private static GameObject lastCreatedArrow = null;
+    private static AudioSource myAudioSource = null;
+    private static AudioClip myClickSound = null;
 
     [SerializeField] GameObject arrowPrefab;
 
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.AddComponent<AudioSource>();
-        audioSource.clip = HackSound;
-        audioSource.playOnAwake = false;
+        m_AudioSource = gameObject.AddComponent<AudioSource>();
+        m_AudioSource.volume = 0.2f;
+
+        myAudioSource = m_AudioSource;
+        if(ClickedEnemySound) {
+            myClickSound = ClickedEnemySound;
+        }
     }
 
     // Update is called once per frame
@@ -48,7 +54,6 @@ public class AnnieBehavior : MonoBehaviour
 
     private void CreateArrow()
     {
-        audioSource.PlayOneShot(HackSound);
         Vector3 startMousePos = s_AttachedEnemyObject.transform.position;
         startMousePos.z = 0.0f;
 
@@ -87,11 +92,13 @@ public class AnnieBehavior : MonoBehaviour
     
     public static void SetRightClickStartPosition(string enemyName)
     {
+        myAudioSource.PlayOneShot(myClickSound);
         s_AttachedEnemyObject = GameObject.Find(enemyName);
     }
 
     private void PlaceSound()
     {
+        m_AudioSource.PlayOneShot(HackSound);
         Vector3 currentMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         currentMousePos.z = 0.0f;
 

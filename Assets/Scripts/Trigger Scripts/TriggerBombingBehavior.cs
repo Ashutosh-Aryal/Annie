@@ -21,6 +21,18 @@ public class TriggerBombingBehavior : MonoBehaviour
     [SerializeField]
     private GameObject m_FiresContainer;
 
+    [SerializeField]
+    private GameObject m_PreBombMusicObject;
+
+    [SerializeField]
+    private GameObject m_PostBombMusicObject;
+
+    [SerializeField]
+    private GameObject m_PreBombAmbientObject;
+
+    [SerializeField]
+    private GameObject m_PostBombAmbientObject;
+
     private MyDialogBase m_DialogueBase;
 
     private void Start()
@@ -31,7 +43,9 @@ public class TriggerBombingBehavior : MonoBehaviour
         preBombingDialogData.Add(new DialogData("Annie: Yay! Finally!", "Annie"));
         preBombingDialogData.Add(new DialogData("Mundo: It would have taken less time if we'd both walked instead...", "Mundo"));
         preBombingDialogData.Add(new DialogData("Annie: Yeah! But that's not as fun.", "Annie", () => m_RingingSoundEffect.PlayOneShot(m_RingingSoundEffect.clip)));
-        preBombingDialogData.Add(new DialogData("/speed: 0.1/Mundo:*sigh* do you have to be so- wait... can you hear that too?", "Mundo", null, false));
+        preBombingDialogData.Add(new DialogData("/speed: 0.1/Mundo:*sigh* do you have to be so- wait... can you hear that too?", "Mundo", () => { m_PreBombAmbientObject.SetActive(false); m_PreBombMusicObject.SetActive(false); }, false));
+        
+        preBombingDialogData.Add(new DialogData("/speed: 0.1/. . . . .", "Mundo", () => { m_PostBombMusicObject.SetActive(true); m_PostBombAmbientObject.SetActive(true); }, false));
 
         postBombingDialogData.Add(new DialogData("Mundo: Annie! Annie, are you okay?", "Mundo"));
         postBombingDialogData.Add(new DialogData("Annie: I think so. What was that?", "Annie"));

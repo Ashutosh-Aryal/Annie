@@ -86,13 +86,23 @@ public class MundoMovement : MonoBehaviour {
 
     public static int s_NumKnifesLeft = 0;
 
-    public AudioClip BatteryPickUpSFX;
-    public AudioClip StabSoundSFX;
-    public AudioClip StabMissSFX;
-    public AudioClip PickUpAnnieSFX;
-    public AudioClip PutDownAnnieSFX;
-    public AudioClip FootStepSFX;
-    private AudioSource audioSource { get { return GetComponent<AudioSource>(); } }
+    [SerializeField] private AudioClip BatteryPickUpSFX;
+    [SerializeField] private AudioClip StabSoundSFX;
+    [SerializeField] private AudioClip StabMissSFX;
+    [SerializeField] private AudioClip PickUpAnnieSFX;
+    [SerializeField] private AudioClip PutDownAnnieSFX;
+    [SerializeField] private AudioClip[] m_FootstepAudioClips;
+
+
+    private enum SoundType {
+        FOOTSTEP_SOUNDS = 0, 
+        KNIFE_SOUNDS = 1, 
+        ANNIE_SOUNDS = 2, 
+        PICKUP_SOUNDS = 3,
+        TOTAL_SOUNDS = 4
+    };
+
+    private List<AudioSource> m_AudioSources = new List<AudioSource>();
 
 
     private void OnApplicationQuit()
@@ -103,10 +113,13 @@ public class MundoMovement : MonoBehaviour {
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.AddComponent<AudioSource>();
-        //audioSource.clip = FootStepSFX;
-        audioSource.playOnAwake = false;
 
+        float[] volumes = { 0.1f, 0.6f, 0.3f, 1.0f };
+
+        for(int x = 0; x < (int) SoundType.TOTAL_SOUNDS; x++) {
+            m_AudioSources.Add(gameObject.AddComponent<AudioSource>());
+            m_AudioSources[x].volume = volumes[x]; 
+        }
 
         BatteryBehavior.s_IsFirstPickedUpBattery = true;
         s_NumHeldBatteries = 0;
@@ -179,15 +192,7 @@ public class MundoMovement : MonoBehaviour {
         {
             m_NumKnivesLeftTextGUI.text = "Num Knives Left: " + s_NumKnifesLeft;
         }
-        //if(myRigidbody.velocity != Vector2.zero)
-        //{
-        //    audioSource.clip = FootStepSFX;
-        //    audioSource.Play();
-        //}
-        //else
-        //{
-        //    audioSource.Stop();
-        //}
+       
         if(!m_LevelDialogue.CanPlayerMove() || EnemyBehavior.s_HasPlayerLost || CheckWinStateBehavior.s_PlayerDidWin)
         {
             
@@ -195,13 +200,9 @@ public class MundoMovement : MonoBehaviour {
             if(myRigidbody.velocity.y < 0.0f)
             {
                 se_AnimationType = MundoMovement.AnimationType.IdleDown;
-                audioSource.clip = FootStepSFX;
-                audioSource.Play();
             } else if(myRigidbody.velocity.y > 0.0f)
             {
                 se_AnimationType = MundoMovement.AnimationType.IdleUp;
-                audioSource.clip = FootStepSFX;
-                audioSource.Play();
             } else if(myRigidbody.velocity.x > 0.0f)
             {
                 se_AnimationType = MundoMovement.AnimationType.IdleRight;
@@ -209,8 +210,6 @@ public class MundoMovement : MonoBehaviour {
             } else if(myRigidbody.velocity.x < 0.0f)
             {
                 se_AnimationType = MundoMovement.AnimationType.IdleLeft;
-                audioSource.clip = FootStepSFX;
-                audioSource.Play();
             }
             
 
@@ -246,7 +245,7 @@ public class MundoMovement : MonoBehaviour {
 
         if(didPressInteract && s_BatteryToPickUpObject != null)
         {
-            audioSource.PlayOneShot(BatteryPickUpSFX);
+            m_AudioSources[(int) SoundType.PICKUP_SOUNDS].PlayOneShot(BatteryPickUpSFX);
             Destroy(s_BatteryToPickUpObject);
             s_BatteryToPickUpObject = null;
             s_NumHeldBatteries++;
@@ -416,14 +415,14 @@ public class MundoMovement : MonoBehaviour {
 
         if (bestKillOption != null)
         {
-            audioSource.PlayOneShot(StabSoundSFX);
+            m_AudioSources[(int) SoundType.KNIFE_SOUNDS].PlayOneShot(StabSoundSFX);
             se_MovementDirection = md;
 
             GameObject enemyToDestroy = GameObject.Find(bestKillOption.name);
             sL_AvailableEnemiesToAttack.Remove(enemyToDestroy);
             enemyToDestroy.GetComponent<EnemyBehavior>().Kill();
         } else {
-            audioSource.PlayOneShot(StabMissSFX);
+            m_AudioSources[(int) SoundType.KNIFE_SOUNDS].PlayOneShot(StabMissSFX);
         }
     }
 
@@ -484,7 +483,7 @@ public class MundoMovement : MonoBehaviour {
 
     private void PutDownAnnie()
     {
-        audioSource.PlayOneShot(PutDownAnnieSFX);
+        m_AudioSources[(int) SoundType.ANNIE_SOUNDS].PlayOneShot(PutDownAnnieSFX);
         se_MundoState = MundoState.CanPickUpAnnie;
         StartCoroutine("DisplayAnnie");
     } 
@@ -499,9 +498,17 @@ public class MundoMovement : MonoBehaviour {
         m_AnnieObject.SetActive(true);
     }
 
+    public void PlayFootstep() {
+
+        int randIndex = Random.Range(0, m_FootstepAudioClips.Length);
+
+        m_AudioSources[(int) SoundType.FOOTSTEP_SOUNDS].PlayOneShot(m_FootstepAudioClips[randIndex]);
+
+    }
+
     private void PickUpAnnie()
     {
-        audioSource.PlayOneShot(PickUpAnnieSFX);
+        m_AudioSources[(int) SoundType.ANNIE_SOUNDS].PlayOneShot(PickUpAnnieSFX);
         se_MundoState = MundoState.CanPutDownAnnie;
         m_AnnieObject.SetActive(false);
         m_InteractWithAnnieText.SetActive(false);

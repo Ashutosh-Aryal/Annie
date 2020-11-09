@@ -149,6 +149,11 @@ MonoBehaviour:
   StabMissSFX: {fileID: 8300000, guid: a7aef38144979d645a86bbb8a7d645b1, type: 3}
   PickUpAnnieSFX: {fileID: 8300000, guid: 2daa59b7531024764a13d5004f410980, type: 3}
   PutDownAnnieSFX: {fileID: 8300000, guid: f90c035a29e2641f4b5b0a27e2ec67d9, type: 3}
+  m_FootstepAudioClips:
+  - {fileID: 8300000, guid: 3d1e8a0a2c32af9489b8b529396c668f, type: 3}
+  - {fileID: 8300000, guid: dc0b05387c05e084191695b3f0db6fcc, type: 3}
+  - {fileID: 8300000, guid: b298b29c9aad2d2419dbc4be45010ff8, type: 3}
+  - {fileID: 8300000, guid: 5940d80cc2d14e749afaa1663920135b, type: 3}
 --- !u!61 &5414145348311304682
 BoxCollider2D:
   m_ObjectHideFlags: 0
