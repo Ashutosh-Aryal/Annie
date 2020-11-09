@@ -11,8 +11,6 @@ public class DoorButtonBehavior : MonoBehaviour
     public AudioClip DoorOpen;
     private AudioSource audioSource { get { return GetComponent<AudioSource>(); } }
     
-
-
     private const string ANNIE_TAG = "annie";
     private const string MUNDO_TAG = "Player";
     private const int CLOSED_SORTING_ORDER = 1;
@@ -25,9 +23,6 @@ public class DoorButtonBehavior : MonoBehaviour
     private Vector2 m_DoorBoxColliderSize;
 
     private bool m_AnnieOnButton = false;
-
- 
-
 
     [SerializeField]
     private GameObject m_DropAnnieHereText;
@@ -79,6 +74,7 @@ public class DoorButtonBehavior : MonoBehaviour
         gameObject.AddComponent<AudioSource>();
         audioSource.clip = DoorClose;
         audioSource.playOnAwake = false;
+        audioSource.volume = 0.25f;
 
 
         m_DoorObject = gameObject.transform.parent.GetChild(0).gameObject;
