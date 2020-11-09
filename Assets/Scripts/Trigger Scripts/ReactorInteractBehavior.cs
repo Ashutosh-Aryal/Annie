@@ -36,6 +36,7 @@ public class ReactorInteractBehavior : MonoBehaviour
         {
             BatteryBehavior.s_PopUpTextObject.SetActive(false);
             s_PlayerInTrigger = false;
+            audioSource.PlayOneShot(GateOpen);
         }
     }
 
@@ -54,8 +55,7 @@ public class ReactorInteractBehavior : MonoBehaviour
 
     private void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-
+        
 
         m_TunnelDialogue = m_DialogueObject.GetComponent<TunnelDialogue>();
         s_DialogWithBatteries.Clear();
@@ -69,10 +69,13 @@ public class ReactorInteractBehavior : MonoBehaviour
         s_DialogWithoutBatteries.Add(new DialogData("Annie: Annie's on the case!", "Annie"));
 
         s_DialogWithBatteries.Add(new DialogData("Mundo: Hey, look at that! We got the door open!", "Mundo"));
-       
+        
         s_DialogWithBatteries.Add(new DialogData("Annie: Hmph. Where's my thank you, huh?", "Annie"));
         s_DialogWithBatteries.Add(new DialogData("Mundo: Good point! Thank you Annie. ", "Mundo"));
         s_DialogWithBatteries.Add(new DialogData("Annie: Let's go before they catch up!!", "Annie"));
+        gameObject.AddComponent<AudioSource>();
+        audioSource.clip = GateOpen;
+        audioSource.playOnAwake = false;
     }
 
     // Update is called once per frame

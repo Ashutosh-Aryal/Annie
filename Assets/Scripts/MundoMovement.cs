@@ -223,7 +223,7 @@ public class MundoMovement : MonoBehaviour {
 
         if(didPressInteract && s_BatteryToPickUpObject != null)
         {
-            audioSource.PlayOneShot(BatteryPickUpSFX);
+            //audioSource.PlayOneShot(BatteryPickUpSFX);
             Destroy(s_BatteryToPickUpObject);
             s_BatteryToPickUpObject = null;
             s_NumHeldBatteries++;
@@ -480,7 +480,7 @@ public class MundoMovement : MonoBehaviour {
         {
             return;
         }
-        audioSource.PlayOneShot(PickUpAnnieSFX);
+        
         switch (se_MovementDirection)
         {
             case MovementDirection.North:
