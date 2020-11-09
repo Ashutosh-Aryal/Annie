@@ -6,7 +6,7 @@ using UnityEngine;
 public class FinalDialogue : MyDialogBase
 {
     private List<DialogData> m_DialogDatas = new List<DialogData>();
-    void Start() {
+    new void Start() {
 
         base.Start();
 
@@ -15,7 +15,7 @@ public class FinalDialogue : MyDialogBase
         m_DialogManager.Show(m_DialogDatas);
     }
 
-    void Update()
+    new void Update()
     {
         base.Update();
     }

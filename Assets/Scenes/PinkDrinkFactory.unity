@@ -3811,7 +3811,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2484575122142655793, guid: e885a720e4b85c6458393c4183d6294d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -26.6
+      value: -26.600002
       objectReference: {fileID: 0}
     - target: {fileID: 2484575122142655793, guid: e885a720e4b85c6458393c4183d6294d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12909,7 +12909,10 @@ MonoBehaviour:
   m_InteractTextObject: {fileID: 680674154}
   m_DialogueObject: {fileID: 437062865}
   m_ObjectToSetActive: {fileID: 0}
+  m_LevelLoaderObject: {fileID: 0}
   m_ShouldStartOnInteract: 1
+  m_ShouldDestroyAttachedObject: 1
+  m_ShouldLoadNextLevel: 0
 --- !u!1001 &368864373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15734,7 +15737,10 @@ MonoBehaviour:
   m_InteractTextObject: {fileID: 0}
   m_DialogueObject: {fileID: 437062865}
   m_ObjectToSetActive: {fileID: 0}
+  m_LevelLoaderObject: {fileID: 0}
   m_ShouldStartOnInteract: 0
+  m_ShouldDestroyAttachedObject: 1
+  m_ShouldLoadNextLevel: 0
 --- !u!1001 &442066653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20337,7 +20343,10 @@ MonoBehaviour:
   m_InteractTextObject: {fileID: 0}
   m_DialogueObject: {fileID: 437062865}
   m_ObjectToSetActive: {fileID: 0}
+  m_LevelLoaderObject: {fileID: 0}
   m_ShouldStartOnInteract: 0
+  m_ShouldDestroyAttachedObject: 1
+  m_ShouldLoadNextLevel: 0
 --- !u!1 &546436548
 GameObject:
   m_ObjectHideFlags: 0
@@ -28740,7 +28749,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751349324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.6, y: -22.1, z: -10}
+  m_LocalPosition: {x: -26.600002, y: -22.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -38718,7 +38727,10 @@ MonoBehaviour:
   m_InteractTextObject: {fileID: 0}
   m_DialogueObject: {fileID: 437062865}
   m_ObjectToSetActive: {fileID: 1430733143}
+  m_LevelLoaderObject: {fileID: 0}
   m_ShouldStartOnInteract: 0
+  m_ShouldDestroyAttachedObject: 1
+  m_ShouldLoadNextLevel: 0
 --- !u!1001 &1018381241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68636,7 +68648,10 @@ MonoBehaviour:
   m_InteractTextObject: {fileID: 0}
   m_DialogueObject: {fileID: 437062865}
   m_ObjectToSetActive: {fileID: 0}
+  m_LevelLoaderObject: {fileID: 0}
   m_ShouldStartOnInteract: 0
+  m_ShouldDestroyAttachedObject: 1
+  m_ShouldLoadNextLevel: 0
 --- !u!1001 &1809849612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70652,6 +70667,14 @@ PrefabInstance:
     - target: {fileID: 4519341445228018622, guid: 58e7d48bf80f848178c9b60522b1fefd, type: 3}
       propertyPath: m_Name
       value: containergroup2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7528081552811650171, guid: 58e7d48bf80f848178c9b60522b1fefd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519796208412936757, guid: 58e7d48bf80f848178c9b60522b1fefd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8544135033335314746, guid: 58e7d48bf80f848178c9b60522b1fefd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -80972,6 +80995,10 @@ PrefabInstance:
     - target: {fileID: 3212265040694640344, guid: a17026464afb44a3198c04e45afb9df8, type: 3}
       propertyPath: m_Name
       value: containergroup1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646142102990423395, guid: a17026464afb44a3198c04e45afb9df8, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a17026464afb44a3198c04e45afb9df8, type: 3}
