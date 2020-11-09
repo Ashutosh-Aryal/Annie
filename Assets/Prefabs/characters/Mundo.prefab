@@ -139,8 +139,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde6bb2af7dd2d74fadc12b70dc3bcf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MOVEMENT_SPEED: 20
   m_AnnieObject: {fileID: 0}
   m_EnemyPrefab: {fileID: 1968623687732246908, guid: f5b3e9afc33d14f4998379473e765ae0, type: 3}
+  m_InteractWithAnnieText: {fileID: 0}
+  m_DialogueObject: {fileID: 0}
+  m_StabSound: []
+  m_MovementSounds: []
+  BatteryPickUpSFX: {fileID: 8300000, guid: 37ae63a3a827840edadf91b8b639f65b, type: 3}
+  StabSoundSFX: {fileID: 8300000, guid: 8403469cc185c4b4aae60d9b77421f4f, type: 3}
+  PickUpAnnieSFX: {fileID: 8300000, guid: 2daa59b7531024764a13d5004f410980, type: 3}
+  PutDownAnnieSFX: {fileID: 8300000, guid: f90c035a29e2641f4b5b0a27e2ec67d9, type: 3}
 --- !u!61 &5414145348311304682
 BoxCollider2D:
   m_ObjectHideFlags: 0

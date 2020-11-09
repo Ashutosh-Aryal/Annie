@@ -5,17 +5,29 @@ using Doublsb.Dialog;
 
 public class NPCTrigger : MonoBehaviour
 {
+    [Header("Dialogue To Print")]
+
     [SerializeField] private string[] m_DialogueText;
     [SerializeField] private string[] m_Characters;
+
+
+    [Header("Game Objects")]
+    
     [SerializeField] private GameObject m_InteractTextObject;
     [SerializeField] private GameObject m_DialogueObject;
     [SerializeField] private GameObject m_ObjectToSetActive;
+    [SerializeField] private GameObject m_LevelLoaderObject;
+
+    [Header("Booleans")]
+
     [SerializeField] private bool m_ShouldStartOnInteract = true;
+    [SerializeField] private bool m_ShouldDestroyAttachedObject = true;
+    [SerializeField] private bool m_ShouldLoadNextLevel = false;
 
     private MyDialogBase m_DialogBase;
     private List<DialogData> m_DialogDatas = new List<DialogData>();
     private bool m_PlayerInTrigger = false;
-    private bool m_ShouldRepopulate = false;
+    private bool m_WasDialogueTriggered = false;
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.CompareTag("Player")) {
@@ -24,8 +36,13 @@ public class NPCTrigger : MonoBehaviour
                 m_PlayerInTrigger = true;
             } else {
                 m_DialogBase.DisplayDialogue(m_DialogDatas);
-                Destroy(gameObject);
-                
+
+                m_WasDialogueTriggered = true;
+
+                if (m_ShouldDestroyAttachedObject) {
+                    Destroy(gameObject);
+                }
+
                 if (m_ObjectToSetActive) {
                     m_ObjectToSetActive.SetActive(true);
                 }
@@ -64,18 +81,22 @@ public class NPCTrigger : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    { 
+        if (m_WasDialogueTriggered && m_DialogBase.CanPlayerMove()) {
 
-        if (m_ShouldRepopulate && m_DialogBase.CanPlayerMove()) {
-            PopulateDialogData();
-            m_ShouldRepopulate = false;
+            if (m_ShouldLoadNextLevel) {
+                m_LevelLoaderObject.GetComponent<LevelLoader>().LoadNextLevel();
+            } else {
+                PopulateDialogData();
+                m_WasDialogueTriggered = false;
+            }
         }
 
 
         if (m_ShouldStartOnInteract) {
             if (Input.GetKeyDown(KeyCode.E) && m_PlayerInTrigger && m_DialogBase.CanPlayerMove()) {
                 m_DialogBase.DisplayDialogue(m_DialogDatas);
-                m_ShouldRepopulate = true;
+                m_WasDialogueTriggered = true;
             }
         }
     }
