@@ -91,6 +91,7 @@ public class MundoMovement : MonoBehaviour {
     public AudioClip StabMissSFX;
     public AudioClip PickUpAnnieSFX;
     public AudioClip PutDownAnnieSFX;
+    public AudioClip FootStepSFX;
     private AudioSource audioSource { get { return GetComponent<AudioSource>(); } }
 
 
@@ -103,7 +104,7 @@ public class MundoMovement : MonoBehaviour {
     void Start()
     {
         gameObject.AddComponent<AudioSource>();
-        audioSource.clip = BatteryPickUpSFX;
+        //audioSource.clip = FootStepSFX;
         audioSource.playOnAwake = false;
 
 
@@ -173,29 +174,48 @@ public class MundoMovement : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if(m_NumKnivesLeftTextGUI != null)
+        
+        if (m_NumKnivesLeftTextGUI != null)
         {
             m_NumKnivesLeftTextGUI.text = "Num Knives Left: " + s_NumKnifesLeft;
         }
-
+        //if(myRigidbody.velocity != Vector2.zero)
+        //{
+        //    audioSource.clip = FootStepSFX;
+        //    audioSource.Play();
+        //}
+        //else
+        //{
+        //    audioSource.Stop();
+        //}
         if(!m_LevelDialogue.CanPlayerMove() || EnemyBehavior.s_HasPlayerLost || CheckWinStateBehavior.s_PlayerDidWin)
         {
+            
             se_MovementDirection = MundoMovement.MovementDirection.Idle;
             if(myRigidbody.velocity.y < 0.0f)
             {
                 se_AnimationType = MundoMovement.AnimationType.IdleDown;
+                audioSource.clip = FootStepSFX;
+                audioSource.Play();
             } else if(myRigidbody.velocity.y > 0.0f)
             {
                 se_AnimationType = MundoMovement.AnimationType.IdleUp;
+                audioSource.clip = FootStepSFX;
+                audioSource.Play();
             } else if(myRigidbody.velocity.x > 0.0f)
             {
                 se_AnimationType = MundoMovement.AnimationType.IdleRight;
+                
             } else if(myRigidbody.velocity.x < 0.0f)
             {
                 se_AnimationType = MundoMovement.AnimationType.IdleLeft;
+                audioSource.clip = FootStepSFX;
+                audioSource.Play();
             }
+            
 
             myRigidbody.velocity = Vector2.zero;
+            
             se_MovementDirection = MovementDirection.Idle;
             UpdateAnimation();
             return;
@@ -210,6 +230,7 @@ public class MundoMovement : MonoBehaviour {
 
         UpdateMovement();
         UpdateAnimation();
+        
     }
 
     private bool IsPlaying(Animator anim, string stateName) {
@@ -225,7 +246,7 @@ public class MundoMovement : MonoBehaviour {
 
         if(didPressInteract && s_BatteryToPickUpObject != null)
         {
-            //audioSource.PlayOneShot(BatteryPickUpSFX);
+            audioSource.PlayOneShot(BatteryPickUpSFX);
             Destroy(s_BatteryToPickUpObject);
             s_BatteryToPickUpObject = null;
             s_NumHeldBatteries++;
