@@ -1,7 +1,0 @@
-Report generated on 11/9/2020 9:13:14 AM
-
-Total Report:
-Here are my metrics:
-Total Num Deaths: 0
-Total Num Hacks: 0
-Total Num Kills: 0
