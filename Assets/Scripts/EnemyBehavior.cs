@@ -134,8 +134,9 @@ public class EnemyBehavior : MonoBehaviour
         myDestinationSetter.target = null;
         m_DeathLocation = gameObject.transform.position;
 
-        if (s_KnifePrefab && Random.Range(0.0f, 1.0f) <= 0.5f) {
-            Instantiate(s_KnifePrefab, gameObject.transform.position, Quaternion.identity);
+        if (s_KnifePrefab && Random.Range(0.0f, 1.0f) <= 0.4f) {
+            GameObject knife = Instantiate(s_KnifePrefab, gameObject.transform.position, Quaternion.identity);
+            knife.GetComponent<KnifePickUpBehavior>().m_InteractText = m_DialogueObject.transform.GetChild(3).gameObject;
         }
         
         Destroy(myDestinationSetter);
@@ -271,6 +272,25 @@ public class EnemyBehavior : MonoBehaviour
                 worldPosition = raycast2DInfo.point; 
             }
 
+            Physics2D.queriesHitTriggers = true;
+
+            int myLayer = gameObject.layer;
+
+            gameObject.layer = 0;
+
+            RaycastHit2D enemyHitInformation = Physics2D.Raycast(gameObject.transform.position,
+                directionVector, MAX_SEE_DISTANCE, 1 << myLayer | OBSTACLE_LAYER | TRIGGER_VISION_OBSTACLE_LAYER);
+
+            if (enemyHitInformation.collider != null && enemyHitInformation.collider.GetComponent<EnemyBehavior>() != null) {
+
+                if (enemyHitInformation.collider.GetComponent<EnemyBehavior>().m_IsDead && !m_HasSeenDeadEnemy) {
+                    gameObject.GetComponent<AIPath>().maxSpeed *= 1.25f;
+                    m_HasSeenDeadEnemy = true;
+                }
+            }
+
+            gameObject.layer = myLayer;
+
             // transform point from world space to vision cone's local space
             Vector3 vertex = myVisionCone.transform.InverseTransformPoint(worldPosition);
             vertices[vertexIndex] = vertex;
@@ -315,14 +335,6 @@ public class EnemyBehavior : MonoBehaviour
 
             RaycastHit2D hitInformation = Physics2D.Raycast(gameObject.transform.position, 
                 directionVector, MAX_SEE_DISTANCE, s_PlayerLayerMask | OBSTACLE_LAYER | TRIGGER_VISION_OBSTACLE_LAYER);
-
-            RaycastHit2D enemyHitInformation = Physics2D.Raycast(gameObject.transform.position,
-                directionVector, MAX_SEE_DISTANCE, gameObject.layer);
-
-            if(enemyHitInformation.collider != null && enemyHitInformation.collider.GetComponent<EnemyBehavior>().m_IsDead && !m_HasSeenDeadEnemy) {
-                gameObject.GetComponent<AIPath>().maxSpeed *= 1.5f;
-                m_HasSeenDeadEnemy = true;
-            }
 
             if (hitInformation.collider == null)
             {

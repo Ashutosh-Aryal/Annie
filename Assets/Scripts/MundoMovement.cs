@@ -93,6 +93,9 @@ public class MundoMovement : MonoBehaviour {
     // Start is called before the first frame update
     void Start()
     {
+        BatteryBehavior.s_IsFirstPickedUpBattery = true;
+        s_NumHeldBatteries = 0;
+        s_BatteryToPickUpObject = null;
         m_LevelDialogue = m_DialogueObject.GetComponent<MyDialogBase>();
 
         var levelDialogue = m_LevelDialogue as AnniesHouseDialogue;
@@ -223,25 +226,18 @@ public class MundoMovement : MonoBehaviour {
 
         bool isNotHoldingAnnie = se_MundoState != MundoState.CanPutDownAnnie;
 
-        if (s_NumKnifesLeft > 0)
-        {
-            if (isNotHoldingAnnie && didPressAttack)
-            {
+        if (s_NumKnifesLeft > 0 && isNotHoldingAnnie && didPressAttack) {
 
+            se_LastValidAnimationType = se_AnimationType;
+            OnAttack();
+            se_MovementDirection = MovementDirection.Idle; return;
+
+        } else if (isNotHoldingAnnie && UpAttack) {
+
+            if (se_AnimationType != AnimationType.StartAttacking) {
                 se_LastValidAnimationType = se_AnimationType;
-                OnAttack();
-                se_MovementDirection = MovementDirection.Idle;
-                return;
             }
-            else if (isNotHoldingAnnie && UpAttack)
-            {
-                if (se_AnimationType != AnimationType.StartAttacking)
-                {
-                    se_LastValidAnimationType = se_AnimationType;
-                }
-
-                se_AnimationType = AnimationType.StopAttacking; return;
-            }
+            se_AnimationType = AnimationType.StopAttacking; return;
         }
 
         bool didPressInteractWithAnnie = Input.GetKeyDown(INTERACT_WITH_ANNIE_KEY);
