@@ -78,12 +78,6 @@ public class MundoMovement : MonoBehaviour {
     [SerializeField]
     private GameObject m_DialogueObject;
 
-    [Header("SFX Values")]
-
-    [SerializeField] private AudioSource[] m_StabSound;
-    [SerializeField] private AudioSource[] m_MovementSounds;
-
-
     private TextMeshProUGUI m_NumKnivesLeftTextGUI;
 
     private MyDialogBase m_LevelDialogue;
@@ -94,6 +88,7 @@ public class MundoMovement : MonoBehaviour {
 
     public AudioClip BatteryPickUpSFX;
     public AudioClip StabSoundSFX;
+    public AudioClip StabMissSFX;
     public AudioClip PickUpAnnieSFX;
     public AudioClip PutDownAnnieSFX;
     private AudioSource audioSource { get { return GetComponent<AudioSource>(); } }
@@ -406,6 +401,8 @@ public class MundoMovement : MonoBehaviour {
             GameObject enemyToDestroy = GameObject.Find(bestKillOption.name);
             sL_AvailableEnemiesToAttack.Remove(enemyToDestroy);
             enemyToDestroy.GetComponent<EnemyBehavior>().Kill();
+        } else {
+            audioSource.PlayOneShot(StabMissSFX);
         }
     }
 
