@@ -77,6 +77,12 @@ public class MundoMovement : MonoBehaviour {
     [SerializeField]
     private GameObject m_DialogueObject;
 
+    [Header("SFX Values")]
+
+    [SerializeField] private AudioSource[] m_StabSound;
+    [SerializeField] private AudioSource[] m_MovementSounds;
+
+
     private TextMeshProUGUI m_NumKnivesLeftTextGUI;
 
     private MyDialogBase m_LevelDialogue;
