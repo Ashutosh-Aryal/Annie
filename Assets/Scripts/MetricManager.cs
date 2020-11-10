@@ -1,27 +1,37 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.IO;
+using System.Xml.Schema;
 
 // This class encapsulates all of the metrics that need to be tracked in your game. These may range
 // from number of deaths, number of times the player uses a particular mechanic, or the total time
 // spent in a level. These are unique to your game and need to be tailored specifically to the data
 // you would like to collect. The examples below are just meant to illustrate one way to interact
 // with this script and save data.
-public class MetricManager : MonoBehaviour
-{
+public class MetricManager : MonoBehaviour {
     // You'll have more interesting metrics, and they will be better named.
-    public static int s_NumDeaths;
-    public static int s_NumKnifes;
-    public static int s_NumHacks;
+    public static int s_FirstPlayableSceneBuildIndex = 3;
+    public static int[] s_NumDeaths = { 0, 0, 0, 0, 0 };
+    public static int[] s_NumKnifes = { 0, 0, 0, 0, 0 };
+    public static int[] s_NumHacks = { 0, 0, 0, 0, 0 };
+    private static string[] s_SceneNames = { "Village", "Zion", "Tunnel", "Pink Drink Factory" };
 
     // Converts all metrics tracked in this script to their string representation
     // so they look correct when printing to a file.
     private static string ConvertMetricsToStringRepresentation ()
     {
         string metrics = "Here are my metrics:\n";
-        metrics += "Total Num Deaths: " + s_NumDeaths.ToString () + "\n";
-        metrics += "Total Num Hacks: " + s_NumHacks.ToString () + "\n";
-        metrics += "Total Num Kills: " + s_NumKnifes.ToString () + "\n";
+
+        for(int x = 0; x < s_SceneNames.Length; x++) {
+
+            int y = x;
+
+            if (x != 0) y++;
+
+            metrics += "Total Num Deaths in " + s_SceneNames[x] + ": " + s_NumDeaths[y].ToString() + "\n";
+            metrics += "Total Num Hacks in " + s_SceneNames[x] + ": " + s_NumHacks[y].ToString() + "\n";
+            metrics += "Total Num Kills in " + s_SceneNames[x] + ": " + s_NumKnifes[y].ToString() + "\n";
+        }
+
         return metrics;
     }
 

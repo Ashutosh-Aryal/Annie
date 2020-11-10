@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR.WSA;
 
 public class AnnieBehavior : MonoBehaviour
@@ -105,7 +106,7 @@ public class AnnieBehavior : MonoBehaviour
         GameObject gameObject = new GameObject();
         gameObject.transform.position = currentMousePos;
 
-        MetricManager.s_NumHacks++;
+        MetricManager.s_NumHacks[SceneManager.GetActiveScene().buildIndex - MetricManager.s_FirstPlayableSceneBuildIndex]++;
 
         s_AttachedEnemyObject.GetComponent<EnemyBehavior>().SetSoundLocation(gameObject.transform);
     }

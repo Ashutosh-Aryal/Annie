@@ -2,6 +2,7 @@
 using Pathfinding;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyBehavior : MonoBehaviour
 {
@@ -135,7 +136,7 @@ public class EnemyBehavior : MonoBehaviour
 
     public void Kill()
     {
-        MetricManager.s_NumKnifes++;
+        MetricManager.s_NumKnifes[SceneManager.GetActiveScene().buildIndex - MetricManager.s_FirstPlayableSceneBuildIndex]++;
         MundoMovement.s_NumKnifesLeft--;
         m_AnimationState = AnimationState.Dead;
         m_IsDead = true;
@@ -167,8 +168,7 @@ public class EnemyBehavior : MonoBehaviour
             gameObject.transform.position = m_DeathLocation; return;
         } else if (s_HasPlayerLost || CheckWinStateBehavior.s_PlayerDidWin) {
             myDestinationSetter.target = null;
-            m_GameOverMenu.SetActive(true);
-            MetricManager.s_NumDeaths++; return;
+            m_GameOverMenu.SetActive(true); return;
         } else if(!myDialogBase.CanPlayerMove()) {
             myDestinationSetter.target = null; return;
         }
@@ -176,7 +176,8 @@ public class EnemyBehavior : MonoBehaviour
         CreateVisionCone();
 
         if (m_DoesSeePlayer) {
-            myDestinationSetter.target = s_PlayerObject.transform; m_SoundLocation = null; m_ShouldResetWaypointIndex = true;
+            myDestinationSetter.target = s_PlayerObject.transform; 
+            m_SoundLocation = null; m_ShouldResetWaypointIndex = true;
             m_AnimationState = AnimationState.Chasing;
         } else if (m_LookingTimer > 0.0f) {
             return;
@@ -237,6 +238,7 @@ public class EnemyBehavior : MonoBehaviour
         if (newColor == Color.red) {
             s_HasPlayerLost = true;
             m_GameOverMenu.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "You Lose!";
+            MetricManager.s_NumDeaths[SceneManager.GetActiveScene().buildIndex - MetricManager.s_FirstPlayableSceneBuildIndex]++;
         }
 
         myVisionCone.GetComponent<MeshRenderer>().material.color = newColor;
@@ -523,7 +525,7 @@ public class EnemyBehavior : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && m_DoesSeePlayer)
         {
             s_HasPlayerLost = true;
-            MetricManager.s_NumDeaths++;
+            MetricManager.s_NumDeaths[SceneManager.GetActiveScene().buildIndex - MetricManager.s_FirstPlayableSceneBuildIndex]++;
             m_GameOverMenu.SetActive(true);
             m_GameOverMenu.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "You Lose!";
         }

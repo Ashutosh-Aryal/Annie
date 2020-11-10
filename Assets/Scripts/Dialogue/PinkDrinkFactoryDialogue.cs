@@ -1,14 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using Doublsb.Dialog;
-using UnityEditor.Profiling.Memory.Experimental;
 using UnityEngine;
 
 public class PinkDrinkFactoryDialogue : MyDialogBase
 {
     private List<DialogData> m_DialogDatas = new List<DialogData>();
     
-    void Start() {
+    new void Start() {
 
         base.Start(); 
 
@@ -25,7 +24,7 @@ public class PinkDrinkFactoryDialogue : MyDialogBase
     }
 
     // Update is called once per frame
-    void Update()
+    new void Update()
     {
         base.Update();
     }
