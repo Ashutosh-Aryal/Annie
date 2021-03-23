@@ -1,2 +1,6 @@
-# CTIN484_Project
-Project idea created by Ashutosh Aryal &amp; Alvin Yang
+# Annie
+
+Sole Programmer and Secondary Designer: Ashutosh Aryal
+Sole Artist and Primary Designer: Alvin Yang
+
+Narrative Conceptualized by Ashutosh Aryal
